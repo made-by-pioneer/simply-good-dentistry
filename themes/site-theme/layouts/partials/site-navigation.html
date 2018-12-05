@@ -1,0 +1,32 @@
+<nav id="navigation-wrapper" class="column is-half-mobile is-two-thirds-tablet has-text-centered has-text-right-tablet">
+
+<div class="desktop-menu">
+  {{ $currentNode := . }}
+  {{ range .Site.Menus.desktop }}
+  <a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} desktop-menu-item" href="{{.URL}}">{{ .Name }}</a>
+  {{ end }}
+</div>
+
+<div id="mobile-menu" class="">
+  <div class="menu-button">
+    <a href="#"><button v-on:click="menuToggle = !menuToggle" class=""><ion-icon name="menu"></ion-icon></button></a>
+  </div>
+</div>
+
+</nav>
+
+<div class="mobile-menu" v-bind:class="{ 'mobile-menu-toggle' : menuToggle }">
+  <div class="section columns is-mobile is-vcentered mobile-menu-wrapper">
+  <a id="logo" class="column is-half has-text-centered" href="/">
+    <img class="" src="/pageimg/SGD.Horizontal.Color.Dark.svg" width="150px">
+  </a>
+  <a class="column is-half has-text-centered close-menu" v-on:click="menuToggle = !menuToggle"><ion-icon name="close"></ion-icon></a>
+  </div>
+  <ul class="section mobile-menu-list">
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.mobile }}
+    <li class=""><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
+    {{ end }}
+    <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment Today!</a>
+  </ul>
+</div>

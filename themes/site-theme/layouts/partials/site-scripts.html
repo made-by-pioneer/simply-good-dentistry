@@ -1,0 +1,28 @@
+{{ $script := .Site.Data.webpack_assets.app }}
+{{ with $script.js }}
+  <script src="{{ absURL (printf "%s%s" "/dist/" .) }}"></script>
+{{ end }}
+
+<script>
+  var siteFunctions = new Vue({
+    el: '#header',
+    data: {
+      menuToggle: false,
+      scrollPosition: null
+    },
+    methods: {
+     updateScroll() {
+       this.scrollPosition = window.scrollY
+     }
+   },
+   methods: {
+     updateScroll() {
+       this.scrollPosition = window.scrollY
+     }
+   },
+ 
+   mounted() {
+     window.addEventListener('scroll', this.updateScroll);
+   },
+});
+</script>

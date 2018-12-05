@@ -1,0 +1,48 @@
+{
+  "name": "gohugo-default-styles",
+  "version": "1.0.0",
+  "description": "Default Theme for Hugo Sites",
+  "main": "index.js",
+  "repository": "",
+  "author": "budparr",
+  "license": "MIT",
+  "scripts": {
+    "build:production": "rm -rf ../static/dist && webpack -p",
+    "build": "webpack --progress --colors --watch",
+    "start": "npm run build",
+    "algolia": "atomic-algolia"
+  },
+  "devDependencies": {
+    "assets-webpack-plugin": "^3.5.1",
+    "babel-core": "^6.24.1",
+    "babel-loader": "^7.0.0",
+    "babel-preset-env": "^1.4.0",
+    "css-loader": "^1.0.0",
+    "cssnano": "^4.0.5",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "file-loader": "^1.1.11",
+    "jquery": "^3.3.1",
+    "postcss": "^7.0.2",
+    "postcss-cssnext": "^3.1.0",
+    "postcss-import": "^12.0.0",
+    "postcss-loader": "^2.1.6",
+    "redux": "^4.0.0",
+    "style-loader": "^0.21.0",
+    "tachyons": "^4.9.1",
+    "webpack": "^4.20.2"
+  },
+  "dependencies": {
+    "aos": "^2.2.0",
+    "atomic-algolia": "^0.3.15",
+    "bulma-start": "0.0.2",
+    "instantsearch.js": "^2.8.0",
+    "mini-css-extract-plugin": "^0.4.3",
+    "react": "^16.3.2",
+    "react-dom": "^16.3.2",
+    "react-redux": "^5.0.7",
+    "slick-carousel": "^1.8.1",
+    "vue-fixed-header": "^1.0.4",
+    "vue-sticky": "^3.3.4",
+    "webpack-cli": "^3.1.1"
+  }
+}
