@@ -1,4 +1,4 @@
-baseURL = "http://localhost:1313/"
+baseURL = "https://simple-den.netlify.com/"
 languageCode = "en-us"
 theme = "site-theme"
 title = "Simply Good Dentistry"
