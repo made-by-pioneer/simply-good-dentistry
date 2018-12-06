@@ -6720,6 +6720,21 @@ blockquote.is-size-larger {
 #why-different-section {
   background-color: #F1F9F9; }
 
+.why-different-title {
+  color: #333333; }
+
+.why-different-subtitle {
+  color: #60BEB3; }
+
+.why-different-body {
+  color: #262626; }
+
+.why-different-button {
+  margin: 1rem 0rem 0 .7rem; }
+
+.home-services-title {
+  color: #333333; }
+
 .mobile-menu-toggle {
   z-index: 999 !important;
   opacity: 1 !important; }
