@@ -1,67 +1,177 @@
 {{ define "main" }}
 
 <style>
+.hero-section-body {
+    display: none;
+}
+.hero-section-button {
+    display: none;
+}
+.box {
+    background-color: transparent;
+    padding: 1.25rem 0 1.25rem 0;
+    box-shadow: none;
+    border-color: transparent;
+    margin: 0;
+}
+.box:not(:last-child) {
+    margin: 0;
+}
+.contact-sgd-image-desktop {
+    display: none;
+}
+.footer-logo {
+    width: 200px !important;
+}
+
+@media only screen and (min-width: 769px) {
+#hero-wrapper {
+    background-image: url(/pageimg/jared-sluyter-342881-unsp.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    margin-top: -15%;
+    padding-top: 30%;
+    margin-bottom: -17%;
+}
+.hero-box {
+    padding-bottom: 10%;
+    background-color: rgba(255,255,255,0.4);
+}
+.hero-title {
+    background-color: rgba(255,255,255,0.4);
+    padding: 1rem 0 1rem 0;
+}
+.hero-section-body {
+    display: inline-flex;
+}
+.hero-section-button {
+    display: inline-flex;
+}
+.desktop-menu-item {
+    color: #fff;
+}
+.stick .desktop-menu-item {
+    color: #222;
+}
+.why-different-title {
+    padding-bottom: 50px;
+}
+.home-services-title {
+    padding: 50px;
+}
+.contact-sgd-image-mobile {
+    display: none;
+}
+#contact-sgd-section {
+    background-image: url(/pageimg/contact-sgd1.jpg);
+    background-repeat: no-repeat;
+    background-size: 45%;
+}
+}
+
+@media only screen and (min-width: 1024px) {
     
+}
+
+@media only screen and (min-width: 1216px) {
+    #hero-wrapper {
+    margin-top: -10%;
+    padding-top: 10%;
+}
+.hero-box {
+    padding-bottom: 20%;
+    background-color: transparent;
+    padding-left: 65px;
+}
+.hero-title {
+    background-color: transparent;
+}
+.hero-section-body {
+    padding-left: 50px;
+}
+.hero-section-button {
+    margin-left: 50px;
+}
+.why-different-image {
+    padding-left: 50px;
+}
+.why-different-body {
+    padding-left: 50px;
+}
+.why-different-button {
+    margin-left: 50px;
+}
+   
+}
+
+@media only screen and (min-width: 1408px) {
+    
+}
 </style>
 
 <section id="hero-wrapper" class="section columns">
-    <div class="column is-10-mobile is-offset-1-mobile hero-box">
+    <div class="column is-10-mobile is-7-tablet is-offset-1-mobile is-5-widescreen hero-box">
         <h1 class="is-family-heading is-size-smaller is-line-height-reduced has-text-weight-bold hero-title">
-            Simple things lead to big smiles
+            Simple things <br>lead to big smiles
         </h1>
+        <p class="column is-family-heading is-size-default hero-section-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
+        <a class="button is-primary is-rounded hero-section-button">Call for an appointment</a>
     </div>
 </section>
 
-<img src="/pageimg/curve.PNG">
+<img src="/pageimg/curve1.PNG">
 
 <section id="why-different-section" class="section">
   <div class="container why-different-container">
-    <div class="columns why-different-columns">
-      <div class="column is-12-mobile">
-        <h4 class="column is-family-heading is-size-default has-text-weight-bold why-different-title">why we're different</h4>
-        <figure class="column image">
+      <div class="columns is-multiline is-12-mobile why-different-columns">
+        <h3 class="column is-7-tablet is-offset-5-tablet is-family-heading is-size-default has-text-weight-bold why-different-title">why we're different</h3>
+        <figure class="column is-6-tablet is-6-widescreen why-different-image">
           <img src="/pageimg/why-we-are-different.jpg">
         </figure>
-        <h2 class="column is-family-heading is-size-default is-line-height-reduced has-text-weight-bold why-different-subtitle">Giving patients simply good dentistry</h2>
-        <p class="column is-family-heading is-size-default why-different-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
-        <a class="button is-primary is-rounded why-different-button">Button</a>
+        <div class="column is-6-tablet is-4-widescreen is-offset-1-widescreen">
+        <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold why-different-subtitle">Giving patients simply good dentistry</h2>
+        <p class="box is-family-heading is-size-default why-different-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
+        <a class="box button is-primary is-rounded why-different-button">Learn More Here</a>
+        </div>
       </div>
-    </div>
   </div>
 </section>
 
 <section id="home-services-section" class="section">
   <div class="container home-services-container">
-    <div class="columns home-services-columns">
-      <div class="column is-12-mobile">
-        <h4 class="column is-family-heading is-size-default has-text-weight-bold home-services-title">services</h4>
-        <ul>
-          <li class="column is-family-heading is-size-default has-text-weight-bold home-services">Preventative Care</li>
-          <li class="column is-family-heading is-size-default has-text-weight-bold home-services">Perio Protect Therapy</li>
-          <li class="column is-family-heading is-size-default has-text-weight-bold home-services">Orthodontics</li>
-          <li class="column is-family-heading is-size-default has-text-weight-bold home-services">Implants and Restorations</li>
-          <li class="column is-family-heading is-size-default has-text-weight-bold home-services">Mouthguards / TMD Therapy</li>
-          <li class="column is-family-heading is-size-default has-text-weight-bold home-services">Bleaching and Whitening</li>
-        </ul>
-        <h2 class="column is-family-heading is-size-default is-line-height-reduced has-text-weight-bold home-services-subtitle">Good health begins with a clean mouth.</h2>
-        <p class="column is-family-heading is-size-default home-services-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
+      <div class="columns is-multiline is-12-mobile home-services-columns">
+        <h3 class="column is-12-tablet is-family-heading is-size-default has-text-weight-bold home-services-title">services</h3>
+        <div class="column is-4-tablet">
+            <ul>
+                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Preventative Care</li>
+                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Perio Protect Therapy</li>
+                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Orthodontics</li>
+                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Implants and Restorations</li>
+                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Mouthguards / TMD Therapy</li>
+                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Bleaching and Whitening</li>
+            </ul>
+        </div>
+        <div class="column is-8-tablet">
+            <h2 class="box is-family-heading is-size-default is-line-height-reduced has-text-weight-bold home-services-subtitle">Good health begins with a clean mouth.</h2>
+            <p class="box is-family-heading is-size-default home-services-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
+        </div>
       </div>
-    </div>
   </div>
 </section>
 
-<figure class="image contact-sgd-image">
-    <img src="/pageimg/contact-sgd.jpg">
+<figure class="image contact-sgd-image-mobile">
+    <img src="/pageimg/contact-sgd1.jpg">
 </figure>
 
 <section id="contact-sgd-section" class="section">
   <div class="container contact-sgd-container">
-    <div class="columns contact-sgd-columns">
-      <div class="column is-12-mobile">
-        <h4 class="column is-family-heading is-size-default has-text-weight-bold contact-sgd-title">contact us</h4>
-        <a class="column is-family-heading is-size-default contact-sgd-body">P: 912.489.4151</a>
-        <a class="column is-family-heading is-size-default contact-sgd-body">F: 912.764.8850</a>
-        <a class="column is-family-heading is-size-default contact-sgd-body">info@simplygooddentistry.com</a>
+      <div class="columns is-multiline is-12-mobile contact-sgd-columns">
+        <div class="column is-offset-6-tablet is-6-tablet">
+        <h4 class="box is-family-heading is-size-default has-text-weight-bold contact-sgd-title">contact us</h4>
+        <a class="box is-family-heading is-size-default contact-sgd-body">P: 912.489.4151</a>
+        <a class="box is-family-heading is-size-default contact-sgd-body">F: 912.764.8850</a>
+        <a class="box is-family-heading is-size-default contact-sgd-body">info@simplygooddentistry.com</a>
         <a class="button is-primary is-rounded contact-sgd-button">Contact Us</a>
         <div class="column">
           <h5 class="is-family-heading is-size-default has-text-weight-bold contact-sgd-info-title">Location</h5>
@@ -73,8 +183,8 @@
         <p class="is-family-heading is-size-default contact-sgd-body">Monday - Thursday 8:00 am - 5:00 pm</p>
         <h6 class="is-family-heading is-italic is-size-default has-text-weight-bold contact-sgd-title">*Closed daily for lunch from 1:00pm - 2:00pm</h6>
         </div>
+        </div>
       </div>
-    </div>
   </div>
 </section>
 

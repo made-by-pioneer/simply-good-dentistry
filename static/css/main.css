@@ -6759,7 +6759,7 @@ blockquote.is-size-larger {
   padding: 1rem 1rem 1rem 1rem !important; }
 
 .why-different-title {
-  color: #333333; }
+  color: #999999; }
 
 .why-different-subtitle {
   color: #60BEB3; }
@@ -6767,11 +6767,8 @@ blockquote.is-size-larger {
 .why-different-body {
   color: #262626; }
 
-.why-different-button {
-  margin: 1rem 0rem 0 .7rem; }
-
 .home-services-title {
-  color: #333333; }
+  color: #999999; }
 
 .home-services-subtitle {
   color: #60BEB3; }
@@ -6784,14 +6781,14 @@ blockquote.is-size-larger {
   text-decoration-color: #60BEB3; }
 
 #contact-sgd-section {
-  background-color: #F1F9F9;
+  background-color: #e6f4ff;
   padding: 0rem 1rem 1rem 1rem !important; }
 
 .contact-sgd-columns {
   padding: 1rem 1rem 1rem 1rem !important; }
 
 .contact-sgd-title {
-  color: #333333; }
+  color: #999999; }
 
 .contact-sgd-subtitle {
   color: #60BEB3; }
@@ -6831,7 +6828,7 @@ blockquote.is-size-larger {
   top: 0px;
   margin-top: 120px;
   z-index: 999;
-  height: 100px !important;
+  height: 70px !important;
   background-color: #fff !important;
   padding-top: 0px !important;
   transition: .2s;
