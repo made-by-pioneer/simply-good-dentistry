@@ -6718,7 +6718,11 @@ blockquote.is-size-larger {
   font-size: 3rem; }
 
 #why-different-section {
-  background-color: #F1F9F9; }
+  background-color: #F1F9F9;
+  padding: 0rem 1rem 1rem 1rem !important; }
+
+.why-different-columns {
+  padding: 1rem 1rem 1rem 1rem !important; }
 
 .why-different-title {
   color: #333333; }
@@ -6734,6 +6738,38 @@ blockquote.is-size-larger {
 
 .home-services-title {
   color: #333333; }
+
+.home-services-subtitle {
+  color: #60BEB3; }
+
+.home-services-body {
+  color: #262626; }
+
+.home-services {
+  text-decoration: underline;
+  text-decoration-color: #60BEB3; }
+
+#contact-sgd-section {
+  background-color: #F1F9F9;
+  padding: 0rem 1rem 1rem 1rem !important; }
+
+.contact-sgd-columns {
+  padding: 1rem 1rem 1rem 1rem !important; }
+
+.contact-sgd-title {
+  color: #333333; }
+
+.contact-sgd-subtitle {
+  color: #60BEB3; }
+
+.contact-sgd-body {
+  color: #262626; }
+
+.contact-sgd-button {
+  margin: 1rem 0rem 2rem .7rem; }
+
+.contact-sgd-info-title {
+  color: #60BEB3; }
 
 .mobile-menu-toggle {
   z-index: 999 !important;
