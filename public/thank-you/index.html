@@ -40,7 +40,7 @@
 
     
 
-    <link href="http://localhost:1313/css/main.css" rel="stylesheet">
+    <link href="https://simple-den.netlify.com/css/main.css" rel="stylesheet">
 
     
 
@@ -49,7 +49,7 @@
     <meta property="og:title" content="Thank You" />
 <meta property="og:description" content="" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="http://localhost:1313/thank-you/" />
+<meta property="og:url" content="https://simple-den.netlify.com/thank-you/" />
 
 
 
@@ -92,66 +92,59 @@
 
     <body>
 
-    
-<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
 
-<div id="header" :class="{nonstick: scrollPosition < 100, stick: scrollPosition > 500}" class="grid-x pt-2">
-    <a href="/">
-    <div class="cell small-5 text-left pl-4 logo">
-        <img class="" src="/pageimg/SGD.Logo.Light.svg" width="100px">
-    </a>
-</div>
-<a class="cell small-5 text-left pl-4 logo-inner" href="/">
-    <img class="logo-inner-image" src="/pageimg/SGD.Horizontal.Solid.Black.svg" width="100px">
+<section id="header" :class="{nonstick: scrollPosition < 100, stick: scrollPosition > 500}" class="section columns is-mobile is-vcentered">
+<a id="logo" class="column is-half-mobile is-one-third-tablet has-text-centered has-text-left-tablet" href="/">
+    <img class="" src="/pageimg/SGD.Logo.Light.svg" width="150px">
 </a>
-<nav class="cell small-0 medium-7 pt-0 pt-sm-3 pr-4 text-right">
+<nav id="navigation-wrapper" class="column is-half-mobile is-two-thirds-tablet has-text-centered has-text-right-tablet">
 
-<div class="pt-1 menu-desktop">
-
-
-<a class="px-2" href="/">Services</a>
-
-<a class="px-2" href="/">About Us</a>
-
-<a class="px-2" href="/">Contact Us</a>
-
-<a class="px-2" href="/">Patients</a>
-
+<div class="desktop-menu">
+  
+  
+  <a class=" desktop-menu-item" href="/">Services</a>
+  
+  <a class=" desktop-menu-item" href="/">About Us</a>
+  
+  <a class=" desktop-menu-item" href="/">Contact Us</a>
+  
+  <a class=" desktop-menu-item" href="/">Patients</a>
+  
 </div>
 
-<div id="my-menu" class="cell small-12 text-center">
-<div class="pt-2 menu-button">
-     <a href="#"><button v-on:click="menuToggle = !menuToggle" class="px-4"><ion-icon name="menu"></ion-icon></button></a>
-   </div>
-   <div class="menu-proper" v-bind:class="{ 'menu-proper-toggle' : menuToggle }">
-   <ul class="grid-x pb-4">
-    <a class="cell small-5 pt-2 text-left pl-4 logo-mobile-menu" href="/">
-      <img class="" src="/pageimg/SGD.Horizontal.Color.Dark.svg" width="100px">
-    </a>
-     <li class="small-7"><a class="px-4 close-menu" v-on:click="menuToggle = !menuToggle">X</a></li>
-     
-    
-    <li class="cell small-9 py-2 mx-auto text-left"><a class="px-2" href="/">Services</a></li>
-    
-    <li class="cell small-9 py-2 mx-auto text-left"><a class="px-2" href="/">About Us</a></li>
-    
-    <li class="cell small-9 py-2 mx-auto text-left"><a class="px-2" href="/">Contact Us</a></li>
-    
-    <li class="cell small-9 py-2 mx-auto text-left"><a class="px-2" href="/">Patients</a></li>
-    
-    <a class="cell small-12 pt-5 text-center" href="/">
-      <button class="default-button">
-          Schedule an Appointment Today!
-      </button>
-    </a>
-   </ul>
+<div id="mobile-menu" class="">
+  <div class="menu-button">
+    <a href="#"><button v-on:click="menuToggle = !menuToggle" class=""><ion-icon name="menu"></ion-icon></button></a>
   </div>
 </div>
 
 </nav>
 
-
+<div class="mobile-menu" v-bind:class="{ 'mobile-menu-toggle' : menuToggle }">
+  <div class="section columns is-mobile is-vcentered mobile-menu-wrapper">
+  <a id="logo" class="column is-half has-text-centered" href="/">
+    <img class="" src="/pageimg/SGD.Horizontal.Color.Dark.svg" width="150px">
+  </a>
+  <a class="column is-half has-text-centered close-menu" v-on:click="menuToggle = !menuToggle"><ion-icon name="close"></ion-icon></a>
+  </div>
+  <ul class="section mobile-menu-list">
+    
+    
+    <li class=""><a class="" href="/">Services</a></li>
+    
+    <li class=""><a class="" href="/">About Us</a></li>
+    
+    <li class=""><a class="" href="/">Contact Us</a></li>
+    
+    <li class=""><a class="" href="/">Patients</a></li>
+    
+    <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment Today!</a>
+  </ul>
 </div>
+
+
+</section>
  
 
     <main role="main">
@@ -172,15 +165,85 @@
 
 
     </main>
+    <style>
+    
+</style>
+
+<section id="footer-section" class="section">
+  <div class="container footer-container">
+    <div class="columns footer-columns">
+      <div class="column is-12-mobile">
+        <figure class="column is-5-mobile image">
+          <img class="" src="/pageimg/SGD.Horizontal.Color.Dark.svg" width="100px">
+        </figure>
+        <p class="column is-family-heading is-size-default footer-logo-body">Simply Good Dentistry is the dental practice of Les Kicklighter, DMD.</p>
+        <p class="column is-family-heading is-size-default footer-logo-body">Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry.</p>
+        <p class="column is-family-heading is-size-default footer-logo-body">© 2018 Simply Good Dentistry. All Rights Reserved.</p>
+      </div>
+      <div class="column is-12-mobile">
+        <h5 class="column is-family-heading is-size-large has-text-weight-bold footer-menu-item">The Difference</h5>
+        <h5 class="column is-family-heading is-size-large has-text-weight-bold footer-menu-item">About Us</h5>
+        <h5 class="column is-family-heading is-size-large has-text-weight-bold footer-menu-item">Contact Us</h5>
+        <h5 class="column is-family-heading is-size-large has-text-weight-bold footer-menu-item">Patients</h5>
+      </div>
+      <div class="column is-12-mobile">
+        <h4 class="column is-family-heading is-size-default has-text-weight-bold footer-services-title">Services</h4>
+        <ul>
+          <li class="column is-family-heading is-size-default has-text-weight-bold footer-services">Preventative Care</li>
+          <li class="column is-family-heading is-size-default has-text-weight-bold footer-services">Perio Protect Therapy</li>
+          <li class="column is-family-heading is-size-default has-text-weight-bold footer-services">Orthodontics</li>
+          <li class="column is-family-heading is-size-default has-text-weight-bold footer-services">Implants and Restorations</li>
+          <li class="column is-family-heading is-size-default has-text-weight-bold footer-services">Mouthguards / TMD Therapy</li>
+          <li class="column is-family-heading is-size-default has-text-weight-bold footer-services">Bleaching and Whitening</li>
+        </ul>
+      </div>
+      <div class="column is-12-mobile">
+        <h4 class="column is-family-heading is-size-default has-text-weight-bold footer-schedule-title">Schedule an Appointment</h4>
+        <p class="column is-family-heading is-size-default footer-schedule-body">Call us today to schedule an  appointment with Dr. Les!</p>
+        <a class="button is-primary is-rounded footer-schedule-button">Schedule an Appointement</a>
+          <div class="container column social-container">
+            <h6 class="is-family-heading is-size-large has-text-weight-bold footer-social-title">Follow us on:</h6>
+            <div class="footer-icon-column">
+                <ion-icon class="" name="logo-instagram"></ion-icon>
+                <ion-icon class="" name="logo-facebook"></ion-icon>
+            </div>
+          </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+
+
+
     
 
+  <script src="https://simple-den.netlify.com/dist/js/app.b6e83cd1fb6bf9c46a72.js"></script>
 
 
-
-    
-
-  <script src="http://localhost:1313/dist/js/app.8c0c0fec5b7e7e403a8a.js"></script>
-
+<script>
+  var siteFunctions = new Vue({
+    el: '#header',
+    data: {
+      menuToggle: false,
+      scrollPosition: null
+    },
+    methods: {
+     updateScroll() {
+       this.scrollPosition = window.scrollY
+     }
+   },
+   methods: {
+     updateScroll() {
+       this.scrollPosition = window.scrollY
+     }
+   },
+ 
+   mounted() {
+     window.addEventListener('scroll', this.updateScroll);
+   },
+});
+</script>
 
   </body>
 </html>

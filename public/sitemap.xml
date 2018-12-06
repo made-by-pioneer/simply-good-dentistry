@@ -3,30 +3,34 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   
   <url>
-    <loc>http://localhost:1313/about-us/</loc>
+    <loc>https://simple-den.netlify.com/about-us/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/categories/</loc>
+    <loc>https://simple-den.netlify.com/categories/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/</loc>
+    <loc>https://simple-den.netlify.com/</loc>
   </url>
   
   <url>
-    <loc>http://localhost:1313/pages/</loc>
+    <loc>https://simple-den.netlify.com/home1/</loc>
+  </url>
+  
+  <url>
+    <loc>https://simple-den.netlify.com/pages/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/tags/</loc>
+    <loc>https://simple-den.netlify.com/tags/</loc>
     <priority>0</priority>
   </url>
   
   <url>
-    <loc>http://localhost:1313/thank-you/</loc>
+    <loc>https://simple-den.netlify.com/thank-you/</loc>
   </url>
   
 </urlset>
