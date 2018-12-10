@@ -1,191 +1,56 @@
 {{ define "main" }}
 
-<style>
-.hero-section-body {
-    display: none;
-}
-.hero-section-button {
-    display: none;
-}
-.box {
-    background-color: transparent;
-    padding: 1.25rem 0 1.25rem 0;
-    box-shadow: none;
-    border-color: transparent;
-    margin: 0;
-}
-.box:not(:last-child) {
-    margin: 0;
-}
-.contact-sgd-image-desktop {
-    display: none;
-}
-.footer-logo {
-    width: 200px !important;
-}
+<h1 class="is-family-heading is-size-default has-text-weight-bold">This is H1</h1>
+<h2 class="is-family-heading is-size-default has-text-weight-bold">This is H2</h2>
+<h3 class="is-family-heading is-size-default has-text-weight-bold">This is H3</h3>
+<h4 class="is-family-heading is-size-default has-text-weight-bold">This is H4</h4>
+<h5 class="is-family-heading is-size-default has-text-weight-bold">This is H5</h5>
+<h6 class="is-size-default has-text-weight-bold">This is H6</h6>
+<p class="is-family-heading is-size-default">Hey this is a p</p>
 
-@media only screen and (min-width: 769px) {
-#hero-wrapper {
-    background-image: url(/pageimg/jared-sluyter-342881-unsp.jpg);
-    background-repeat: no-repeat;
-    background-size: contain;
-    background-position-x: right;
-    margin-top: -15%;
-    padding-top: 30%;
-    margin-bottom: -17%;
-}
-.hero-box {
-    padding-bottom: 10%;
-    background-color: rgba(255,255,255,0.4);
-}
-.hero-title {
-    background-color: rgba(255,255,255,0.4);
-    padding: 1rem 0 1rem 0;
-}
-.hero-section-body {
-    display: inline-flex;
-}
-.hero-section-button {
-    display: inline-flex;
-}
-.desktop-menu-item {
-    color: #fff;
-}
-.stick .desktop-menu-item {
-    color: #222;
-}
-.why-different-title {
-    padding-bottom: 50px;
-}
-.home-services-title {
-    padding: 50px;
-}
-.contact-sgd-image-mobile {
-    display: none;
-}
-#contact-sgd-section {
-    background-image: url(/pageimg/contact-sgd1.jpg);
-    background-repeat: no-repeat;
-    background-size: 45%;
-}
-}
+<blockquote class="is-size-default">Hey this is a blockquote</blockquote>
 
-@media only screen and (min-width: 1024px) {
-    
-}
+<a class="button is-primary is-rounded">Button</a>
 
-@media only screen and (min-width: 1216px) {
-    #hero-wrapper {
-    margin-top: -10%;
-    padding-top: 10%;
-}
-.hero-box {
-    padding-bottom: 20%;
-    background-color: transparent;
-    padding-left: 65px;
-}
-.hero-title {
-    background-color: transparent;
-}
-.hero-section-body {
-    padding-left: 50px;
-}
-.hero-section-button {
-    margin-left: 50px;
-}
-.why-different-image {
-    padding-left: 50px;
-}
-.why-different-body {
-    padding-left: 50px;
-}
-.why-different-button {
-    margin-left: 50px;
-}
-   
-}
+<a class="button is-primary is-rounded is-outlined">Button</a>
 
-@media only screen and (min-width: 1408px) {
-    
-}
-</style>
+<a class="button is-link is-rounded">Button</a>
 
-<section id="hero-wrapper" class="section columns">
-    <div class="column is-10-mobile is-7-tablet is-offset-1-mobile is-5-widescreen hero-box">
-        <h1 class="is-family-heading is-size-smaller is-line-height-reduced has-text-weight-bold hero-title">
-            Simple things <br>lead to big smiles
-        </h1>
-        <p class="column is-family-heading is-size-default hero-section-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
-        <a class="button is-primary is-rounded hero-section-button">Call for an appointment</a>
-    </div>
-</section>
+<a class="button is-link is-rounded is-outlined">Button</a>
 
-<img src="/pageimg/curve1.PNG">
+<span class="icon has-text-info is-large">
+    <ion-icon name="arrow-forward" size="large"></ion-icon>
+</span>
 
-<section id="why-different-section" class="section">
-  <div class="container why-different-container">
-      <div class="columns is-multiline is-12-mobile why-different-columns">
-        <h3 class="column is-7-tablet is-offset-5-tablet is-family-heading is-size-default has-text-weight-bold why-different-title">why we're different</h3>
-        <figure class="column is-6-tablet is-6-widescreen why-different-image">
-          <img src="/pageimg/why-we-are-different.jpg">
-        </figure>
-        <div class="column is-6-tablet is-4-widescreen is-offset-1-widescreen">
-        <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold why-different-subtitle">Giving patients simply good dentistry</h2>
-        <p class="box is-family-heading is-size-default why-different-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
-        <a class="box button is-primary is-rounded why-different-button">Learn More Here</a>
-        </div>
-      </div>
-  </div>
-</section>
+<form>
+<input class="input is-primary is-rounded" type="number" placeholder="Primary input">
 
-<section id="home-services-section" class="section">
-  <div class="container home-services-container">
-      <div class="columns is-multiline is-12-mobile home-services-columns">
-        <h3 class="column is-12-tablet is-family-heading is-size-default has-text-weight-bold home-services-title">services</h3>
-        <div class="column is-4-tablet">
-            <ul>
-                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Preventative Care</li>
-                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Perio Protect Therapy</li>
-                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Orthodontics</li>
-                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Implants and Restorations</li>
-                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Mouthguards / TMD Therapy</li>
-                <li class="box is-family-heading is-size-default has-text-weight-bold home-services">Bleaching and Whitening</li>
-            </ul>
-        </div>
-        <div class="column is-8-tablet">
-            <h2 class="box is-family-heading is-size-default is-line-height-reduced has-text-weight-bold home-services-subtitle">Good health begins with a clean mouth.</h2>
-            <p class="box is-family-heading is-size-default home-services-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
-        </div>
-      </div>
-  </div>
-</section>
+<div class="select is-primary is-rounded">
+    <select>
+      <option>Rounded dropdown</option>
+      <option>With options</option>
+    </select>
+</div>
 
-<figure class="image contact-sgd-image-mobile">
-    <img src="/pageimg/contact-sgd1.jpg">
-</figure>
+<div class="control">
+    <button class="button is-primary is-rounded">Submit</button>
+</div>
+</form>
 
-<section id="contact-sgd-section" class="section">
-  <div class="container contact-sgd-container">
-      <div class="columns is-multiline is-12-mobile contact-sgd-columns">
-        <div class="column is-offset-6-tablet is-6-tablet">
-        <h4 class="box is-family-heading is-size-default has-text-weight-bold contact-sgd-title">contact us</h4>
-        <a class="box is-family-heading is-size-default contact-sgd-body">P: 912.489.4151</a>
-        <a class="box is-family-heading is-size-default contact-sgd-body">F: 912.764.8850</a>
-        <a class="box is-family-heading is-size-default contact-sgd-body">info@simplygooddentistry.com</a>
-        <a class="button is-primary is-rounded contact-sgd-button">Contact Us</a>
-        <div class="column">
-          <h5 class="is-family-heading is-size-default has-text-weight-bold contact-sgd-info-title">Location</h5>
-          <p class="is-family-heading is-size-default contact-sgd-body">512 Gentilly Road Statesboro, GA 30458</p>
-          <h6 class="is-family-heading is-italic is-size-default has-text-weight-bold contact-sgd-title">Get Directions</h6>
-        </div>
-        <div class="column">
-        <h5 class="is-family-heading is-size-default has-text-weight-bold contact-sgd-info-title">Hours</h5>
-        <p class="is-family-heading is-size-default contact-sgd-body">Monday - Thursday 8:00 am - 5:00 pm</p>
-        <h6 class="is-family-heading is-italic is-size-default has-text-weight-bold contact-sgd-title">*Closed daily for lunch from 1:00pm - 2:00pm</h6>
-        </div>
-        </div>
-      </div>
-  </div>
-</section>
+<div class="hey2">
+    hey2
+</div>
+
+<div class="hey3">
+    hey3
+</div>
+
+<div class="hey4">
+    hey4
+</div>
+
+<div class="hey5">
+    hey5
+</div>
 
 {{ end }}

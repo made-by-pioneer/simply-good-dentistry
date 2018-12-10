@@ -6720,6 +6720,9 @@ blockquote.is-size-larger {
 #footer-section {
   background-color: #001D34; }
 
+.footer-logo {
+  width: 200px !important; }
+
 .footer-logo-body {
   color: #fff; }
 
@@ -6735,21 +6738,35 @@ blockquote.is-size-larger {
   color: #fff; }
 
 .footer-schedule-title {
-  color: #60BEB3;
-  text-decoration: underline;
-  text-decoration-color: #fff; }
+  color: #60BEB3; }
 
 .footer-schedule-body {
   color: #fff; }
 
 .footer-schedule-button {
-  margin: 1rem 0rem 2rem .7rem; }
+  margin: 1rem 0rem 0rem 0rem; }
 
 .social-container {
   color: #fff; }
 
 .footer-icon-column ion-icon {
   font-size: 30px; }
+
+.box {
+  background-color: transparent;
+  padding: 1.25rem 0 1.25rem 0;
+  box-shadow: none;
+  border-color: transparent;
+  margin: 0; }
+
+.box:not(:last-child) {
+  margin: 0; }
+
+.hero-section-body {
+  display: none; }
+
+.hero-section-button {
+  display: none; }
 
 #why-different-section {
   background-color: #F1F9F9;
@@ -6783,6 +6800,9 @@ blockquote.is-size-larger {
 #contact-sgd-section {
   background-color: #e6f4ff;
   padding: 0rem 1rem 1rem 1rem !important; }
+
+.contact-sgd-image-desktop {
+  display: none; }
 
 .contact-sgd-columns {
   padding: 1rem 1rem 1rem 1rem !important; }
@@ -6908,22 +6928,219 @@ blockquote.is-size-larger {
 .is-line-height-reduced {
   line-height: 1.2; }
 
-.hey2 {
-  height: 10000px; }
+#about-hero-wrapper {
+  background-image: url(/pageimg/SGD.About.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: -55px;
+  margin-top: -115px;
+  padding-top: 0%; }
+
+.about-hero-box {
+  padding-top: 120px; }
+
+.inner-page .desktop-menu-item {
+  color: #222; }
+
+.about-us-values-subtitle {
+  color: #60BEB3; }
+
+.we-value-list {
+  list-style: circle; }
+
+.we-value-item {
+  padding: .5rem 0 .5rem 0; }
+
+.doctor-about-subtitle {
+  color: #60BEB3; }
+
+.doctor-memberships-title {
+  color: #999; }
+
+.our-team-subtitle {
+  color: #60BEB3; }
+
+.doctor-memberships-no-logo {
+  color: #999; }
+
+#services-hero-wrapper {
+  background-image: url(/pageimg/services-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: right;
+  margin-top: -115px;
+  padding-top: 0%; }
+
+.services-hero-box {
+  padding-top: 120px; }
+
+.services-title {
+  color: #60BEB3; }
+
+.reverse-row-order {
+  flex-direction: column-reverse; }
+
+#contact-hero-wrapper {
+  background-image: url(/pageimg/contact-hero.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: left;
+  margin-top: -115px;
+  padding-top: 0%; }
+
+.contact-hero-box {
+  padding-top: 120px; }
+
+.text-area {
+  height: 100%; }
+
+.form-submit-button {
+  margin-top: 10px; }
+
+#contact-form-wrapper {
+  padding: 4rem 1rem 4rem 1rem; }
+
+.contact-form-column {
+  padding: 4rem 1rem 4rem 1rem; }
+
+.business-info-column {
+  padding: 4rem 1rem 4rem 1rem; }
+
+.business-info-subsection {
+  padding: 2rem; }
 
 @media only screen and (min-width: 769px) {
   #header {
     padding: 0 3rem 0 3rem !important; }
-  .hey2 {
-    display: none; } }
+  #hero-wrapper {
+    background-image: url(/pageimg/jared-sluyter-342881-unsp.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position-x: right;
+    margin-top: -15%;
+    padding-top: 30%;
+    margin-bottom: -17%; }
+  .hero-box {
+    padding-bottom: 10%;
+    background-color: rgba(255, 255, 255, 0.4); }
+  .hero-title {
+    background-color: rgba(255, 255, 255, 0.4);
+    padding: 1rem 0 1rem 0; }
+  .hero-section-body {
+    display: inline-flex; }
+  .hero-section-button {
+    display: inline-flex; }
+  .desktop-menu-item {
+    color: #fff; }
+  .stick .desktop-menu-item {
+    color: #222; }
+  .why-different-title {
+    padding-bottom: 50px; }
+  .home-services-title {
+    padding: 50px; }
+  .contact-sgd-image-mobile {
+    display: none; }
+  #contact-sgd-section {
+    background-image: url(/pageimg/contact-sgd-desktop.jpg);
+    background-repeat: no-repeat;
+    background-size: 45%; }
+  .service-list-section .box {
+    padding: 0.5rem 0 0.5rem 0 !important; }
+  #home-services-section {
+    padding-bottom: 8rem; }
+  .content-sgd-columns-content {
+    border-top-style: solid;
+    border-top-width: 7.6vw;
+    border-top-color: #fff; }
+  .contact-sgd-columns {
+    padding-top: 0px !important; }
+  .content-sgd-columns-content {
+    padding-right: 45% !important; }
+  .contact-sgd-body {
+    padding: 0rem !important; }
+  #about-hero-wrapper {
+    background-position-x: 0px;
+    padding-top: 0%;
+    padding-bottom: 8%; }
+  .inner-page li {
+    display: list-item !important; }
+  .about-us-values-body {
+    padding-left: 50px; }
+  .we-value-title {
+    padding: 1rem 0 1rem 0; }
+  .doctor-about-body {
+    padding-left: 50px; }
+  #services-hero-wrapper {
+    background-position-x: 0px;
+    padding-top: 0%;
+    padding-bottom: 8%; }
+  .services-section {
+    padding: 4rem 0 4rem 0 !important; }
+  .reverse-row-order {
+    flex-direction: unset; }
+  #contact-hero-wrapper {
+    background-position-x: 0px;
+    padding-top: 0%;
+    padding-bottom: 8%; } }
 
 @media only screen and (min-width: 1024px) {
-  .hey3 {
-    display: none; } }
+  .footer-logo {
+    width: 150px !important; }
+  #footer-section .box {
+    padding: 0 !important; }
+  #footer-section p {
+    font-size: 12px; }
+  #footer-section h5 {
+    font-size: 16px; }
+  #footer-section h4 {
+    font-size: 20px; }
+  .footer-services {
+    font-weight: 400 !important; }
+  .footer-logo-column {
+    padding-top: 0px !important; }
+  .footer-services-column {
+    padding-left: 5%; }
+  .footer-schedule-column {
+    padding-left: 5%; }
+  .doctor-memberships-title {
+    padding-top: 100px; }
+  .doctor-about-image img {
+    width: 600px; }
+  .doctor-about-subtitle {
+    padding-bottom: 1rem; }
+  .our-team-image img {
+    width: 600px; }
+  .services-image img {
+    width: 100%; }
+  .services-container {
+    margin-left: 0px !important; }
+  .services-container-swapped {
+    margin-right: 0px !important; }
+  .services-body {
+    padding-left: 50px; } }
 
 @media only screen and (min-width: 1216px) {
-  .hey4 {
-    display: none; } }
+  #hero-wrapper {
+    margin-top: -10%;
+    padding-top: 10%; }
+  .hero-box {
+    padding-bottom: 20%;
+    background-color: transparent;
+    padding-left: 65px; }
+  .hero-title {
+    background-color: transparent; }
+  .hero-section-body {
+    padding-left: 50px; }
+  .home-services-body {
+    padding-left: 50px; }
+  .hero-section-button {
+    margin-left: 50px; }
+  .why-different-image {
+    padding-left: 50px; }
+  .why-different-body {
+    padding-left: 50px; }
+  .why-different-button {
+    margin-left: 50px; } }
 
 @media only screen and (min-width: 1408px) {
   .hey5 {

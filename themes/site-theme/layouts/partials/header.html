@@ -1,8 +1,25 @@
+<style>
+    #logo-inner {
+        display: none;
+    }
+
+    .inner-page #logo {
+        display: none;
+    }
+
+    .inner-page #logo-inner {
+        display: inline;
+    }
+</style>
+
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
 
 <section id="header" :class="{nonstick: scrollPosition < 100, stick: scrollPosition > 500}" class="section columns is-mobile is-vcentered">
 <a id="logo" class="column is-half-mobile is-one-third-tablet has-text-centered has-text-left-tablet" href="/">
     <img class="" src="/pageimg/SGD.Logo.Light.svg" width="150px">
+</a>
+<a id="logo-inner" class="column is-half-mobile is-one-third-tablet has-text-centered has-text-left-tablet" href="/">
+    <img class="" src="/pageimg/SGD.Horizontal.Solid.Black.svg" width="150px">
 </a>
 {{ partial "site-navigation.html" . }}
 

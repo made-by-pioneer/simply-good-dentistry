@@ -72,7 +72,7 @@
 
 </head>
 
-    <body>
+    <body class="{{ .Param "page-status" }}">
 
     {{ block "header" . }}{{ partial "header.html" .}}{{ end }}
     <main role="main">

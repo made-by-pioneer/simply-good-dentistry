@@ -6,49 +6,49 @@ title = "Simply Good Dentistry"
     [[menu.desktop]]
     identifier = "services"
     name       = "Services"
-    url        = "/"
+    url        = "/services"
     weight     = 1
 
     [[menu.desktop]]
     identifier = "aboutus"
     name       = "About Us"
-    url        = "/"
+    url        = "/about-us"
     weight     = 2
 
     [[menu.desktop]]
     identifier = "contactus"
     name       = "Contact Us"
-    url        = "/"
+    url        = "/contact-us"
     weight     = 3
 
     [[menu.desktop]]
     identifier = "patients"
     name       = "Patients"
-    url        = "/"
+    url        = "/patients"
     weight     = 4
 
     [[menu.mobile]]
     identifier = "services"
     name       = "Services"
-    url        = "/"
+    url        = "/services"
     weight     = 1
 
     [[menu.mobile]]
     identifier = "aboutus"
     name       = "About Us"
-    url        = "/"
+    url        = "/about-us"
     weight     = 2
 
     [[menu.mobile]]
     identifier = "contactus"
     name       = "Contact Us"
-    url        = "/"
+    url        = "/contact-us"
     weight     = 3
 
     [[menu.mobile]]
     identifier = "patients"
     name       = "Patients"
-    url        = "/"
+    url        = "/patients"
     weight     = 4
 
 [params]

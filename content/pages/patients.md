@@ -1,8 +1,8 @@
 ---
 type: page
-layout: about-us
-url: /about-us
-title: 'About Us'
+layout: patients
+url: /patients
+title: 'Patients'
 params:
 page-status: 'inner-page'
 ---

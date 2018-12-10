@@ -1,0 +1,96 @@
+{{ define "main" }}
+
+<style>
+
+#patients-hero-wrapper {
+    background-image: url(/pageimg/SGD.Patients.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-x: center;
+    margin-top: -115px;
+    padding-top: 0%;
+}
+
+.patients-hero-box {
+    padding-top: 120px;
+}
+
+#patient-info-section {
+    padding: 6rem 1rem 6rem 1rem;
+}
+
+.patient-info-subtitle {
+    color: #60BEB3;
+}
+
+.patient-info-list {
+    list-style: circle;
+}
+
+.patient-resources-title {
+    padding-bottom: 1rem;
+}
+
+.patient-resources-item {
+    padding: 1rem 0 0 0;
+}
+
+@media only screen and (min-width: 769px) {
+    #patients-hero-wrapper {
+    background-position-x: 0px;
+    padding-top: 0%;
+    padding-bottom: 8%;
+}
+    
+}
+
+@media only screen and (min-width: 1024px) {
+    
+}
+
+@media only screen and (min-width: 1216px) {
+
+}
+
+@media only screen and (min-width: 1408px) {
+}
+
+</style>
+
+<section id="patients-hero-wrapper" class="section columns">
+    <div class="column is-10-mobile is-offset-1-mobile is-offset-1-tablet is-5-widescreen patients-hero-box">
+        <h1 class="is-family-heading is-size-smaller is-line-height-reduced has-text-weight-bold patients-hero-title">
+            Patients
+        </h1>
+    </div>
+</section>
+
+<section id="patient-info-section" class="section">
+  <div class="container patient-info-container">
+      <div class="columns is-multiline is-12-mobile patient-info-columns">
+        <div class="column is-6-tablet is-5-desktop is-offset-1-tablet">
+            <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold patient-info-subtitle">We’re here to make you smile</h2>
+            <p class="box is-family-heading is-size-default patient-info-body">For new patients we like to inform you of your treatment needs right from the start by giving you a thorough exam and x-rays as needed. We also accept various forms of payment, including:</p>
+            <ul class="patient-info-list">
+                <li class="patient-info-list-item">Personal checks, money orders, and cash</li>
+                <li class="patient-info-list-item">All major credit cards</li>
+                <li class="patient-info-list-item">Care Credit</li>
+                <li class="patient-info-list-item">Most insurances and we also file them as a courtesy</li>
+            </ul>
+            <p class="box is-family-heading is-size-default patient-info-body">Please contact us about our flexible payment options including our Simply Dental Connections plan.</p>
+        </div>
+        <div class="column is-10-mobile is-offset-1-mobile is-5-tablet is-4-desktop is-offset-2-desktop patient-resources-section">
+            <h4 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold patient-resources-title">Patient Forms</h4>
+            <ul class="patient-resources-list">
+                <li class="is-family-heading is-size-default patient-resources-item">Patient Info Sheet</li>
+                <li class="is-family-heading is-size-default patient-resources-item">Medical History Sheet</li>
+                <li class="is-family-heading is-size-default patient-resources-item">Office Policies Sheet</li>
+                <li class="is-family-heading is-size-default patient-resources-item">HIPPA Sheet</li>
+                <li class="is-family-heading is-size-default patient-resources-item">Survey</li>
+            </ul>
+        </div>
+      </div>
+  </div>
+</section>
+
+{{ end }}

@@ -1,0 +1,70 @@
+{{ define "main" }}
+
+<style>
+</style>
+
+<section id="contact-hero-wrapper" class="section columns">
+    <div class="column is-10-mobile is-offset-1-mobile is-offset-1-tablet is-5-widescreen contact-hero-box">
+        <h1 class="is-family-heading is-size-smaller is-line-height-reduced has-text-weight-bold contact-hero-title">
+            Contact
+        </h1>
+    </div>
+</section>
+
+<section id="contact-form-wrapper" class="section">
+    <div class="container contact-form-container">
+        <div class="columns is-multiline is-12-mobile contact-form-columns">
+            <div class="column is-6-tablet is-6-widescreen contact-form-column">
+            <form class="columns is-mobile is-multiline">
+                <div class="column is-6">
+                    <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Name</h5></label>
+                    <input class="input is-primary is-rounded" type="text" placeholder="Your Name Here..">
+                </div>
+                <div class="column is-6">
+                    <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Email</h5></label>
+                    <input class="input is-primary is-rounded" type="email" placeholder="Your Email Here..">
+                </div>
+                <div class="column is-6">
+                    <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Phone</h5></label>
+                    <input class="input is-primary is-rounded" type="text" placeholder="Your Phone Number Here..">
+                </div>
+                <div class="column is-6">
+                    <label><h5 class="is-family-heading is-size-default has-text-weight-bold">How can we help?</h5></label>
+                    <div class="select is-primary is-rounded">
+                        <select>
+                        <option>General Question</option>
+                        <option>Other Question</option>
+                        </select>
+                    </div>
+                </div>
+                <div class="column is-12">
+                    <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Your Message</h5></label>
+                    <textarea class="input is-primary text-area" type="text" placeholder="Your Message Here.."></textarea>
+                </div>
+                <div class="column is-3 is-offset-9 form-submit-button">
+                <div class="control">
+                        <button class="button is-primary is-rounded">Submit</button>
+                    </div>
+                </div>
+            </form>
+            </div>
+            <div class="column is-6-tablet is-5-widescreen is-offset-1-widescreen business-info-column">
+                <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3367.426896227259!2d-81.77142281757682!3d32.4345063127115!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x88fa474f0324c1f1%3A0x4dcfc4bc726aad16!2s512+Gentilly+Rd%2C+Statesboro%2C+GA+30458!5e0!3m2!1sen!2sus!4v1544473939060" width="100%" height="250px" frameborder="0" style="border:0" allowfullscreen></iframe>
+                <div class="columns is-multiline business-info-subsection">
+                    <div class="column is-offset-1-desktop has-text-left-desktop">
+                    <h5 class="is-family-heading is-size-default has-text-weight-bold contact-sgd-info-title">Location</h5>
+                    <p class="is-family-heading is-size-default contact-sgd-body">512 Gentilly Road <br>Statesboro, GA 30458</p>
+                    <h6 class="is-family-heading is-italic is-size-default has-text-weight-bold contact-sgd-title">Get Directions</h6>
+                    </div>
+                    <div class="column has-text-left-desktop">
+                    <h5 class="is-family-heading is-size-default has-text-weight-bold contact-sgd-info-title">Hours</h5>
+                    <p class="is-family-heading is-size-default contact-sgd-body">Monday - Thursday <br>8:00 am - 5:00 pm</p>
+                    <h6 class="is-family-heading is-italic is-size-default has-text-weight-bold contact-sgd-title">*Closed daily for lunch from 1:00pm - 2:00pm</h6>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+{{ end }}
