@@ -12,16 +12,24 @@
   </url>
   
   <url>
-    <loc>https://simple-den.netlify.com/</loc>
+    <loc>https://simple-den.netlify.com/contact-us/</loc>
   </url>
   
   <url>
-    <loc>https://simple-den.netlify.com/home1/</loc>
+    <loc>https://simple-den.netlify.com/</loc>
   </url>
   
   <url>
     <loc>https://simple-den.netlify.com/pages/</loc>
     <priority>0</priority>
+  </url>
+  
+  <url>
+    <loc>https://simple-den.netlify.com/patients/</loc>
+  </url>
+  
+  <url>
+    <loc>https://simple-den.netlify.com/services/</loc>
   </url>
   
   <url>

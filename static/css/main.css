@@ -7009,6 +7009,32 @@ blockquote.is-size-larger {
 .business-info-subsection {
   padding: 2rem; }
 
+#patients-hero-wrapper {
+  background-image: url(/pageimg/SGD.Patients.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position-x: center;
+  margin-top: -115px;
+  padding-top: 0%; }
+
+.patients-hero-box {
+  padding-top: 120px; }
+
+#patient-info-section {
+  padding: 6rem 1rem 6rem 1rem; }
+
+.patient-info-subtitle {
+  color: #60BEB3; }
+
+.patient-info-list {
+  list-style: circle; }
+
+.patient-resources-title {
+  padding-bottom: 1rem; }
+
+.patient-resources-item {
+  padding: 1rem 0 0 0; }
+
 @media only screen and (min-width: 769px) {
   #header {
     padding: 0 3rem 0 3rem !important; }
@@ -7079,6 +7105,10 @@ blockquote.is-size-larger {
   .reverse-row-order {
     flex-direction: unset; }
   #contact-hero-wrapper {
+    background-position-x: 0px;
+    padding-top: 0%;
+    padding-bottom: 8%; }
+  #patients-hero-wrapper {
     background-position-x: 0px;
     padding-top: 0%;
     padding-bottom: 8%; } }

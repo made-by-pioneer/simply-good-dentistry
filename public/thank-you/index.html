@@ -90,26 +90,43 @@
 
 </head>
 
-    <body>
+    <body class="">
 
-    <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
+    <style>
+    #logo-inner {
+        display: none;
+    }
+
+    .inner-page #logo {
+        display: none;
+    }
+
+    .inner-page #logo-inner {
+        display: inline;
+    }
+</style>
+
+<script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
 
 <section id="header" :class="{nonstick: scrollPosition < 100, stick: scrollPosition > 500}" class="section columns is-mobile is-vcentered">
 <a id="logo" class="column is-half-mobile is-one-third-tablet has-text-centered has-text-left-tablet" href="/">
     <img class="" src="/pageimg/SGD.Logo.Light.svg" width="150px">
+</a>
+<a id="logo-inner" class="column is-half-mobile is-one-third-tablet has-text-centered has-text-left-tablet" href="/">
+    <img class="" src="/pageimg/SGD.Horizontal.Solid.Black.svg" width="150px">
 </a>
 <nav id="navigation-wrapper" class="column is-half-mobile is-two-thirds-tablet has-text-centered has-text-right-tablet">
 
 <div class="desktop-menu">
   
   
-  <a class=" desktop-menu-item" href="/">Services</a>
+  <a class=" desktop-menu-item" href="/services">Services</a>
   
-  <a class=" desktop-menu-item" href="/">About Us</a>
+  <a class=" desktop-menu-item" href="/about-us">About Us</a>
   
-  <a class=" desktop-menu-item" href="/">Contact Us</a>
+  <a class=" desktop-menu-item" href="/contact-us">Contact Us</a>
   
-  <a class=" desktop-menu-item" href="/">Patients</a>
+  <a class=" desktop-menu-item" href="/patients">Patients</a>
   
 </div>
 
@@ -123,7 +140,7 @@
 
 <div class="mobile-menu" v-bind:class="{ 'mobile-menu-toggle' : menuToggle }">
   <div class="section columns is-mobile is-vcentered mobile-menu-wrapper">
-  <a id="logo" class="column is-half has-text-centered" href="/">
+  <a id="mobile-menu-logo" class="column is-half has-text-centered" href="/">
     <img class="" src="/pageimg/SGD.Horizontal.Color.Dark.svg" width="150px">
   </a>
   <a class="column is-half has-text-centered close-menu" v-on:click="menuToggle = !menuToggle"><ion-icon name="close"></ion-icon></a>
@@ -131,13 +148,13 @@
   <ul class="section mobile-menu-list">
     
     
-    <li class=""><a class="" href="/">Services</a></li>
+    <li class=""><a class="" href="/services">Services</a></li>
     
-    <li class=""><a class="" href="/">About Us</a></li>
+    <li class=""><a class="" href="/about-us">About Us</a></li>
     
-    <li class=""><a class="" href="/">Contact Us</a></li>
+    <li class=""><a class="" href="/contact-us">Contact Us</a></li>
     
-    <li class=""><a class="" href="/">Patients</a></li>
+    <li class=""><a class="" href="/patients">Patients</a></li>
     
     <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment Today!</a>
   </ul>
