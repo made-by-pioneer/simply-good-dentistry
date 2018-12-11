@@ -10,18 +10,135 @@
     .inner-page #logo-inner {
         display: inline;
     }
+
+    .custom-container {
+        padding: 0 10.246% 0 10.246%;
+    }
+
+    #header {
+        padding: 25px 35px 25px 35px !important;
+    }
+
+    #logo img {
+        min-width: 131.25px;
+    }
+
+    #mobile-menu-logo img {
+        min-width: 131.25px;
+    }
+
+    .mobile-menu {
+        z-index: -999;
+        opacity: 0;
+        position: absolute;
+        width: 100%;
+        left: 0;
+        height: 100%;
+        right: 0;
+        top: 0;
+        padding-top: 14px;
+        transition: .2s;
+    }
+
+    .mobile-menu-container {
+        padding: 0px 25px 0 25px;
+    }
+
+    .mobile-menu-button {
+        position: relative;
+        bottom: 0%;
+        width: 100% !important;
+    }
+
+    #mobile-menu-logo {
+        
+    }
+
+    .mobile-menu-list {
+        padding: 0rem 2.2rem 0 2.2rem !important;
+    }
+
+    .custom-left-offset {
+        padding-left: 3.75rem;
+    }
+
+    #navigation-wrapper {
+        padding: 0;
+        position: absolute;
+        right:0;
+    }
+
+    @media only screen and (min-width: 769px) {
+        #header {
+        padding: 25px 90px 25px 90px !important;
+        }
+
+       .header-container {
+           margin: 0px !important;
+        }
+        #logo {
+            padding: 0;
+        }
+
+        #navigation-wrapper {
+            padding: 0;
+        }
+    }
+
+    @media only screen and (min-width: 1024px) {
+    }
+
+    @media only screen and (min-width: 1216px) {
+    }
+
+    @media only screen and (min-width: 1408px) {
+        .section {
+            padding-left: 0px;
+            padding-right: 0px;
+        }
+
+        .hero-box {
+            padding-left: 150px;
+        }
+    }
 </style>
 
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
 
-<section id="header" :class="{nonstick: scrollPosition < 100, stick: scrollPosition > 500}" class="section columns is-mobile is-vcentered">
-<a id="logo" class="column is-half-mobile is-one-third-tablet has-text-centered has-text-left-tablet" href="/">
-    <img class="" src="/pageimg/SGD.Logo.Light.svg" width="150px">
+<div id="header-functions">
+
+<section id="header" :class="{nonstick: scrollPosition < 100, stick: scrollPosition > 500}" class="section">
+    <div class="container is-fluid header-container">
+        <div class="columns is-mobile is-vcentered">
+<a id="logo" class="column is-half-mobile is-one-third-tablet has-text-left" href="/">
+    <img class="" src="/pageimg/SGD.Logo.Light.svg" width="49.07%">
 </a>
 <a id="logo-inner" class="column is-half-mobile is-one-third-tablet has-text-centered has-text-left-tablet" href="/">
-    <img class="" src="/pageimg/SGD.Horizontal.Solid.Black.svg" width="150px">
+    <img class="" src="/pageimg/SGD.Horizontal.Solid.Black.svg" width="49.07%">
 </a>
 {{ partial "site-navigation.html" . }}
 
+</div>
+</div>
 </section>
+
+<div class="mobile-menu section" v-bind:class="{ 'mobile-menu-toggle' : menuToggle }">
+  <div class="container mobile-menu-container">
+  <div class="columns is-mobile is-vcentered mobile-menu-wrapper">
+  <a id="mobile-menu-logo" class="column is-half has-text-left" href="/">
+    <img class="" src="/pageimg/SGD.Horizontal.Color.Dark.svg" width="45.74%">
+  </a>
+  <a class="column is-6 has-text-right close-menu" v-on:click="menuToggle = !menuToggle"><ion-icon name="close"></ion-icon></a>
+  </div>
+  <ul class="section mobile-menu-list">
+    {{ $currentNode := . }}
+    {{ range .Site.Menus.mobile }}
+    <li class=""><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
+    {{ end }}
+    <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment Today!</a>
+  </ul>
+</div>
+</div>
+
+</div>
  

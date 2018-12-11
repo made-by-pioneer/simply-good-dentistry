@@ -1,16 +1,44 @@
 {{ define "main" }}
 
 <style>
+    .section {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+    .column {
+        padding: 0px;
+    }
+    .hero-container {
+        padding-top: 3rem;
+        padding-bottom: 18rem;
+    }
+    .hero-section-button {
+        margin: 0px;
+    }
+    .hero-title {
+        padding: 0px;
+    }
+    .custom-column-spacing {
+        padding: .5rem 0 .5rem 0;
+    }
+    .custom-column-spacing-buttons {
+        margin: .5rem 0 .5rem 0;
+    }
+    .custom-left-offset-buttons {
+        margin-left: 3.75rem;
+    }
 </style>
 
 <section id="hero-wrapper" class="section columns">
+    <div class="custom-container hero-container">
     <div class="column is-10-mobile is-7-tablet is-offset-1-mobile is-5-widescreen hero-box">
-        <h1 class="is-family-heading is-size-smaller is-line-height-reduced has-text-weight-bold hero-title">
+        <h1 class="is-family-heading is-size-smaller is-line-height-reduced has-text-weight-bold custom-column-spacing hero-title">
             Simple things <br>lead to big smiles
         </h1>
-        <p class="column is-family-heading is-size-default hero-section-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
-        <a class="button is-primary is-rounded hero-section-button">Call for an appointment</a>
+        <p class="column is-family-heading is-size-default custom-column-spacing custom-left-offset hero-section-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
+        <a class="button is-primary is-rounded custom-column-spacing-buttons custom-left-offset-buttons hero-section-button">Call for an appointment</a>
     </div>
+</div>
 </section>
 
 <img src="/pageimg/curve1.PNG">
