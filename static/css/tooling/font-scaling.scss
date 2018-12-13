@@ -53,13 +53,13 @@ h6.is-size-large {font-size: $h6-default-size + .5;}
 h6.is-size-larger {font-size: $h6-default-size + 1;}
 
 p.is-size-default {
-    font-size: $size-default;
+    font-size: $p-default-size;
 }
 
-p.is-size-small {font-size: $size-default - .125;}
-p.is-size-smaller {font-size: $size-default - .5;}
-p.is-size-large {font-size: $size-default + .25;}
-p.is-size-larger {font-size: $size-default + .5;}
+p.is-size-small {font-size: $p-default-size - .125;}
+p.is-size-smaller {font-size: $p-default-size - .5;}
+p.is-size-large {font-size: $p-default-size + .25;}
+p.is-size-larger {font-size: $p-default-size + .5;}
 
 blockquote.is-size-default {
     font-size: $blockquote-default-size;

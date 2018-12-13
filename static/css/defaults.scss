@@ -37,14 +37,19 @@ $family-primary: 'Nunito Sans', sans-serif;
 $family-heading: 'Nunito', sans-serif;
 $size-default: 1rem;
 $h1-default-size: 4rem;
-$h2-default-size: 2.75rem;
+$h2-default-size: 2.25rem;
 $h3-default-size: 2.25rem;
 $h4-default-size: 1.5rem;
-$h5-default-size: 1.0rem;
+$h5-default-size: 1.5rem;
 $h6-default-size: 0.63rem;
+$p-default-size: 1.25rem;
 $blockquote-default-size: 2rem;
 
 /* Element Defaults */
+
+.is-family-primary {
+    font-family: $family-primary;
+}
 
 .button.is-primary {
     background-color: $primary1;
