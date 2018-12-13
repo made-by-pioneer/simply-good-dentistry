@@ -2,6 +2,11 @@
 .footer-logo-column {
     margin: auto;
   }
+.footer-services:hover {
+  text-decoration: underline;
+  color: #fff;
+  text-decoration-color: #60BEB3;
+}
 .footer-links {
   padding-top: 20px;
   padding-left: 120px;
@@ -36,6 +41,7 @@
 .footer-services {
   padding: .2rem 0 .2rem 0 !important;
   font-size: 14px !important;
+  display: block;
 }
 
 .footer-schedule-title {
@@ -44,6 +50,12 @@
 
 #post-footer {
   background-color: #001D34;
+}
+
+.custom-footer-container {
+  padding: 0 90px 0 90px;
+  max-width: 1440px;
+  margin: auto;
 }
 
 @media only screen and (min-width: 1024px) {
@@ -69,7 +81,7 @@
 </style>
 
 <section id="footer-section" class="section">
-  <div class="custom-container is-fluid footer-container">
+  <div class="custom-footer-container is-fluid footer-container">
     <div class="columns is-multiline footer-columns">
       <div class="column is-12-mobile is-8-tablet is-3-widescreen footer-logo-column">
         <figure class="box image">
@@ -80,26 +92,28 @@
         <p class="is-family-primary is-size-default footer-logo-body">© 2018 Simply Good Dentistry. All Rights Reserved.</p>
       </div>
       <div class="column is-12-mobile is-12-tablet is-3-widescreen footer-links">
-        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">The Difference</h5>
-        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">About Us</h5>
-        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">Contact Us</h5>
-        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">Patients</h5>
+        <a href="/about-us">
+        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">About Us</h5></a>
+        <a href="/contact-us">
+        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">Contact Us</h5></a>
+        <a href="/patients">
+        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">Patients</h5></a>
       </div>
       <div class="column is-12-mobile is-12-tablet is-3-widescreen footer-services-column">
         <h4 class="box is-family-heading is-size-default has-text-weight-bold footer-title footer-services-title">Services</h4>
         <ul>
-          <li class="box is-family-heading is-size-default has-text-weight-bold footer-services">Preventative Care</li>
-          <li class="box is-family-heading is-size-default has-text-weight-bold footer-services">Perio Protect Therapy</li>
-          <li class="box is-family-heading is-size-default has-text-weight-bold footer-services">Orthodontics</li>
-          <li class="box is-family-heading is-size-default has-text-weight-bold footer-services">Implants and Restorations</li>
-          <li class="box is-family-heading is-size-default has-text-weight-bold footer-services">Mouthguards / TMD Therapy</li>
-          <li class="box is-family-heading is-size-default has-text-weight-bold footer-services">Bleaching and Whitening</li>
+          <a href="/services#preventative-care-section" class="is-family-heading is-size-default has-text-weight-bold footer-services">Preventative Care</a>
+          <a href="/services#perio-protect-section" class="is-family-heading is-size-default has-text-weight-bold footer-services">Perio Protect Therapy</a>
+          <a href="/services#orthodonics-section" class="is-family-heading is-size-default has-text-weight-bold footer-services">Orthodontics</a>
+          <a href="/services#implants-section" class="is-family-heading is-size-default has-text-weight-bold footer-services">Implants and Restorations</a>
+          <a href="/services#mouthguards-section" class="is-family-heading is-size-default has-text-weight-bold footer-services">Mouthguards / TMD Therapy</a>
+          <a href="/services#bleaching-section" class="is-family-heading is-size-default has-text-weight-bold footer-services">Bleaching and Whitening</a>
         </ul>
       </div>
       <div class="column is-12-mobile is-8-tablet is-3-widescreen footer-schedule-column">
         <h4 class="box is-family-heading is-size-default has-text-weight-bold footer-title footer-schedule-title">Schedule an Appointment</h4>
         <p class="box is-family-primary is-size-default footer-schedule-body">Call us today to schedule an <br> appointment with Dr. Les!</p>
-        <a class="button is-primary is-rounded footer-schedule-button">Schedule an Appointement</a>
+        <a href="/contact-us#contact-form-wrapper" class="button is-primary is-rounded footer-schedule-button">Schedule an Appointement</a>
           <div class="container column has-text-centered has-text-left-desktop social-container">
             <h6 class="is-family-heading is-size-large has-text-weight-bold footer-social-title">Follow us on:</h6>
             <div class="footer-icon-column">
@@ -124,11 +138,32 @@
         element.setAttribute('src', '/pageimg/MadebyPioneer.svg');
         }
         </script>
-        <a href="http://madebypioneer.com">
+        <a target="_blank" href="http://madebypioneer.com">
         <img src="/pageimg/MadebyPioneer.svg" width="60px" onmouseover="hover(this);" onmouseout="unhover(this);">
         </a>
     </div>
   </div>
 </section>
 
-<div class="elevator-button">Back to Top</div>
+<style>
+  #elevator-button {
+    position: fixed;
+    right: 50px;
+    bottom: 20px;
+    transition: .2s;
+  }
+  .hidegotoTop {
+    right: -100px !important;
+    transition: .2s;
+  }
+  #elevator-button:hover {
+    cursor: pointer;
+    padding-bottom: 5px;
+  }
+</style>
+
+<div id="go-to-top-button">
+  <div id="elevator-button" :class="{hidegotoTop: scrollPosition < 200, showgotoTop: scrollPosition > 500}">
+      <img src="/pageimg/SGD.Web.Button.svg" width="40px">
+  </div>
+</div>
