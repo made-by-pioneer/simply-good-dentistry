@@ -1,10 +1,39 @@
 {{ define "main" }}
 
 <style>
+    .patient-info-container {
+        padding: 0 40px 0 40px;
+    }
+    .patient-info-columns .column {
+        margin: auto;
+    }
+    .patient-info-list {
+        padding-left: 20px;
+    }
+    @media only screen and (min-width: 769px) {
+        .patient-info-container {
+        padding: 0 60px 0 60px;
+    }
+        
+}
+@media only screen and (min-width: 1024px) {
+    .patient-info-columns .column {
+        margin-top: 0;
+
+    }
+        
+    }
+    @media only screen and (min-width: 1408px) {
+        .patient-info-container {
+        padding-left: 180px;
+        padding-right: 180px;
+        }
+
+    }
 </style>
 
-<section id="patients-hero-wrapper" class="section columns">
-    <div class="column is-10-mobile is-offset-1-mobile is-offset-1-tablet is-5-widescreen patients-hero-box">
+<section id="patients-hero-wrapper" class="section columns inner-page-top-wrapper">
+    <div class="column is-10-mobile is-offset-1-mobile is-5-widescreen inner-page-hero-box patients-hero-box">
         <h1 class="is-family-heading is-size-smaller is-line-height-reduced has-text-weight-bold patients-hero-title">
             Patients
         </h1>
@@ -12,10 +41,11 @@
 </section>
 
 <section id="patient-info-section" class="section">
-  <div class="container patient-info-container">
+  <div class="custom-mobile-only-container patient-info-container">
       <div class="columns is-multiline is-12-mobile patient-info-columns">
-        <div class="column is-6-tablet is-5-desktop is-offset-1-tablet">
+        <div class="column is-10-tablet is-5-desktop">
             <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold patient-info-subtitle">We’re here to make you smile</h2>
+            <div class="custom-left-offset">
             <p class="box is-family-heading is-size-default patient-info-body">For new patients we like to inform you of your treatment needs right from the start by giving you a thorough exam and x-rays as needed. We also accept various forms of payment, including:</p>
             <ul class="patient-info-list">
                 <li class="patient-info-list-item">Personal checks, money orders, and cash</li>
@@ -25,7 +55,8 @@
             </ul>
             <p class="box is-family-heading is-size-default patient-info-body">Please contact us about our flexible payment options including our Simply Dental Connections plan.</p>
         </div>
-        <div class="column is-10-mobile is-offset-1-mobile is-5-tablet is-4-desktop is-offset-2-desktop patient-resources-section">
+        </div>
+        <div class="column is-10-mobile is-offset-1-mobile is-10-tablet is-4-desktop is-offset-2-desktop patient-resources-section">
             <h4 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold patient-resources-title">Patient Forms</h4>
             <ul class="patient-resources-list">
                 <li class="is-family-heading is-size-default patient-resources-item">Patient Info Sheet</li>

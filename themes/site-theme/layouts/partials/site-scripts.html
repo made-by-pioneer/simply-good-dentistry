@@ -26,3 +26,14 @@
    },
 });
 </script>
+
+{{ partial "js/elevator.min.js.html" . }}
+
+<script>
+window.onload = function() {
+      var elevator = new Elevator({
+        element: document.querySelector('.elevator-button'),
+        duration: 1000 // milliseconds
+      });
+}
+</script>

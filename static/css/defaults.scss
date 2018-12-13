@@ -41,7 +41,7 @@ $h2-default-size: 2.25rem;
 $h3-default-size: 2.25rem;
 $h4-default-size: 1.5rem;
 $h5-default-size: 1.5rem;
-$h6-default-size: 0.63rem;
+$h6-default-size: 1rem;
 $p-default-size: 1.25rem;
 $blockquote-default-size: 2rem;
 
@@ -143,10 +143,15 @@ $blockquote-default-size: 2rem;
     opacity: .6;
 }
 
+.select.is-primary {
+    width: 100%;
+}
+
 .select.is-primary select {
     color: $shade1;
     border-color: $shade8;
     font-family: $family-primary;
+    width: 100%;
 }
 
 .select.is-primary:hover select {
@@ -163,6 +168,6 @@ $blockquote-default-size: 2rem;
     box-shadow: $invalidboxshadow;
 }
 
-.select.is-primary::placeholder select {
+.select.is-primary select::placeholder {
     opacity: .6;
 }
