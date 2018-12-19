@@ -8,12 +8,12 @@
 
 .button.is-rounded {
     padding: 20px 1rem 20px 1rem !important;
+    font-weight: 700;
 }
 
-.home-services:hover {
-    text-decoration: underline;
-    text-decoration-color: #60BEB3;
-    box-shadow: none !important;
+.home-services-underline:hover {
+    border-bottom-style: solid;
+    border-color: #60BEB3;
 }
 
 .call-appointment {
@@ -29,6 +29,18 @@
     padding: .3rem 0 .8rem 0;
 }
 
+.home-services-title-desktop {
+    display: none;
+}
+
+.home-services-title-mobile {
+    padding-top: 20px;
+}
+
+.home-services-content-box {
+    padding-top: 40px;
+}
+
 @media only screen and (min-width: 769px) {
 .call-appointment {
     display: none;
@@ -36,6 +48,18 @@
 
 .schedule-appointment {
     display: inline-flex;
+}
+
+.home-services-title-desktop {
+    display: inline-block;
+}
+
+.home-services-title-mobile {
+    display: none;
+}
+
+.home-services-content-box {
+    padding-top: 0px;
 }
         
 }
@@ -65,7 +89,7 @@
         </figure>
         <div class="column is-12-tablet is-8-desktop is-7-widescreen is-6-fullhd why-different-content-box">
         <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold why-different-subtitle">Giving patients simply good dentistry</h2>
-        <p class="box is-family-primary is-size-default why-different-body">Kogi Cosby sweater ethical squid irony disrupt, organic tote bag gluten-free XOXO wolf typewriter mixtape small batch. DIY pickled four loko McSweeney's, Odd Future</p>
+        <p class="box is-family-primary is-size-default why-different-body">At Simply Good Dentistry, we desire to concentrate on each patient and his or her specific needs.  We create treatment goals for our patients that reflect a simple, compassionate, gentle, and yet thorough approach to attaining oral health.</p>
         <a href="/about-us" class="button is-primary is-rounded is-family-heading why-different-button">Learn More Here</a>
         </div>
       </div>
@@ -74,21 +98,22 @@
 
 <section id="home-services-section" class="section">
   <div class="custom-container home-services-container">
-      <div class="columns is-multiline is-12-mobile home-services-columns">
-        <h3 class="column is-12-tablet is-family-heading has-text-weight-bold home-page-gray-title home-services-title">services</h3>
+        <h3 class="column is-12-tablet is-family-heading has-text-weight-bold home-page-gray-title home-services-title home-services-title-desktop">services</h3>
+      <div class="columns is-multiline is-mobile is-12-mobile reverse-row-order home-services-columns">
         <div class="column is-5-tablet custom-left-offset-triple is-4-desktop service-list-section">
+            <h3 class="column is-12-tablet is-family-heading has-text-weight-bold home-page-gray-title home-services-title home-services-title-mobile">services</h3>
             <ul>
-                <a href="/services#preventative-care-section" class="box is-family-heading is-size-default has-text-weight-bold home-services">Preventative Care</a>
-                <a href="/services#perio-protect-section" class="box is-family-heading is-size-default has-text-weight-bold home-services">Perio Protect Therapy</a>
-                <a href="/services#orthodonics-section" class="box is-family-heading is-size-default has-text-weight-bold home-services">Orthodontics</a>
-                <a href="/services#implants-section" class="box is-family-heading is-size-default has-text-weight-bold home-services">Implants and Restorations</a>
-                <a href="/services#mouthguards-section" class="box is-family-heading is-size-default has-text-weight-bold home-services">Mouthguards / TMD Therapy</a>
-                <a href="/services#bleaching-section" class="box is-family-heading is-size-default has-text-weight-bold home-services">Bleaching and Whitening</a>
+                <a href="/services#preventative-care-section" class="box is-family-heading is-size-default has-text-weight-bold home-services"><span class="home-services-underline">Preventative Care</span></a>
+                <a href="/services#perio-protect-section" class="box is-family-heading is-size-default has-text-weight-bold home-services"><span class="home-services-underline">Perio Protect Therapy</span></a>
+                <a href="/services#orthodonics-section" class="box is-family-heading is-size-default has-text-weight-bold home-services"><span class="home-services-underline">Orthodontics</span></a>
+                <a href="/services#implants-section" class="box is-family-heading is-size-default has-text-weight-bold home-services"><span class="home-services-underline">Implants and Restorations</span></a>
+                <a href="/services#mouthguards-section" class="box is-family-heading is-size-default has-text-weight-bold home-services"><span class="home-services-underline">Mouthguards / TMD Therapy</span></a>
+                <a href="/services#bleaching-section" class="box is-family-heading is-size-default has-text-weight-bold home-services"><span class="home-services-underline">Bleaching and Whitening</span></a>
             </ul>
         </div>
         <div class="column is-6-tablet is-7-desktop home-services-content-box">
-            <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold home-services-subtitle">Good health begins with a clean mouth.</h2>
-            <p class="box is-family-primary is-size-default home-services-body">Tousled food truck polaroid, salvia bespoke small batch Pinterest Marfa. Fingerstache authentic craft beer, food truck Banksy Carles kale chips hoodie. Trust fund artisan master cleanse fingerstache post-ironic, fashion axe art party Etsy direct trade retro organic. Cliche Shoreditch Odd Future Pinterest, pug</p>
+            <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold home-services-subtitle">Good oral health begins with a clean mouth.</h2>
+            <p class="box is-family-primary is-size-default home-services-body">Studies show that the health of a person’s mouth affects the health of the body.  Through the services we offer we want to do our best and lead our patients to do their best in achieving a healthy mouth.</p>
         </div>
       </div>
   </div>

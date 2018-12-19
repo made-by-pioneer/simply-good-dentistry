@@ -7223,9 +7223,10 @@ blockquote.is-size-larger {
   padding: 0 0 .7rem 0; }
 
 .mobile-menu-list a {
-  font-size: 22px;
+  font-size: 40px;
   color: #fff;
-  font-weight: 700; }
+  font-weight: 700;
+  font-family: "Nunito", sans-serif; }
 
 #navigation-wrapper {
   padding: 0;
@@ -7252,7 +7253,7 @@ blockquote.is-size-larger {
 
 .mobile-menu-toggle {
   background-color: #001D34;
-  height: 600px; }
+  height: 660px; }
 
 .desktop-menu-item {
   padding: 0 1rem 0 1rem;
@@ -7273,7 +7274,10 @@ blockquote.is-size-larger {
   background-size: cover;
   background-position-x: -55px;
   margin-top: -115px;
-  padding-top: 0%; }
+  padding-top: 0%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .about-hero-box {
   padding-top: 120px; }
@@ -7308,7 +7312,10 @@ blockquote.is-size-larger {
   background-size: cover;
   background-position-x: right;
   margin-top: -115px;
-  padding-top: 0%; }
+  padding-top: 0%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .services-hero-box {
   padding-top: 120px; }
@@ -7325,7 +7332,10 @@ blockquote.is-size-larger {
   background-size: cover;
   background-position-x: left;
   margin-top: -115px;
-  padding-top: 0%; }
+  padding-top: 0%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .contact-hero-box {
   padding-top: 120px; }
@@ -7355,7 +7365,10 @@ blockquote.is-size-larger {
   background-size: cover;
   background-position-x: center;
   margin-top: -115px;
-  padding-top: 0%; }
+  padding-top: 0%;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .patients-hero-box {
   padding-top: 120px; }
@@ -7430,7 +7443,10 @@ blockquote.is-size-larger {
     background-position-x: right;
     margin-top: -15%;
     padding-top: 15%;
-    margin-bottom: -10%; }
+    margin-bottom: -10%;
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto; }
   .hero-box {
     padding-bottom: 10%; }
   .hero-title {
@@ -7502,7 +7518,7 @@ blockquote.is-size-larger {
 
 @media only screen and (min-width: 1024px) {
   .inner-page-top-wrapper {
-    margin-top: -13% !important; }
+    margin-top: -150px !important; }
   .custom-mobile-only-container {
     padding: 0 100px 0 100px; }
   .custom-container {
@@ -7580,7 +7596,7 @@ blockquote.is-size-larger {
     background-position-x: right;
     margin-bottom: -708.51px;
     margin-top: -11%;
-    padding-top: 144px; }
+    padding-top: 10%; }
   .hero-container {
     padding-top: 3rem;
     padding-bottom: 40rem; }
