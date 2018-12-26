@@ -1,5 +1,27 @@
 <style>
 
+.services-dropdown {
+    display: none;
+    position: absolute;
+    background-color: rgba(96,190,179,0.8);
+    right: 277px;
+    padding: 10px 20px 10px 20px;
+    font-size: 12px;
+    border-radius: 10px;
+}
+
+.services-dropdown a {
+    color: #fff;
+}
+
+.services-dropdown:hover {
+    display: block;
+}
+
+.Services-menu-item:hover ~ .services-dropdown {
+    display: block !important;
+}
+
 #header-functions {
     max-width: 1440px;
     margin: auto;

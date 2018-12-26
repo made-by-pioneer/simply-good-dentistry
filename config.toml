@@ -51,6 +51,30 @@ title = "Simply Good Dentistry"
     url        = "/patients"
     weight     = 4
 
+    [[menu.services]]
+    identifier = "preventative-oral-health"
+    name       = "Preventative Oral Health"
+    url        = "/preventative-oral-health"
+    weight     = 1
+
+    [[menu.services]]
+    identifier = "gum-disease-treatment"
+    name       = "Gum Disease Treatment"
+    url        = "/gum-disease-treatment"
+    weight     = 2
+
+    [[menu.services]]
+    identifier = "restorative-services"
+    name       = "Restorative Services"
+    url        = "/restorative-services"
+    weight     = 3
+
+    [[menu.services]]
+    identifier = "specialty-services"
+    name       = "Specialty Services"
+    url        = "/specialty-services"
+    weight     = 4
+
 [params]
 categories = ["",""]
 description = "Simply Good Dentistry is the dental practice of Les Kicklighter, DMD. Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry."

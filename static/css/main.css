@@ -6967,6 +6967,12 @@ blockquote.is-size-large {
 blockquote.is-size-larger {
   font-size: 3rem; }
 
+.home-page {
+  overflow: hidden; }
+
+.inner-page {
+  overflow: hidden; }
+
 .mobile-menu-container {
   height: 0px; }
 
