@@ -63,12 +63,20 @@
     text-decoration-color: #60BEB3;
 }
 
+.mobile-menu-list ion-icon, .desktop-menu ion-icon {
+    display: none;
+}
+
+.Services-menu-item ion-icon {
+    display: inline-block !important;
+}
+
     @media only screen and (min-width: 769px) {
 
         
 }
 
-    @media only screen and (min-width: 1024px) {
+    @media only screen and (min-width: 1024px) {   
         
         
     }
@@ -117,7 +125,7 @@
   <ul class="section mobile-menu-list">
     {{ $currentNode := . }}
     {{ range .Site.Menus.mobile }}
-    <li class=""><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}">{{ .Name }}</a></li>
+    <li class=""><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} {{ .Name }}-menu-item" href="{{.URL}}">{{ .Name }}<ion-icon name="arrow-dropdown"></ion-icon></a></li>
     {{ end }}
     <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment Today!</a>
   </ul>

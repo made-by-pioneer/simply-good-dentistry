@@ -6856,6 +6856,9 @@ h1.is-size-small {
 h1.is-size-smaller {
   font-size: 3rem; }
 
+h1.is-size-smallerr {
+  font-size: 2.25rem; }
+
 h1.is-size-large {
   font-size: 4.5rem; }
 
@@ -6967,6 +6970,10 @@ blockquote.is-size-large {
 blockquote.is-size-larger {
   font-size: 3rem; }
 
+.contact-sgd-info-box {
+  padding-right: 10px;
+  padding-left: 10px; }
+
 .home-page {
   overflow: hidden; }
 
@@ -7005,13 +7012,14 @@ blockquote.is-size-larger {
   padding: 0px; }
 
 .custom-mobile-only-container {
-  padding: 0 50px 0 50px; }
+  padding: 0 60px 0 60px; }
 
 .contact-sgd-location {
   padding-top: 2rem;
   padding-bottom: 40px; }
 
 .contact-sgd-hours {
+  padding-top: 2rem;
   padding-bottom: 2rem; }
 
 .hero-title {
@@ -7030,7 +7038,6 @@ blockquote.is-size-larger {
 .why-different-content-box {
   padding-top: 1rem;
   max-width: 540px !important;
-  margin-left: auto;
   margin-right: auto; }
 
 .why-different-image {
@@ -7153,7 +7160,7 @@ blockquote.is-size-larger {
   font-size: 1.25rem; }
 
 .contact-sgd-button {
-  margin: 1rem 0rem 2rem .7rem; }
+  margin: 1rem 0rem 2rem 0rem; }
 
 .contact-sgd-info-title {
   color: #60BEB3; }
@@ -7255,7 +7262,7 @@ blockquote.is-size-larger {
 
 .mobile-menu-button {
   position: relative;
-  margin: 10rem 0 0 0; }
+  margin: 5rem 0 0 0; }
 
 .mobile-menu-toggle {
   background-color: #001D34;
@@ -7327,7 +7334,8 @@ blockquote.is-size-larger {
   padding-top: 120px; }
 
 .services-title {
-  color: #60BEB3; }
+  color: #60BEB3;
+  padding-top: 18px; }
 
 .reverse-row-order {
   flex-direction: column-reverse; }
@@ -7398,6 +7406,8 @@ blockquote.is-size-larger {
   padding-top: 50px; }
 
 @media only screen and (min-width: 769px) {
+  .why-different-content-box {
+    margin-left: auto; }
   .custom-left-offset {
     padding-left: 60px !important; }
   .custom-left-offset-buttons {
@@ -7423,9 +7433,12 @@ blockquote.is-size-larger {
     padding-bottom: 0px !important; }
   .contact-sgd-hours {
     padding-left: 60px;
-    padding-bottom: 0px !important; }
+    padding-bottom: 0px !important;
+    padding-top: 0px !important; }
   .contact-sgd-info-box {
-    display: none !important; }
+    display: none !important;
+    padding-right: 0px;
+    padding-left: 0px; }
   .contact-sgd-button {
     margin-top: 30px !important; }
   .contact-sgd-title {
