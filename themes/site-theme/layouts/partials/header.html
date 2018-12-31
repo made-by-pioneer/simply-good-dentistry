@@ -1,9 +1,34 @@
 <style>
 
+.inner-page-cta {
+    width: 100%;
+    border-radius: 0;
+    font-size: 18px;
+    margin-top: -12px;
+    max-width: 1440px;
+}
+
 .section {
     max-width: 1440px;
     margin-left: auto;
     margin-right: auto;
+}
+
+#inner-page-cta-section {
+    text-align: center;
+}
+
+.inner-services-section {
+    padding: 2rem 0 2rem 0;
+}
+
+.inner-services-section-first {
+    padding: 4rem 0 2rem 0;
+}
+
+.inner-services-section-last {
+    padding-top: 2rem;
+    padding-bottom: 6rem;
 }
 
 .services-dropdown {
@@ -22,7 +47,8 @@
 }
 
 .services-dropdown a:hover {
-    text-decoration: underline;
+    border-bottom-style: solid;
+    border-color: #fff;
 }
 
 .services-dropdown:hover {
@@ -184,7 +210,7 @@
     {{ range .Site.Menus.mobile }}
     <li class=""><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} {{ .Name }}-menu-item" href="{{.URL}}">{{ .Name }}</a></li>
     {{ end }}
-    <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment Today!</a>
+    <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment</a>
   </ul>
 </div>
 </div>

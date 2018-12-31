@@ -7053,7 +7053,8 @@ blockquote.is-size-larger {
   background-color: #001D34; }
 
 .footer-logo {
-  width: 200px !important; }
+  width: 200px !important;
+  margin-left: -10px; }
 
 .footer-logo-body {
   color: #fff; }
@@ -7262,11 +7263,12 @@ blockquote.is-size-larger {
 
 .mobile-menu-button {
   position: relative;
-  margin: 5rem 0 0 0; }
+  margin: 5rem 0 0 0;
+  font-size: 16px !important; }
 
 .mobile-menu-toggle {
   background-color: #001D34;
-  height: 800px; }
+  height: 1000px; }
 
 .desktop-menu-item {
   padding: 0 1rem 0 1rem;
@@ -7591,7 +7593,7 @@ blockquote.is-size-larger {
   .our-team-image img {
     width: 600px; }
   .services-image img {
-    width: 100%; }
+    width: 97%; }
   .services-container {
     margin-left: 0px !important; }
   .services-container-swapped {
