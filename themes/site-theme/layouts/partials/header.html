@@ -1,12 +1,19 @@
 <style>
 
+.section {
+    max-width: 1440px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
 .services-dropdown {
     display: none;
     position: absolute;
-    background-color: rgba(96,190,179,0.8);
-    right: 277px;
+    background-color: rgba(0,57,103,0.8);
+    right: 180px;
+    width: 250px;
     padding: 10px 20px 10px 20px;
-    font-size: 12px;
+    font-size: 1rem;
     border-radius: 10px;
 }
 
@@ -14,8 +21,16 @@
     color: #fff;
 }
 
+.services-dropdown a:hover {
+    text-decoration: underline;
+}
+
 .services-dropdown:hover {
     display: block;
+}
+
+.services-menu-list-item {
+    padding: 10px 0 10px 0;
 }
 
 .Services-menu-item:hover ~ .services-dropdown {
@@ -69,6 +84,35 @@
 
 .Services-menu-item ion-icon {
     display: inline-block !important;
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+.services-mobile {
+    height: 0px;
+    opacity: 0;
+    z-index: -999;
+    padding: 0 !important;
+    transition: .2s;
+    display: none;
+}
+
+.services-mobile a {
+    font-size: 28px;
+    margin: 0 0 .7rem 0;
+}
+
+.mobile-services-list-item {
+    margin: 0 0 .7rem 0;
+}
+
+.services-mobile-toggle {
+    height: 100%;
+    opacity: 1;
+    z-index: 2;
+    padding: 10px !important;
+    transition: .2s;
+    display: block;
 }
 
     @media only screen and (min-width: 769px) {
@@ -76,7 +120,11 @@
         
 }
 
-    @media only screen and (min-width: 1024px) {   
+    @media only screen and (min-width: 1024px) { 
+        
+    .Services-menu-item ion-icon {
+        font-size: 18px;
+    }
         
         
     }
@@ -123,9 +171,18 @@
   <a class="column is-6 has-text-right close-menu" v-on:click="menuToggle = !menuToggle"><ion-icon name="close"></ion-icon></a>
   </div>
   <ul class="section mobile-menu-list">
+    <li class=""><a class="Services-menu-item" v-on:click="servicesmobileToggle = !servicesmobileToggle">Services<ion-icon name="arrow-dropdown"></ion-icon></a></li>
+    <li class="services-mobile" v-bind:class="{ 'services-mobile-toggle' : servicesmobileToggle }">
+        {{ $currentNode := . }}
+        {{ range .Site.Menus.services }}
+        <div class="mobile-services-list-item">
+        <a class="is-family-heading has-text-weight-bold{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"><span class="">{{ .Name }}</a></span></a><br>
+        </div>
+         {{ end }}
+    </li>
     {{ $currentNode := . }}
     {{ range .Site.Menus.mobile }}
-    <li class=""><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} {{ .Name }}-menu-item" href="{{.URL}}">{{ .Name }}<ion-icon name="arrow-dropdown"></ion-icon></a></li>
+    <li class=""><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} {{ .Name }}-menu-item" href="{{.URL}}">{{ .Name }}</a></li>
     {{ end }}
     <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment Today!</a>
   </ul>

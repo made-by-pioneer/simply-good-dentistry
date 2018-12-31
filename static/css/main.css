@@ -7266,7 +7266,7 @@ blockquote.is-size-larger {
 
 .mobile-menu-toggle {
   background-color: #001D34;
-  height: 660px; }
+  height: 800px; }
 
 .desktop-menu-item {
   padding: 0 1rem 0 1rem;
@@ -7285,7 +7285,7 @@ blockquote.is-size-larger {
   background-image: url(/pageimg/SGD.About.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: -55px;
+  background-position-x: left;
   margin-top: -115px;
   padding-top: 0%;
   max-width: 1440px;
@@ -7323,7 +7323,7 @@ blockquote.is-size-larger {
   background-image: url(/pageimg/services-hero.jpg);
   background-repeat: no-repeat;
   background-size: cover;
-  background-position-x: right;
+  background-position-x: center;
   margin-top: -115px;
   padding-top: 0%;
   max-width: 1440px;
@@ -7388,7 +7388,7 @@ blockquote.is-size-larger {
   padding-top: 120px; }
 
 #patient-info-section {
-  padding: 6rem 1rem 6rem 1rem; }
+  padding: 60px 1rem 6rem 1rem; }
 
 .patient-info-subtitle {
   color: #60BEB3; }
@@ -7559,7 +7559,7 @@ blockquote.is-size-larger {
   #contact-sgd-section {
     max-width: 1024px;
     background-size: 512px;
-    height: 617px; }
+    height: 616px; }
   .content-sgd-columns-content {
     padding-right: 60px !important;
     border-top-width: 87px; }

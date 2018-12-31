@@ -5,10 +5,11 @@
   {{ range .Site.Menus.desktop }}
   <a class="is-family-heading has-text-weight-bold{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} desktop-menu-item {{ .Name }}-menu-item" href="{{.URL}}"><span class="desktop-menu-item-underline">{{ .Name }}<ion-icon name="arrow-dropdown"></ion-icon></a></span></a>
   {{ end }}
-  <div class="has-text-centered services-dropdown">
+  <div class="has-text-left services-dropdown">
       {{ $currentNode := . }}
       {{ range .Site.Menus.services }}
-      <a class="is-family-heading has-text-weight-bold{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"><span class="">{{ .Name }}</a></span></a><br>
+      <div class="services-menu-list-item">
+      <a class="is-family-heading has-text-weight-bold{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}}" href="{{.URL}}"><span class="">{{ .Name }}</a></span></a></div>
       {{ end }}
   </div>
 </div>
