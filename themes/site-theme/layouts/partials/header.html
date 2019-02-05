@@ -220,7 +220,7 @@
     {{ range .Site.Menus.mobile }}
     <li class=""><a class="{{if or ($currentNode.IsMenuCurrent "main" .) ($currentNode.HasMenuCurrent "main" .) }} active{{end}} {{ .Name }}-menu-item" href="{{.URL}}">{{ .Name }}</a></li>
     {{ end }}
-    <a class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment</a>
+    <a href="/contact-us#contact-form-wrapper" class="button is-primary is-rounded is-small is-fullwidth mobile-menu-button">Schedule an Appointment</a>
   </ul>
 </div>
 </div>
