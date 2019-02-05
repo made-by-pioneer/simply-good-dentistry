@@ -6970,6 +6970,24 @@ blockquote.is-size-large {
 blockquote.is-size-larger {
   font-size: 3rem; }
 
+#about-us-values-section {
+  padding-top: 60px;
+  padding-bottom: 120px; }
+
+.about-us-values-columns .column {
+  margin: auto; }
+
+.about-us-values-first-column {
+  padding-bottom: 30px; }
+
+.our-team-first-column {
+  padding-bottom: 30px;
+  margin: auto; }
+
+.doctor-info-column {
+  margin: auto;
+  padding: 2rem 0 4rem 0; }
+
 .contact-sgd-info-box {
   padding-right: 10px;
   padding-left: 10px; }
@@ -7006,7 +7024,10 @@ blockquote.is-size-larger {
   display: inline; }
 
 .section {
-  padding: 0px; }
+  padding: 0px;
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
 
 .column {
   padding: 0px; }
@@ -7060,18 +7081,24 @@ blockquote.is-size-larger {
   color: #fff; }
 
 .footer-menu-item {
-  color: #F1F9F9; }
+  color: #60BEB3;
+  padding: .2rem 0 .2rem 0 !important; }
 
 .footer-services-title {
   color: #60BEB3;
   text-decoration: underline;
-  text-decoration-color: #fff; }
+  text-decoration-color: #fff;
+  text-decoration: none !important; }
 
 .footer-services {
-  color: #fff; }
+  color: #fff;
+  padding: .2rem 0 .2rem 0 !important;
+  font-size: 14px !important;
+  display: block; }
 
 .footer-schedule-title {
-  color: #60BEB3; }
+  color: #60BEB3;
+  padding: 0 0 .5rem 0 !important; }
 
 .footer-schedule-body {
   color: #fff; }
@@ -7304,7 +7331,8 @@ blockquote.is-size-larger {
   color: #60BEB3; }
 
 .we-value-list {
-  list-style: inherit; }
+  list-style: inherit;
+  padding-left: 20px; }
 
 .we-value-item {
   padding: .5rem 0 .5rem 0; }
@@ -7319,7 +7347,8 @@ blockquote.is-size-larger {
   color: #60BEB3; }
 
 .doctor-memberships-no-logo {
-  color: #999; }
+  color: #999;
+  height: 40px; }
 
 #services-hero-wrapper {
   background-image: url(/pageimg/services-hero.jpg);
@@ -7361,7 +7390,7 @@ blockquote.is-size-larger {
   border-radius: 10px; }
 
 .form-submit-button {
-  margin-top: 10px; }
+  margin: 10px auto auto auto; }
 
 #contact-form-wrapper {
   padding: 4rem 1rem 4rem 1rem; }
@@ -7373,7 +7402,7 @@ blockquote.is-size-larger {
   padding: 4rem 1rem 4rem 1rem; }
 
 .business-info-subsection {
-  padding: 2rem; }
+  padding: 2rem 0 2rem 10px !important; }
 
 #patients-hero-wrapper {
   background-image: url(/pageimg/SGD.Patients.jpg);
@@ -7396,16 +7425,255 @@ blockquote.is-size-larger {
   color: #60BEB3; }
 
 .patient-info-list {
-  list-style: inherit; }
+  list-style: inherit;
+  padding-left: 20px; }
 
 .patient-resources-title {
   padding-bottom: 1rem; }
 
 .patient-resources-item {
-  padding: 1rem 0 0 0; }
+  padding: 1rem 0 0 0;
+  display: block;
+  color: #222; }
 
 .doctor-memberships-title {
   padding-top: 50px; }
+
+.inner-page-cta {
+  width: 100%;
+  border-radius: 0;
+  font-size: 18px;
+  margin-top: -12px;
+  max-width: 1440px; }
+
+#inner-page-cta-section {
+  text-align: center; }
+
+.inner-services-section {
+  padding: 2rem 0 2rem 0; }
+
+.inner-services-section-first {
+  padding: 4rem 0 2rem 0; }
+
+.inner-services-section-last {
+  padding-top: 2rem;
+  padding-bottom: 6rem; }
+
+.services-dropdown {
+  display: none;
+  position: absolute;
+  background-color: rgba(0, 57, 103, 0.8);
+  right: 180px;
+  width: 250px;
+  padding: 10px 20px 10px 20px;
+  font-size: 1rem;
+  border-radius: 10px; }
+
+.services-dropdown a {
+  color: #fff; }
+
+.services-dropdown a:hover {
+  border-bottom-style: solid;
+  border-color: #fff; }
+
+.services-dropdown:hover {
+  display: block; }
+
+.services-menu-list-item {
+  padding: 10px 0 10px 0; }
+
+.Services-menu-item:hover ~ .services-dropdown {
+  display: block !important; }
+
+#header-functions {
+  max-width: 1440px;
+  margin: auto; }
+
+.desktop-menu-item:hover {
+  color: #fff; }
+
+.desktop-menu-item-underline:hover {
+  border-bottom-style: solid;
+  border-color: #60BEB3;
+  color: #fff; }
+
+.inner-page .desktop-menu-item-underline:hover {
+  color: #222 !important; }
+
+.inner-page .desktop-menu-item:hover {
+  color: #222 !important; }
+
+.box:hover {
+  box-shadow: none !important; }
+
+.box:focus {
+  box-shadow: none !important; }
+
+.get-directions {
+  color: #4a4a4a; }
+
+.get-directions:hover {
+  color: #4a4a4a;
+  text-decoration: underline;
+  text-decoration-color: #60BEB3; }
+
+.mobile-menu-list ion-icon, .desktop-menu ion-icon {
+  display: none; }
+
+.Services-menu-item ion-icon {
+  display: inline-block !important;
+  vertical-align: middle;
+  font-size: 30px; }
+
+.services-mobile {
+  height: 0px;
+  opacity: 0;
+  z-index: -999;
+  padding: 0 !important;
+  transition: .2s;
+  display: none; }
+
+.services-mobile a {
+  font-size: 28px;
+  margin: 0 0 .7rem 0; }
+
+.mobile-services-list-item {
+  margin: 0 0 .7rem 0; }
+
+.services-mobile-toggle {
+  height: 100%;
+  opacity: 1;
+  z-index: 2;
+  padding: 10px !important;
+  transition: .2s;
+  display: block; }
+
+.thank-you-box {
+  padding: 100px 0 100px 0;
+  text-align: center;
+  margin: auto; }
+
+.thank-you-text {
+  padding-bottom: 20px; }
+
+.inner-page #footer-section {
+  margin-top: 60px; }
+
+.footer-logo-column {
+  margin: auto; }
+
+.footer-services:hover {
+  color: #fff; }
+
+.footer-services-underline:hover {
+  border-bottom-style: solid;
+  border-color: #60BEB3; }
+
+.footer-links {
+  padding-top: 20px;
+  padding-left: 120px;
+  display: none; }
+
+.footer-title {
+  font-size: 16px !important; }
+
+.footer-social-title {
+  font-size: 14px !important; }
+
+.footer-menu-item:hover {
+  color: #60BEB3; }
+
+.footer-services-column {
+  padding-top: 20px;
+  display: none; }
+
+.footer-schedule-column {
+  padding-top: 60px;
+  padding-bottom: 60px;
+  margin: auto; }
+
+#post-footer {
+  background-color: #001D34; }
+
+.custom-footer-container {
+  padding: 0 60px 0 60px;
+  max-width: 1440px;
+  margin: auto; }
+
+.footer-icon-column a {
+  color: #fff; }
+
+.footer-icon-column a:hover {
+  color: #60BEB3; }
+
+#elevator-button {
+  position: fixed;
+  right: 50px;
+  bottom: 20px;
+  transition: .2s; }
+
+.hidegotoTop {
+  right: -100px !important;
+  transition: .2s; }
+
+#elevator-button:hover {
+  cursor: pointer;
+  padding-bottom: 5px; }
+
+.contact-form-container {
+  padding: 0 20px 0 20px; }
+
+.input-column {
+  margin: auto;
+  padding: 0 0 1rem 0; }
+
+.patient-info-container {
+  padding: 0 40px 0 40px; }
+
+.patient-info-columns .column {
+  margin: auto; }
+
+.patient-resources-item:hover {
+  color: #222; }
+
+.patient-resources-item-underline:hover {
+  border-bottom-style: solid;
+  border-color: #60BEB3; }
+
+#home-hero-wave-section {
+  max-width: 1440px;
+  margin-left: auto;
+  margin-right: auto; }
+
+.button a {
+  color: #fff; }
+
+.button.is-rounded {
+  padding: 20px 1rem 20px 1rem !important;
+  font-weight: 700; }
+
+.home-services-underline:hover {
+  border-bottom-style: solid;
+  border-color: #60BEB3; }
+
+.call-appointment {
+  padding-right: 4px; }
+
+.schedule-appointment {
+  padding-right: 4px;
+  display: none; }
+
+.hero-section-body {
+  padding: .3rem 0 .8rem 0; }
+
+.home-services-title-desktop {
+  display: none; }
+
+.home-services-title-mobile {
+  padding-top: 20px; }
+
+.home-services-content-box {
+  padding-top: 40px; }
 
 @media only screen and (min-width: 769px) {
   .why-different-content-box {
@@ -7515,11 +7783,13 @@ blockquote.is-size-larger {
   .inner-page li {
     display: list-item !important; }
   .about-us-values-body {
-    padding-left: 50px; }
+    padding-left: 60px; }
   .we-value-title {
     padding: 1rem 0 1rem 0; }
   .doctor-about-body {
-    padding-left: 50px; }
+    padding-left: 60px; }
+  .our-team-body {
+    padding-left: 60px; }
   #services-hero-wrapper {
     background-position-x: 0px;
     padding-top: 0%;
@@ -7535,7 +7805,21 @@ blockquote.is-size-larger {
   #patients-hero-wrapper {
     background-position-x: 0px;
     padding-top: 0%;
-    padding-bottom: 8%; } }
+    padding-bottom: 8%; }
+  .contact-form-container {
+    padding: 0 60px 0 60px; }
+  .patient-info-container {
+    padding: 0 60px 0 60px; }
+  .call-appointment {
+    display: none; }
+  .schedule-appointment {
+    display: inline-flex; }
+  .home-services-title-desktop {
+    display: inline-block; }
+  .home-services-title-mobile {
+    display: none; }
+  .home-services-content-box {
+    padding-top: 0px; } }
 
 @media only screen and (min-width: 1024px) {
   .inner-page-top-wrapper {
@@ -7599,13 +7883,31 @@ blockquote.is-size-larger {
   .services-container-swapped {
     margin-right: 0px !important; }
   .services-body {
-    padding-left: 50px; } }
+    padding-left: 50px; }
+  .about-us-values-first-column {
+    padding-bottom: 0px; }
+  .about-us-values-columns .column {
+    margin-top: 0;
+    margin-left: 0; }
+  .staff-photo-fix {
+    padding-top: 18px; }
+  .Services-menu-item ion-icon {
+    font-size: 18px; }
+  .inner-page #footer-section {
+    margin-top: 60px; }
+  .patient-info-columns .column {
+    margin-top: 0; }
+  .services-learn-more {
+    margin-left: 55px; } }
 
 @media only screen and (min-width: 1216px) {
   .custom-mobile-only-container {
     padding: 0; }
   .footer-schedule-column {
-    padding-left: 5%; }
+    padding-left: 5%;
+    padding-top: 20px !important;
+    padding-bottom: 0px;
+    margin: 0; }
   .home-services-title {
     padding: 50px; }
   .custom-left-offset-double {
@@ -7649,7 +7951,20 @@ blockquote.is-size-larger {
   .why-different-body {
     padding-left: 50px; }
   .why-different-button {
-    margin-left: 50px; } }
+    margin-left: 50px; }
+  .doctor-info-column {
+    margin: 0;
+    padding-left: 60px; }
+  .about-us-values-first-column {
+    padding-left: 60px; }
+  .our-team-first-column {
+    padding-left: 200px;
+    margin: 0;
+    padding-bottom: 0px; }
+  .footer-links {
+    display: block; }
+  .footer-services-column {
+    display: block; } }
 
 @media only screen and (min-width: 1408px) {
   .section {
@@ -7679,4 +7994,12 @@ blockquote.is-size-larger {
     height: 336px;
     padding-top: 2.2rem; }
   .footer-logo {
-    width: 131px; } }
+    width: 131px; }
+  .staff-photo-fix {
+    padding-top: 5px; }
+  .contact-form-container {
+    padding-left: 180px;
+    padding-right: 180px; }
+  .patient-info-container {
+    padding-left: 180px;
+    padding-right: 180px; } }
