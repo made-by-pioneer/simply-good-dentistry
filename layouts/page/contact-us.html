@@ -40,31 +40,33 @@
     <div class="custom-mobile-only-container contact-form-container">
         <div class="columns is-multiline is-12-mobile contact-form-columns">
             <div class="column is-12-tablet is-6-widescreen contact-form-column">
-            <form class="columns is-mobile is-multiline">
+            <form class="columns is-mobile is-multiline" action="/thank-you" netlify-honeypot="field-for-coolguys" name="appointment-form" method="POST" netlify>
                 <div class="column is-11-mobile is-5-tablet input-column">
+                    <input type="hidden" name="subject" value="New Appointment Request" />
                     <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Name</h5></label>
-                    <input class="input is-primary is-rounded" type="text" placeholder="Your Name Here..">
+                    <input class="input is-primary is-rounded" type="text" placeholder="Your Name Here.." name="name" required>
                 </div>
                 <div class="column is-11-mobile is-5-tablet input-column">
                     <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Email</h5></label>
-                    <input class="input is-primary is-rounded" type="email" placeholder="Your Email Here..">
+                    <input class="input is-primary is-rounded" type="email" placeholder="Your Email Here.." name="email" required>
                 </div>
                 <div class="column is-11-mobile is-5-tablet input-column">
                     <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Phone</h5></label>
-                    <input class="input is-primary is-rounded" type="text" placeholder="Your Phone Number Here..">
+                    <input class="input is-primary is-rounded" type="text" placeholder="Your Phone Number Here.." name="phone-number">
                 </div>
+                <input type="text" name="field-for-coolguys" style="display:none" />
                 <div class="column is-11-mobile is-5-tablet input-column">
                     <label><h5 class="is-family-heading is-size-default has-text-weight-bold">How can we help?</h5></label>
                     <div class="select is-primary is-rounded">
                         <select>
-                        <option>General Question</option>
-                        <option>Other Question</option>
+                        <option name="General Question">General Question</option>
+                        <option name="Other Question">Other Question</option>
                         </select>
                     </div>
                 </div>
                 <div class="column is-11 input-column">
                     <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Your Message</h5></label>
-                    <textarea class="input is-primary text-area" type="text" placeholder="Your Message Here.."></textarea>
+                    <textarea class="input is-primary text-area" type="text" placeholder="Your Message Here.." name="message" required></textarea>
                 </div>
                 <div class="column is-11 form-submit-button">
                 <div class="has-text-right control">
