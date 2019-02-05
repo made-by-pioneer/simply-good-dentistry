@@ -1,4 +1,4 @@
-baseURL = "http://simplygooddentistry.com/"
+baseURL = "https://simplygooddentistry.com/"
 languageCode = "en-us"
 theme = "site-theme"
 title = "Simply Good Dentistry"
