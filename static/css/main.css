@@ -7649,7 +7649,6 @@ blockquote.is-size-larger {
   color: #fff; }
 
 .button.is-rounded {
-  padding: 20px 1rem 20px 1rem !important;
   font-weight: 700; }
 
 .home-services-underline:hover {
@@ -7674,6 +7673,9 @@ blockquote.is-size-larger {
 
 .home-services-content-box {
   padding-top: 40px; }
+
+.our-team-columns {
+  padding-top: 60px; }
 
 @media only screen and (min-width: 769px) {
   .why-different-content-box {
