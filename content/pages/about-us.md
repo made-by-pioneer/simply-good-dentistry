@@ -21,9 +21,18 @@ Top_List_Items:
   item_6: Solid and well-built relationships with our patients and our team members
 Les_Photo: "/pageimg/LesKicklighter.headshot.jpg"
 Les_About_Paragraph:
-  Paragraph_1: Dr. Kicklighter, a native of Reidsville, Georgia, moved to Statesboro in elementary school. In high school he achieved the rank of Eagle Scout and in 1993 he graduated from Statesboro High School as an honor graduate.
-  Paragraph_2: He graduated with a Bachelor of Science in Biology from Georgia Southern University in 1997. He graduated with his Doctorate of Dental Medicine from the Medical College of Georgia in 2001. In 2015-2016 Dr. Kicklighter completed a mini residency at Tufts University in Boston, Massachusetts for Dental Sleep Medicine. He has been taking care of patients in the Statesboro area since 2001.
-  Paragraph_3: Dr. Kicklighter has been married to his wife Anna since 2002 and they have four boys. In his spare time he enjoys coaching soccer and being an inventor.  Dr. Kicklighter is a member of Connection Church and he strives to live out his faith daily.
+  Paragraph_1: Dr. Kicklighter, a native of Reidsville, Georgia, moved to Statesboro
+    in elementary school. In high school he achieved the rank of Eagle Scout and in
+    1993 he graduated from Statesboro High School as an honor graduate.
+  Paragraph_2: He graduated with a Bachelor of Science in Biology from Georgia Southern
+    University in 1997. He graduated with his Doctorate of Dental Medicine from the
+    Medical College of Georgia in 2001. In 2015-2016 Dr. Kicklighter completed a mini
+    residency at Tufts University in Boston, Massachusetts for Dental Sleep Medicine.
+    He has been taking care of patients in the Statesboro area since 2001.
+  Paragraph_3: Dr. Kicklighter has been married to his wife Anna since 2002 and they
+    have four boys. In his spare time he enjoys coaching soccer and being an inventor.  Dr.
+    Kicklighter is a member of Connection Church and he strives to live out his faith
+    daily.
 Membership_Logos:
   Logo_1: "/pageimg/mem-logo-1.PNG"
   Logo_2: "/pageimg/mem-logo-2.PNG"

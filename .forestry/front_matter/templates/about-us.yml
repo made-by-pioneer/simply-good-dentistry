@@ -239,3 +239,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- content/pages/about-us.md
