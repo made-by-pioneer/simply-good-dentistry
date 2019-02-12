@@ -99,12 +99,12 @@
         <div class="column is-12-mobile is-10-tablet is-4-desktop is-offset-2-desktop we-value-section">
             <h4 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold we-value-title">{{- .Params.Top_List_Title -}}</h4>
             <ul class="we-value-list">
-                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_1st -}}</li>
-                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_2nd -}}</li>
-                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_3rd -}}</li>
-                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_4th -}}</li>
-                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_5th -}}</li>
-                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_6th -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.top_list_items.item_1 -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.top_list_items.item_2 -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.top_list_items.item_3 -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.top_list_items.item_4 -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.top_list_items.item_5 -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.top_list_items.item_6 -}}</li>
             </ul>
         </div>
       </div>
@@ -119,22 +119,22 @@
         </figure>
         <div class="column is-10-tablet is-5-desktop doctor-info-column">
         <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold doctor-about-subtitle">Dr. Les Kicklighter</h2>
-        <p class="is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph_1 -}}</p>
-        <p class="box is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph_2 -}}</p>
-        <p class="is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph_3 -}}</p>
+        <p class="is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph.paragraph_1 -}}</p>
+        <p class="box is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph.paragraph_2 -}}</p>
+        <p class="is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph.paragraph_3 -}}</p>
         <h3 class="column is-12-tablet is-family-heading is-size-default has-text-weight-bold doctor-memberships-title">Memberships</h3>
         <div class="columns is-mobile is-multiline">
         <figure class="column is-6 doctor-memberships-image">
-            <img src="{{- .Params.Mem_Logo_1 -}}">
+            <img src="{{- .Params.Membership_Logos.logo_1 -}}">
         </figure>
         <figure class="column is-6 doctor-memberships-image">
-            <img src="{{- .Params.Mem_Logo_2 -}}">
+            <img src="{{- .Params.Membership_Logos.logo_2 -}}">
         </figure>
         <figure class="column is-6 doctor-memberships-image">
-            <img src="{{- .Params.Mem_Logo_3 -}}">
+            <img src="{{- .Params.Membership_Logos.logo_3 -}}">
         </figure>
         <figure class="column is-6 doctor-memberships-image">
-            <img src="{{- .Params.Mem_Logo_4 -}}">
+            <img src="{{- .Params.Membership_Logos.logo_4 -}}">
         </figure>
         </div>
         <div class="column is-12 has-text-left-desktop">
@@ -153,7 +153,7 @@
         <p class="box is-family-primary is-size-default our-team-body"><span class="has-text-weight-bold">{{ .Params.staff_details.staff_1.staff_name }}</span> - {{ .Params.staff_details.staff_1.staff_title }} <br> <span class="has-text-weight-bold">{{ .Params.staff_details.staff_2.staff_name }}</span> - {{ .Params.staff_details.staff_2.staff_title }} <br> <span class="has-text-weight-bold">{{ .Params.staff_details.staff_3.staff_name }}</span> - {{ .Params.staff_details.staff_3.staff_title }} <br> <span class="has-text-weight-bold">{{ .Params.staff_details.staff_4.staff_name }}</span> - {{ .Params.staff_details.staff_4.staff_title }} <br> <span class="has-text-weight-bold">{{ .Params.staff_details.staff_5.staff_name }}</span> - {{ .Params.staff_details.staff_5.staff_title }} <br> <span class="has-text-weight-bold">{{ .Params.staff_details.staff_6.staff_name }}</span> - {{ .Params.staff_details.staff_6.staff_title }}</p>
         </div>
         <figure class="column is-6-tablet is-6-widescreen has-text-centered has-text-right-desktop our-team-image">
-          <img src="{{- .Params.Staff_Photo -}}" max-width="300px">
+          <img src="{{- .Params.Staff_details.Staff_Photo -}}" max-width="300px">
         </figure>
       </div>
   </div>
