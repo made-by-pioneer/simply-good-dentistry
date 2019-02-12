@@ -84,7 +84,7 @@
 <section id="about-hero-wrapper" class="section columns inner-page-top-wrapper">
     <div class="column is-10-mobile is-offset-1-mobile is-5-widescreen inner-page-hero-box about-hero-box">
         <h1 class="is-family-heading is-size-smallerr is-line-height-reduced has-text-weight-bold about-hero-title">
-            About Us
+            {{- .Params.Page_Title -}}
         </h1>
     </div>
 </section>
@@ -93,18 +93,18 @@
   <div class="custom-container about-us-values-container">
       <div class="columns is-multiline is-12-mobile about-us-values-columns">
         <div class="column is-10-tablet is-6-desktop about-us-values-first-column">
-            <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold about-us-values-subtitle">Simply Commited</h2>
-            <p class="box is-family-primary is-size-default about-us-values-body">Our mission at this office is to deliver the finest, most cost effective health care treatment available today for you and your family. We will only recommend and perform treatment that we would recommend and perform for our own family members.</p>
+            <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold about-us-values-subtitle">{{- .Params.Top_Blurb_Title -}}</h2>
+            <p class="box is-family-primary is-size-default about-us-values-body">{{- .Params.Top_Blurb_Paragraph -}}</p>
         </div>
         <div class="column is-12-mobile is-10-tablet is-4-desktop is-offset-2-desktop we-value-section">
-            <h4 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold we-value-title">We Value</h4>
+            <h4 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold we-value-title">{{- .Params.Top_List_Title -}}</h4>
             <ul class="we-value-list">
-                <li class="is-family-heading is-size-default we-value-item">Keeping things simple</li>
-                <li class="is-family-heading is-size-default we-value-item">Good positive attitudes</li>
-                <li class="is-family-heading is-size-default we-value-item">Educating and equipping our patients to achieve oral wellness</li>
-                <li class="is-family-heading is-size-default we-value-item">Impecable cleanliness and safety in our work environment</li>
-                <li class="is-family-heading is-size-default we-value-item">The most productive and efficient use of our time and our patients time</li>
-                <li class="is-family-heading is-size-default we-value-item">Solid and well-built relationships with our patients and our team members</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_1st -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_2nd -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_3rd -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_4th -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_5th -}}</li>
+                <li class="is-family-heading is-size-default we-value-item">{{- .Params.We_Value_6th -}}</li>
             </ul>
         </div>
       </div>
@@ -115,26 +115,26 @@
   <div class="custom-mobile-only-container doctor-about-container">
       <div class="columns is-multiline is-12-mobile doctor-about-columns">
         <figure class="column is-12-tablet is-5-desktop has-text-centered doctor-about-image">
-          <img src="/pageimg/LesKicklighter.headshot.jpg" width="300px">
+          <img src="{{- .Params.Les_Photo -}}" max-width="300px">
         </figure>
         <div class="column is-10-tablet is-5-desktop doctor-info-column">
         <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold doctor-about-subtitle">Dr. Les Kicklighter</h2>
-        <p class="is-family-primary is-size-default doctor-about-body">Dr. Kicklighter, a native of Reidsville, Georgia, moved to Statesboro in elementary school. In high school he achieved the rank of Eagle Scout and in 1993 he graduated from Statesboro High School as an honor graduate.</p>
-        <p class="box is-family-primary is-size-default doctor-about-body">He graduated with a Bachelor of Science in Biology from Georgia Southern University in 1997. He graduated with his Doctorate of Dental Medicine from the Medical College of Georgia in 2001.  In 2015-2016 Dr. Kicklighter completed a mini residency at Tufts University in Boston, Massachusetts for Dental Sleep Medicine. He has been taking care of patients in the Statesboro area since 2001.</p>
-        <p class="is-family-primary is-size-default doctor-about-body">Dr. Kicklighter has been married to his wife Anna since 2002 and they have four boys.  In his spare time he enjoys coaching soccer and being an inventor.  Dr. Kicklighter is a member of Connection Church and he strives to live out his faith daily.</p>
+        <p class="is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph_1 -}}</p>
+        <p class="box is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph_2 -}}</p>
+        <p class="is-family-primary is-size-default doctor-about-body">{{- .Params.Les_About_Paragraph_3 -}}</p>
         <h3 class="column is-12-tablet is-family-heading is-size-default has-text-weight-bold doctor-memberships-title">Memberships</h3>
         <div class="columns is-mobile is-multiline">
         <figure class="column is-6 doctor-memberships-image">
-            <img src="/pageimg/mem-logo-1.PNG">
+            <img src="{{- .Params.Mem_Logo_1 -}}">
         </figure>
         <figure class="column is-6 doctor-memberships-image">
-            <img src="/pageimg/mem-logo-2.PNG">
+            <img src="{{- .Params.Mem_Logo_2 -}}">
         </figure>
         <figure class="column is-6 doctor-memberships-image">
-            <img src="/pageimg/mem-logo-3.PNG">
+            <img src="{{- .Params.Mem_Logo_3 -}}">
         </figure>
         <figure class="column is-6 doctor-memberships-image">
-            <img src="/pageimg/mem-logo-4.PNG">
+            <img src="{{- .Params.Mem_Logo_4 -}}">
         </figure>
         </div>
         <div class="column is-12 has-text-left-desktop">
@@ -150,10 +150,10 @@
       <div class="columns is-multiline is-12-mobile our-team-columns">
         <div class="column is-12-mobile is-6-tablet is-6-widescreen our-team-first-column">
         <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold our-team-subtitle">Our Team</h2>
-        <p class="box is-family-primary is-size-default our-team-body"><span class="has-text-weight-bold">Donna Phillips</span> - Office Administrator <br> <span class="has-text-weight-bold">Debbie Vives</span> - Receptionist <br> <span class="has-text-weight-bold">Tiffany Massey</span> - R.D.H. <br> <span class="has-text-weight-bold">Joie Parrish</span> - R.D.H. <br> <span class="has-text-weight-bold">Myah Freeman</span> - C.D.A. <br> <span class="has-text-weight-bold">Gina Gordy</span> - C.D.A.</p>
+        <p class="box is-family-primary is-size-default our-team-body"><span class="has-text-weight-bold">{{- .Params.Staff_Name_1 -}}</span> - {{- .Params.Staff_Title_1 -}} <br> <span class="has-text-weight-bold">{{- .Params.Staff_Name_2 -}}</span> - {{- .Params.Staff_Title_2 -}} <br> <span class="has-text-weight-bold">{{- .Params.Staff_Name_3 -}}</span> - {{- .Params.Staff_Title_3 -}} <br> <span class="has-text-weight-bold">{{- .Params.Staff_Name_4 -}}</span> - {{- .Params.Staff_Title_4 -}} <br> <span class="has-text-weight-bold">{{- .Params.Staff_Name_5 -}}</span> - {{- .Params.Staff_Title_5 -}} <br> <span class="has-text-weight-bold">{{- .Params.Staff_Name_6 -}}</span> - {{- .Params.Staff_Title_6 -}}</p>
         </div>
         <figure class="column is-6-tablet is-6-widescreen has-text-centered has-text-right-desktop our-team-image">
-          <img src="/pageimg/SimplyGoodDentistry.StaffPhoto.jpg" width="300px">
+          <img src="{{- .Params.Staff_Photo -}}" max-width="300px">
         </figure>
       </div>
   </div>

@@ -5,4 +5,35 @@ url: /about-us
 title: 'About Us'
 params:
 page-status: 'inner-page'
+Page_Title: About Us
+Top_Blurb_Title: Simply Commited
+Top_Blurb_Paragraph: Our mission at this office is to deliver the finest, most cost effective health care treatment available today for you and your family. We will only recommend and perform treatment that we would recommend and perform for our own family members.
+Top_List_Title: We Value
+We_Value_1st: Keeping things simple
+We_Value_2nd: Good positive attitudes
+We_Value_3rd: Educating and equipping our patients to achieve oral wellness
+We_Value_4th: Impecable cleanliness and safety in our work environment
+We_Value_5th: The most productive and efficient use of our time and our patients time
+We_Value_6th: Solid and well-built relationships with our patients and our team members
+Les_Photo: /pageimg/LesKicklighter.headshot.jpg
+Les_About_Paragraph_1: Dr. Kicklighter, a native of Reidsville, Georgia, moved to Statesboro in elementary school. In high school he achieved the rank of Eagle Scout and in 1993 he graduated from Statesboro High School as an honor graduate.
+Les_About_Paragraph_2: He graduated with a Bachelor of Science in Biology from Georgia Southern University in 1997. He graduated with his Doctorate of Dental Medicine from the Medical College of Georgia in 2001. In 2015-2016 Dr. Kicklighter completed a mini residency at Tufts University in Boston, Massachusetts for Dental Sleep Medicine. He has been taking care of patients in the Statesboro area since 2001.
+Les_About_Paragraph_3: Dr. Kicklighter has been married to his wife Anna since 2002 and they have four boys. In his spare time he enjoys coaching soccer and being an inventor.  Dr. Kicklighter is a member of Connection Church and he strives to live out his faith daily.
+Mem_Logo_1: /pageimg/mem-logo-1.PNG
+Mem_Logo_2: /pageimg/mem-logo-2.PNG
+Mem_Logo_3: /pageimg/mem-logo-3.PNG
+Mem_Logo_4: /pageimg/mem-logo-4.PNG
+Staff_Photo: /pageimg/SimplyGoodDentistry.StaffPhoto.jpg
+Staff_Name_1: Donna Phillips
+Staff_Title_1: Office Administrator
+Staff_Name_2: Debbie Vives
+Staff_Title_2: Receptionist
+Staff_Name_3: Tiffany Massey
+Staff_Title_3: R.D.H.
+Staff_Name_4: Joie Parrish
+Staff_Title_4: R.D.H.
+Staff_Name_5: Myah Freeman
+Staff_Title_5: C.D.A.
+Staff_Name_6: Gina Gordy
+Staff_Title_6: C.D.A.
 ---
