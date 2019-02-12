@@ -10,7 +10,7 @@ Top_Blurb_Title: Simply Commited
 Top_Blurb_Paragraph: Our mission at this office is to deliver the finest, most cost
   effective health care treatment available today for you and your family. We will
   only recommend and perform treatment that we would recommend and perform for our
-  own family members
+  own family members.
 Top_List_Title: We Value
 We_Value_1st: Keeping things simple
 We_Value_2nd: Good positive attitudes
