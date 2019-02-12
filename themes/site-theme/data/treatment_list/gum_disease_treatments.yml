@@ -1,6 +1,9 @@
 ---
 gum_disease_treatments:
 - treatment:
+    treatment_name: Treatment Name
+    treatment_description: Treatment DES
+- treatment:
     treatment_name: Scaling and Root Planing
     treatment_description: Also called a deep cleaning, this treatment is performed
       to remove hardened plaque that has become attached to the tooth roots beneath
