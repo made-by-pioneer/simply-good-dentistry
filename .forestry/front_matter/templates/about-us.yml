@@ -1,0 +1,227 @@
+---
+label: About Us
+hide_body: false
+is_partial: false
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: true
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: ''
+- name: url
+  label: Url
+  type: text
+  hidden: true
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: true
+  default: ''
+- name: page-status
+  label: Page status
+  type: text
+  hidden: true
+  default: ''
+- name: Page_Title
+  label: Page title
+  type: text
+  hidden: false
+  default: ''
+- name: Top_Blurb_Title
+  label: Top blurb title
+  type: text
+  hidden: false
+  default: ''
+- name: Top_Blurb_Paragraph
+  label: Top blurb paragraph
+  type: textarea
+  hidden: false
+  default: ''
+- name: Top_List_Title
+  label: Top list title
+  type: text
+  hidden: false
+  default: ''
+- name: We_Value_1st
+  label: We value 1st
+  type: text
+  hidden: false
+  default: ''
+- name: We_Value_2nd
+  label: We value 2nd
+  type: text
+  hidden: false
+  default: ''
+- name: We_Value_3rd
+  label: We value 3rd
+  type: text
+  hidden: false
+  default: ''
+- name: We_Value_4th
+  label: We value 4th
+  type: text
+  hidden: false
+  default: ''
+- name: We_Value_5th
+  label: We value 5th
+  type: text
+  hidden: false
+  default: ''
+- name: We_Value_6th
+  label: We value 6th
+  type: text
+  hidden: false
+  default: ''
+- name: Les_Photo
+  label: Les photo
+  type: file
+  hidden: false
+  default: ''
+- name: Les_About_Paragraph_1
+  label: Les about paragraph 1
+  type: textarea
+  hidden: false
+  default: ''
+- name: Les_About_Paragraph_2
+  label: Les about paragraph 2
+  type: textarea
+  hidden: false
+  default: ''
+- name: Les_About_Paragraph_3
+  label: Les about paragraph 3
+  type: textarea
+  hidden: false
+  default: ''
+- name: Mem_Logo_1
+  label: Mem logo 1
+  type: text
+  hidden: false
+  default: ''
+- name: Mem_Logo_2
+  label: Mem logo 2
+  type: text
+  hidden: false
+  default: ''
+- name: Mem_Logo_3
+  label: Mem logo 3
+  type: text
+  hidden: false
+  default: ''
+- name: Mem_Logo_4
+  label: Mem logo 4
+  type: text
+  hidden: false
+  default: ''
+- name: Staff_Photo
+  label: Staff photo
+  type: file
+  hidden: false
+  default: ''
+- name: Staff_Details
+  label: Staff details
+  type: field_group
+  fields:
+  - name: Staff_1
+    label: Staff 1
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_2
+    label: Staff 2
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_3
+    label: Staff 3
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_4
+    label: Staff 4
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_5
+    label: Staff 5
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_6
+    label: Staff 6
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
