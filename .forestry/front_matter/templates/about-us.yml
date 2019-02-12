@@ -1,0 +1,245 @@
+---
+label: About Us
+hide_body: 
+is_partial: 
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: url
+  label: Url
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: page-status
+  label: Page status
+  type: text
+  hidden: false
+  default: ''
+- name: Page_Title
+  label: Page title
+  type: text
+  hidden: false
+  default: ''
+- name: Top_Blurb_Title
+  label: Top blurb title
+  type: text
+  hidden: false
+  default: ''
+- name: Top_Blurb_Paragraph
+  label: Top blurb paragraph
+  type: textarea
+  hidden: false
+  default: ''
+- name: Top_List_Title
+  label: Top list title
+  type: text
+  hidden: false
+  default: ''
+- name: Top_List_Items
+  label: Top list items
+  type: field_group
+  fields:
+  - name: item_1
+    label: Item 1
+    type: text
+    hidden: false
+    default: ''
+  - name: item_2
+    label: Item 2
+    type: text
+    hidden: false
+    default: ''
+  - name: item_3
+    label: Item 3
+    type: text
+    hidden: false
+    default: ''
+  - name: item_4
+    label: Item 4
+    type: text
+    hidden: false
+    default: ''
+  - name: item_5
+    label: Item 5
+    type: text
+    hidden: false
+    default: ''
+  - name: item_6
+    label: Item 6
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: Les_Photo
+  label: Les photo
+  type: file
+  hidden: false
+  default: ''
+- name: Les_About_Paragraph
+  label: Les about paragraph
+  type: field_group
+  fields:
+  - name: Paragraph_1
+    label: Paragraph 1
+    type: textarea
+    hidden: false
+    default: ''
+  - name: Paragraph_2
+    label: Paragraph 2
+    type: textarea
+    hidden: false
+    default: ''
+  - name: Paragraph_3
+    label: Paragraph 3
+    type: textarea
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: Membership_Logos
+  label: Membership logos
+  type: field_group
+  fields:
+  - name: Logo_1
+    label: Logo 1
+    type: text
+    hidden: false
+    default: ''
+  - name: Logo_2
+    label: Logo 2
+    type: text
+    hidden: false
+    default: ''
+  - name: Logo_3
+    label: Logo 3
+    type: text
+    hidden: false
+    default: ''
+  - name: Logo_4
+    label: Logo 4
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: Staff_Details
+  label: Staff details
+  type: field_group
+  fields:
+  - name: Staff_Photo
+    label: Staff photo
+    type: file
+    hidden: false
+    default: ''
+  - name: Staff_1
+    label: Staff 1
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_2
+    label: Staff 2
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_3
+    label: Staff 3
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_4
+    label: Staff 4
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_5
+    label: Staff 5
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Staff_6
+    label: Staff 6
+    type: field_group
+    fields:
+    - name: Staff_Name
+      label: Staff name
+      type: text
+      hidden: false
+      default: ''
+    - name: Staff_Title
+      label: Staff title
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
