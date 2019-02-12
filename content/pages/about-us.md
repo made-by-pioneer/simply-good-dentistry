@@ -38,18 +38,22 @@ Mem_Logo_4: "/pageimg/mem-logo-4.PNG"
 Staff_Photo: "/pageimg/SimplyGoodDentistry.StaffPhoto.jpg"
 Staff_Details:
   Staff_1:
-      Staff_Name: Donna Phillips
-      Staff_Title: Office Administrator
+    Staff_Name: Donna Phillips
+    Staff_Title: Office Administrator
   Staff_2:
-Staff_Name_2: Debbie Vives
-Staff_Title_2: Receptionist
-Staff_Name_3: Tiffany Massey
-Staff_Title_3: R.D.H.
-Staff_Name_4: Joie Parrish
-Staff_Title_4: R.D.H.
-Staff_Name_5: Myah Freeman
-Staff_Title_5: C.D.A.
-Staff_Name_6: Gina Gordy
-Staff_Title_6: C.D.A.
+    Staff_Name: Debbie Vives
+    Staff_Title: Receptionist
+  Staff_3:
+    Staff_Name: Tiffany Massey
+    Staff_Title: R.D.H.
+  Staff_4:
+    Staff_Name: Joie Parrish
+    Staff_Title: R.D.H.
+  Staff_5:
+    Staff_Name: Myah Freeman
+    Staff_Title: C.D.A.
+  Staff_6:
+    Staff_Name: Gina Gordy
+    Staff_Title: C.D.A.
 
 ---
