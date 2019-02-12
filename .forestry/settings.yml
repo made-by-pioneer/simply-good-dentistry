@@ -5,7 +5,7 @@ admin_path:
 webhook_url: 
 sections:
 - type: directory
-  path: data/treatment_list
+  path: theme/site-theme/data/treatment_list
   label: Treatment List
   create: documents
   match: "**/*"
