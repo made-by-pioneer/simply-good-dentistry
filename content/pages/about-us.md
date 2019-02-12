@@ -36,8 +36,11 @@ Mem_Logo_2: "/pageimg/mem-logo-2.PNG"
 Mem_Logo_3: "/pageimg/mem-logo-3.PNG"
 Mem_Logo_4: "/pageimg/mem-logo-4.PNG"
 Staff_Photo: "/pageimg/SimplyGoodDentistry.StaffPhoto.jpg"
+Staff_Details:
+Staff_1:
 Staff_Name_1: Donna Phillips
 Staff_Title_1: Office Administrator
+Staff_2:
 Staff_Name_2: Debbie Vives
 Staff_Title_2: Receptionist
 Staff_Name_3: Tiffany Massey
