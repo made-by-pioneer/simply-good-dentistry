@@ -1,5 +1,5 @@
 {{ if .IsNamedParams }}
-{{ $data := index $.Site.Data.gum_disease_treatments $.Params.data }}
+{{ $data := index $.Site.Data.treatment_list.gum_disease_treatments $.Params.data }}
 {{ range $data }}
 <section id="{{ .treatment.treatment_name }}" class="section inner-services-section">
   <div class="container is-fluid services-container">

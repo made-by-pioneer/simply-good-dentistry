@@ -1,0 +1,173 @@
+/* Colors */
+
+$shade1: #262626;
+$shade2: #333333;
+$shade3: #4D4D4D;
+$shade4: #666666;
+$shade5: #808080;
+$shade6: #999999;
+$shade7: #B3B3B3;
+$shade8: #CCCCCC;
+$shade9: #E6E6E6;
+
+$accent1: #000000;
+$accent2: #000101;
+$accent3: #001D34;
+$accent4: #003967;
+$accent5: #00569A;
+$accent6: #FF7F40;
+$accent7: #FF5D0D;
+$accent8: #D94800;
+$accent9: #CC484A;
+
+$primary1: #60BEB3;
+$primary2: #85CDC5;
+$primary3: #A9DCD6;
+$primary4: #CDEBE7;
+$primary5: #F1F9F9;
+$primary6: #007F95;
+$primary7: #005462;
+$primary8: rgba(0,171,200,0.1);
+$primaryboxshadow: 0 0 0 0.125em rgba(0, 171, 200, 0.25);
+$invalidboxshadow: 0 0 0 0.125em rgba(204, 72, 74, 0.25);
+
+/* Font Sizes */
+
+$family-primary: 'Nunito Sans', sans-serif;
+$family-heading: 'Nunito', sans-serif;
+$size-default: 1rem;
+$h1-default-size: 4rem;
+$h2-default-size: 2.25rem;
+$h3-default-size: 2.25rem;
+$h4-default-size: 1.5rem;
+$h5-default-size: 1.5rem;
+$h6-default-size: 1rem;
+$p-default-size: 1.25rem;
+$blockquote-default-size: 2rem;
+
+/* Element Defaults */
+
+.is-family-primary {
+    font-family: $family-primary;
+}
+
+.button.is-primary {
+    background-color: $primary1;
+}
+
+.button.is-primary:hover {
+    background-color: $primary6;
+}
+
+.button.is-primary:active {
+    background-color: $primary7;
+}
+
+.button.is-primary:focus {
+    background-color: $primary6;
+}
+
+.button.is-primary.is-outlined {
+    color: $primary1;
+    border-color: $primary1;
+}
+
+.button.is-primary.is-outlined:hover {
+    background-color: $primary6;
+    border-color: $primary6;
+}
+
+.button.is-primary.is-outlined:active {
+    background-color: $primary7;
+}
+
+.button.is-primary.is-outlined:focus {
+    background-color: $primary6;
+}
+
+.button.is-link {
+    background-color: $accent6;
+}
+
+.button.is-link:hover {
+    background-color: $accent7;
+}
+
+.button.is-link:active {
+    background-color: $accent8;
+}
+
+.button.is-link:focus {
+    background-color: $accent7;
+}
+
+.button.is-link.is-outlined {
+    color: $accent6;
+    border-color: $accent6;
+}
+
+.button.is-link.is-outlined:hover {
+    background-color: $accent7;
+    border-color: $accent7;
+}
+
+.button.is-link.is-outlined:active {
+    background-color: $accent8;
+}
+
+.button.is-link.is-outlined:focus {
+    background-color: $accent7;
+}
+
+.input.is-primary {
+    color: $shade1;
+    border-color: $shade8;
+    font-family: $family-primary;
+}
+
+.input.is-primary:hover {
+    background-color: $primary8;
+}
+
+.input.is-primary:focus {
+    background-color: $primary8;
+    box-shadow: $primaryboxshadow;
+}
+
+.input.is-primary:invalid {
+    border-color: $accent9;
+    box-shadow: $invalidboxshadow;
+}
+
+.input.is-primary::placeholder {
+    opacity: .6;
+}
+
+.select.is-primary {
+    width: 100%;
+}
+
+.select.is-primary select {
+    color: $shade1;
+    border-color: $shade8;
+    font-family: $family-primary;
+    width: 100%;
+}
+
+.select.is-primary:hover select {
+    background-color: $primary8;
+}
+
+.select.is-primary:focus select {
+    background-color: $primary8;
+    box-shadow: $primaryboxshadow;
+}
+
+.select.is-primary:invalid select {
+    border-color: $accent9;
+    box-shadow: $invalidboxshadow;
+}
+
+.select.is-primary select::placeholder {
+    opacity: .6;
+}
