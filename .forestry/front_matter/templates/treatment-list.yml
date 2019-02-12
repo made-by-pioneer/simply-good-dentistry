@@ -1,7 +1,7 @@
 ---
 label: Treatment List
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: gum_disease_treatments
   label: Gum disease treatments
@@ -25,3 +25,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+  description: Use "add treatment" then click into the FIRST box to edit the details
+    of the treatment.
