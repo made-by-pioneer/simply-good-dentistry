@@ -122,147 +122,147 @@ fields:
       label: Details
       config:
         required: true
-- type: field_group
-  name: footer
-  label: Footer
-  fields:
   - type: field_group
-    name: column_one
-    label: Column One
-    fields:
-    - type: textarea
-      name: paragraph_one
-      label: Paragraph One
-      config:
-        required: true
-    - type: textarea
-      name: paragraph_two
-      label: Paragraph Two
-    description: Column logo is edited via "Logos" in site globals
-  - type: field_group
-    name: columns_two
-    label: Columns Two
+    name: footer
+    label: Footer
     fields:
     - type: field_group
-      name: list_item_one
-      label: List Item One
+      name: column_one
+      label: Column One
       fields:
-      - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
+      - type: textarea
+        name: paragraph_one
+        label: Paragraph One
+        config:
+          required: true
+      - type: textarea
+        name: paragraph_two
+        label: Paragraph Two
+      description: Column logo is edited via "Logos" in site globals
     - type: field_group
-      name: list_item_two
-      label: List Item Two
+      name: columns_two
+      label: Columns Two
       fields:
-      - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
+      - type: field_group
+        name: list_item_one
+        label: List Item One
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
+      - type: field_group
+        name: list_item_two
+        label: List Item Two
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
+      - type: field_group
+        name: list_item_three
+        label: List Item Three
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
+      - type: field_group
+        name: list_item_four
+        label: List Item Four
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
     - type: field_group
-      name: list_item_three
-      label: List Item Three
+      name: column_three
+      label: Column Three
       fields:
       - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
+        name: column_title
+        label: Column Title
+      - type: field_group
+        name: list_tem_one
+        label: List Item One
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
+      - type: field_group
+        name: list_item_two
+        label: List Item Two
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
+      - type: field_group
+        name: list_item_three
+        label: List Item Three
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
+      - type: field_group
+        name: list_item_four
+        label: List Item Four
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
+      - type: field_group
+        name: list_item_five
+        label: List Item Five
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
+      - type: field_group
+        name: list_item_six
+        label: List Item Six
+        fields:
+        - type: text
+          name: item_text
+          label: Item Text
+        - type: text
+          name: item_link
+          label: Item Link
     - type: field_group
-      name: list_item_four
-      label: List Item Four
+      name: column_four
+      label: Column Four
       fields:
       - type: text
-        name: item_text
-        label: Item Text
+        name: column_title
+        label: Column Title
+      - type: textarea
+        name: column_text
+        label: Column Text
       - type: text
-        name: item_link
-        label: Item Link
-  - type: field_group
-    name: column_three
-    label: Column Three
-    fields:
-    - type: text
-      name: column_title
-      label: Column Title
-    - type: field_group
-      name: list_tem_one
-      label: List Item One
-      fields:
-      - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
-    - type: field_group
-      name: list_item_two
-      label: List Item Two
-      fields:
-      - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
-    - type: field_group
-      name: list_item_three
-      label: List Item Three
-      fields:
-      - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
-    - type: field_group
-      name: list_item_four
-      label: List Item Four
-      fields:
-      - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
-    - type: field_group
-      name: list_item_five
-      label: List Item Five
-      fields:
-      - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
-    - type: field_group
-      name: list_item_six
-      label: List Item Six
-      fields:
-      - type: text
-        name: item_text
-        label: Item Text
-      - type: text
-        name: item_link
-        label: Item Link
-  - type: field_group
-    name: column_four
-    label: Column Four
-    fields:
-    - type: text
-      name: column_title
-      label: Column Title
-    - type: textarea
-      name: column_text
-      label: Column Text
-    - type: text
-      name: button_text
-      label: Button text
+        name: button_text
+        label: Button text
 - type: text
   label: Language Code
   name: languageCode
