@@ -2,9 +2,9 @@
 
 <section id="hero-section" class="section">
     <div class="columns is-mobile is-centered is-multiline is-12 thank-you-box">
-        <h2 class="column is-12 is-family-heading is-size-default has-text-weight-bold thank-you-text">Thank you - we'll reach out to you soon.</h2>
+        <h2 class="column is-12 is-family-heading is-size-default has-text-weight-bold thank-you-text">{{- .Params.page_text -}}</h2>
         <a href="/">
-            <button class="column is-12 button is-primary is-rounded">Return to the home page</button>
+            <button class="column is-12 button is-primary is-rounded">{{- .Params.button_text -}}</button>
         </a>
     </div>
 </section>
