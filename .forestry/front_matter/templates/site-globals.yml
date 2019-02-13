@@ -121,3 +121,17 @@ fields:
       label: Details
       config:
         required: true
+- type: text
+  label: Language Code
+  name: languageCode
+  config:
+    required: true
+  hidden: true
+  default: en-us
+- type: text
+  name: theme
+  label: Site Theme
+  config:
+    required: true
+  hidden: true
+  default: site-theme
