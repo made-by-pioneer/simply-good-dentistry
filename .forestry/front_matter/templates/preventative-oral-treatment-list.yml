@@ -1,7 +1,7 @@
 ---
 label: Preventative Oral Treatment List
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: preventative_oral_health_treatments
   label: Preventative oral health treatments
@@ -25,3 +25,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+  description: Use "add treatment" then click into the FIRST box to edit the details
+    of the treatment.
