@@ -38,6 +38,7 @@ fields:
     description: Label of treatment for internal use
     config:
       required: true
+    default: New Treatment
   hidden: false
   default: ''
   description: Use "add treatment" then click into the FIRST box to edit the details
