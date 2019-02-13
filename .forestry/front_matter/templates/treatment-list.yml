@@ -16,7 +16,7 @@ fields:
       type: text
       hidden: false
       default: ''
-      description: Front facing name of the treatment
+      description: Front facing name of the treatment.
       config:
         required: true
     - name: treatment_description
