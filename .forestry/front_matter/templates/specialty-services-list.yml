@@ -1,0 +1,27 @@
+---
+label: Specialty Services List
+hide_body: 
+is_partial: 
+fields:
+- name: specialty_services
+  label: Specialty services
+  type: field_group_list
+  fields:
+  - name: treatment
+    label: Treatment
+    type: field_group
+    fields:
+    - name: treatment_name
+      label: Treatment name
+      type: text
+      hidden: false
+      default: ''
+    - name: treatment_description
+      label: Treatment description
+      type: textarea
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
