@@ -3,21 +3,7 @@ label: Gum Disease Treatment List
 hide_body: false
 is_partial: false
 type: field_group_list
-name: [String]
-label: [String]
-description: [String]
-hidden: [true|false]
 fields:
- - [FieldConfig]
-config:
-  labelField: [String]
-fields:
-- name: gum_disease_treatments
-  label: Gum disease treatments
-  type: field_group_list
-  config:
-  labelField: treatment_name
-  fields:
   - name: treatment
     label: Treatment
     type: field_group
