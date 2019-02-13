@@ -102,11 +102,9 @@ fields:
         type: text
         hidden: false
         default: ''
-      - name: item_link
-        label: Item link
-        type: text
-        hidden: false
-        default: ''
+      - type: file
+        name: item_link
+        label: Item Link
       hidden: false
       default: ''
     - name: item_2
