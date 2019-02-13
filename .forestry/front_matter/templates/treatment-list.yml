@@ -23,23 +23,18 @@ fields:
       default: ''
     hidden: false
     default: ''
+  - type: text
+    hidden: false
+    label: treatment_name
+    name: treatment_name
+  - type: textarea
+    name: treatment_description
+    label: Treatment Description
   hidden: false
   default: ''
   description: Use "add treatment" then click into the FIRST box to edit the details
     of the treatment.
-- type: field_group_list
-  name: testtest
-  label: test
-  fields:
-  - type: field_group
-    name: test_group
-    label: test group
-    fields:
-    - type: text
-      name: name
-      label: name
-      config:
-        required: true
-      default: hey
+  config:
+    labelField: treatment_name
 pages:
 - themes/site-theme/data/treatment_list/gum_disease_treatments.yml
