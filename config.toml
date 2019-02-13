@@ -3,45 +3,6 @@ description = "Simply Good Dentistry is the dental practice of Les Kicklighter, 
 languageCode = "en-us"
 theme = "site-theme"
 title = "Simply Good Dentistry"
-[params.footer.column_four]
-button_text = "Schedule an Appointment"
-column_text = "Call us today to schedule an \nappointment with Dr. Les!"
-column_title = "Need an Appointment?"
-[params.footer.column_one]
-paragraph_one = "Simply Good Dentistry is the dental practice of Les Kicklighter, DMD."
-paragraph_two = "Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry."
-[params.footer.column_three]
-column_title = "Services"
-[params.footer.column_three.list_item_five]
-item_link = "/specialty-services/#TMJ%20Treatment%20/%20Mouthguards"
-item_text = "Mouthguards / TMJ Therapy"
-[params.footer.column_three.list_item_four]
-item_link = "/restorative-services/#Implant%20Restorations"
-item_text = "Implants and Restorations"
-[params.footer.column_three.list_item_six]
-item_link = "/specialty-services/#Tooth%20Bleaching"
-item_text = "Bleaching and Whitening"
-[params.footer.column_three.list_item_three]
-item_link = "/specialty-services/#Orthodontic%20Treatment"
-item_text = "Orthodontics"
-[params.footer.column_three.list_item_two]
-item_link = "/gum-disease-treatment/#Perio%20Protect%20Trays"
-item_text = "Perio Protect Therapy"
-[params.footer.column_three.list_item_one]
-item_link = "/preventative-oral-health"
-item_text = "Preventative Care"
-[params.footer.column_two.list_item_four]
-item_link = "https://education.avadent.com/ada/index.php/portal/show/ebdd4124ea673a"
-item_text = "ADA Patient Education"
-[params.footer.column_two.list_item_one]
-item_link = "/about-us"
-item_text = "About Us"
-[params.footer.column_two.list_item_three]
-item_link = "/patients"
-item_text = "Patients"
-[params.footer.column_two.list_item_two]
-item_link = "/contact-us"
-item_text = "Contact Us"
 [[menu.desktop]]
 identifier = "services"
 name = "Services"
@@ -114,6 +75,60 @@ fax = "912.764.8850"
 phone = "912.489.4151"
 [params.email]
 email = "leskicklighterdmd@live.com"
+[params.footer.column_four]
+button_text = "Schedule an Appointment"
+column_text = "Call us today to schedule an \nappointment with Dr. Les!"
+column_title = "Need an Appointment?"
+[params.footer.column_one]
+paragraph_one = "Simply Good Dentistry is the dental practice of Les Kicklighter, DMD."
+paragraph_two = "Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry."
+[params.footer.column_three]
+column_title = "Services"
+[params.footer.column_three.list_item_five]
+item_link = "/specialty-services/#TMJ%20Treatment%20/%20Mouthguards"
+item_text = "Mouthguards / TMJ Therapy"
+[params.footer.column_three.list_item_four]
+item_link = "/restorative-services/#Implant%20Restorations"
+item_text = "Implants and Restorations"
+[params.footer.column_three.list_item_one]
+item_link = "/preventative-oral-health"
+item_text = "Preventative Care"
+[params.footer.column_three.list_item_six]
+item_link = "/specialty-services/#Tooth%20Bleaching"
+item_text = "Bleaching and Whitening"
+[params.footer.column_three.list_item_three]
+item_link = "/specialty-services/#Orthodontic%20Treatment"
+item_text = "Orthodontics"
+[params.footer.column_three.list_item_two]
+item_link = "/gum-disease-treatment/#Perio%20Protect%20Trays"
+item_text = "Perio Protect Therapy"
+[params.footer.column_three.list_tem_one]
+item_link = ""
+item_text = ""
+[params.footer.column_two.list_item_four]
+item_link = "https://education.avadent.com/ada/index.php/portal/show/ebdd4124ea673a"
+item_text = "ADA Patient Education"
+[params.footer.column_two.list_item_one]
+item_link = "/about-us"
+item_text = "About Us"
+[params.footer.column_two.list_item_three]
+item_link = "/patients"
+item_text = "Patients"
+[params.footer.column_two.list_item_two]
+item_link = "/contact-us"
+item_text = "Contact Us"
+[params.footer.columns_two.list_item_four]
+item_link = ""
+item_text = ""
+[params.footer.columns_two.list_item_one]
+item_link = "/about-us"
+item_text = "About Us"
+[params.footer.columns_two.list_item_three]
+item_link = ""
+item_text = ""
+[params.footer.columns_two.list_item_two]
+item_link = ""
+item_text = ""
 [params.logos]
 dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
 footer_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
