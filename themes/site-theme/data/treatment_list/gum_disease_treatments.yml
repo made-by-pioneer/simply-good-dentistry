@@ -10,6 +10,14 @@ gum_disease_treatments:
       it results in tooth loss, chronic infection, and pain. Periodontal disease has
       also been linked to medical conditions and can predispose someone to develop
       serious medical problems.
+  treatment_name: Scaling and Root Planing
+  treatment_description: Also called a deep cleaning, this treatment is performed
+    to remove hardened plaque that has become attached to the tooth roots beneath
+    the gumline. This plaque causes destruction of the bone and gum tissues that serve
+    to hold teeth in place. When plaque begins to cause this destruction, the condition
+    is called periodontal disease or gum disease. Left untreated, it results in tooth
+    loss, chronic infection, and pain. Periodontal disease has also been linked to
+    medical conditions and can predispose someone to develop serious medical problems.
 - treatment:
     treatment_name: Perio Protect Trays
     treatment_description: These trays are specially fabricated to deliver medication
@@ -17,3 +25,9 @@ gum_disease_treatments:
       control once treated with scaling and root planing. When used appropriately,
       Perio Protect tray therapy can reduce chair time during dental cleanings and
       even lengthen the time between needed periodontal maintenance visits.
+  treatment_name: Perio Protect Trays
+  treatment_description: These trays are specially fabricated to deliver medication
+    to the teeth and gum tissues which allow periodontal disease to be easier to control
+    once treated with scaling and root planing. When used appropriately, Perio Protect
+    tray therapy can reduce chair time during dental cleanings and even lengthen the
+    time between needed periodontal maintenance visits.
