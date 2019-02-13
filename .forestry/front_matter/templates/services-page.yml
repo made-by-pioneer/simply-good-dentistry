@@ -30,3 +30,5 @@ fields:
   default: ''
   config:
     required: true
+pages:
+- content/pages/services.md
