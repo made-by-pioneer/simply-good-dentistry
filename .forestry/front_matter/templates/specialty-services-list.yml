@@ -39,3 +39,5 @@ fields:
   default: ''
   description: Use "add treatment" then click into the FIRST box to edit the details
     of the treatment.
+pages:
+- themes/site-theme/data/treatment_list/specialty_services.yml
