@@ -153,3 +153,5 @@ fields:
     default: ''
   hidden: true
   default: ''
+pages:
+- config.toml

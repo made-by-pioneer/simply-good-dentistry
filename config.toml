@@ -2,79 +2,67 @@ baseURL = "https://simplygooddentistry.com/"
 languageCode = "en-us"
 theme = "site-theme"
 title = "Simply Good Dentistry"
-[menu]
-    [[menu.desktop]]
-    identifier = "services"
-    name       = "Services"
-    url        = "/services"
-    weight     = 1
-
-    [[menu.desktop]]
-    identifier = "aboutus"
-    name       = "About Us"
-    url        = "/about-us"
-    weight     = 2
-
-    [[menu.desktop]]
-    identifier = "contactus"
-    name       = "Contact Us"
-    url        = "/contact-us"
-    weight     = 3
-
-    [[menu.desktop]]
-    identifier = "patients"
-    name       = "Patients"
-    url        = "/patients"
-    weight     = 4
-
-    [[menu.mobile]]
-    identifier = "aboutus"
-    name       = "About Us"
-    url        = "/about-us"
-    weight     = 1
-
-    [[menu.mobile]]
-    identifier = "contactus"
-    name       = "Contact Us"
-    url        = "/contact-us"
-    weight     = 2
-
-    [[menu.mobile]]
-    identifier = "patients"
-    name       = "Patients"
-    url        = "/patients"
-    weight     = 3
-
-    [[menu.services]]
-    identifier = "preventative-oral-health"
-    name       = "Preventative Oral Health"
-    url        = "/preventative-oral-health"
-    weight     = 1
-
-    [[menu.services]]
-    identifier = "gum-disease-treatment"
-    name       = "Gum Disease Treatment"
-    url        = "/gum-disease-treatment"
-    weight     = 2
-
-    [[menu.services]]
-    identifier = "restorative-services"
-    name       = "Restorative Services"
-    url        = "/restorative-services"
-    weight     = 3
-
-    [[menu.services]]
-    identifier = "specialty-services"
-    name       = "Specialty Services"
-    url        = "/specialty-services"
-    weight     = 4
-
+[[menu.desktop]]
+identifier = "services"
+name = "Services"
+url = "/services"
+weight = 1
+[[menu.desktop]]
+identifier = "aboutus"
+name = "About Us"
+url = "/about-us"
+weight = 2
+[[menu.desktop]]
+identifier = "contactus"
+name = "Contact Us"
+url = "/contact-us"
+weight = 3
+[[menu.desktop]]
+identifier = "patients"
+name = "Patients"
+url = "/patients"
+weight = 4
+[[menu.mobile]]
+identifier = "aboutus"
+name = "About Us"
+url = "/about-us"
+weight = 1
+[[menu.mobile]]
+identifier = "contactus"
+name = "Contact Us"
+url = "/contact-us"
+weight = 2
+[[menu.mobile]]
+identifier = "patients"
+name = "Patients"
+url = "/patients"
+weight = 3
+[[menu.services]]
+identifier = "preventative-oral-health"
+name = "Preventative Oral Health"
+url = "/preventative-oral-health"
+weight = 1
+[[menu.services]]
+identifier = "gum-disease-treatment"
+name = "Gum Disease Treatment"
+url = "/gum-disease-treatment"
+weight = 2
+[[menu.services]]
+identifier = "restorative-services"
+name = "Restorative Services"
+url = "/restorative-services"
+weight = 3
+[[menu.services]]
+identifier = "specialty-services"
+name = "Specialty Services"
+url = "/specialty-services"
+weight = 4
 [params]
-categories = ["",""]
-logo = "/pageimg/SGD.Logo.Light.svg"
-dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
-mobile_menu_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
-Site_Contact_Phone = "912.489.4151"
 Site_Contact_Fax = "912.764.8850"
+Site_Contact_Phone = "912.489.4151"
+categories = ["", ""]
+dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
 description = "Simply Good Dentistry is the dental practice of Les Kicklighter, DMD. Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry."
 email = "leskicklighterdmd@live.com"
+logo = "/pageimg/SGD.Logo.Light.svg"
+mobile_menu_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
