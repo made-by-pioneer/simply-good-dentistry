@@ -1,0 +1,34 @@
+---
+label: Services Page
+hide_body: true
+is_partial: false
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: true
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: true
+  default: ''
+- name: url
+  label: Url
+  type: text
+  hidden: true
+  default: ''
+- name: title
+  label: Page Title
+  type: text
+  hidden: false
+  default: ''
+- name: page-status
+  label: Page status
+  type: text
+  hidden: true
+  default: ''
+  config:
+    required: false
+pages:
+- content/pages/services.md
