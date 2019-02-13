@@ -1,5 +1,8 @@
 ---
 gum_disease_treatments:
+- treatment: ''
+  treatment_name: Hey
+  treatment_description: Hey there
 - treatment:
     treatment_name: Scaling and Root Planing
     treatment_description: Also called a deep cleaning, this treatment is performed
