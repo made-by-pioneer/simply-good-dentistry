@@ -1,0 +1,179 @@
+---
+label: Patients Page
+hide_body: 
+is_partial: 
+fields:
+- name: type
+  label: Type
+  type: text
+  hidden: false
+  default: ''
+- name: layout
+  label: Layout
+  type: text
+  hidden: false
+  default: ''
+- name: url
+  label: Url
+  type: text
+  hidden: false
+  default: ''
+- name: title
+  label: Title
+  type: text
+  hidden: false
+  default: ''
+- name: page-status
+  label: Page status
+  type: text
+  hidden: false
+  default: ''
+- name: Page_Title
+  label: Page title
+  type: text
+  hidden: false
+  default: ''
+- name: Top_Blurb
+  label: Top blurb
+  type: field_group
+  fields:
+  - name: Top_Blurb_Title
+    label: Top blurb title
+    type: text
+    hidden: false
+    default: ''
+  - name: Top_Blurb_Paragraph_One
+    label: Top blurb paragraph one
+    type: textarea
+    hidden: false
+    default: ''
+  - name: Top_Blurb_List
+    label: Top blurb list
+    type: field_group
+    fields:
+    - name: item_1
+      label: Item 1
+      type: text
+      hidden: false
+      default: ''
+    - name: item_2
+      label: Item 2
+      type: text
+      hidden: false
+      default: ''
+    - name: item_3
+      label: Item 3
+      type: text
+      hidden: false
+      default: ''
+    - name: item_4
+      label: Item 4
+      type: text
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  - name: Top_Blurb_Paragraph_Two
+    label: Top blurb paragraph two
+    type: text
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+- name: Patient_Forms
+  label: Patient forms
+  type: field_group
+  fields:
+  - name: Patient_Forms_Title
+    label: Patient forms title
+    type: text
+    hidden: false
+    default: ''
+  - name: Patient_Forms_List
+    label: Patient forms list
+    type: field_group
+    fields:
+    - name: item_1
+      label: Item 1
+      type: field_group
+      fields:
+      - name: item_text
+        label: Item text
+        type: text
+        hidden: false
+        default: ''
+      - name: item_link
+        label: Item link
+        type: text
+        hidden: false
+        default: ''
+      hidden: false
+      default: ''
+    - name: item_2
+      label: Item 2
+      type: field_group
+      fields:
+      - name: item_text
+        label: Item text
+        type: text
+        hidden: false
+        default: ''
+      - name: item_link
+        label: Item link
+        type: text
+        hidden: false
+        default: ''
+      hidden: false
+      default: ''
+    - name: item_3
+      label: Item 3
+      type: field_group
+      fields:
+      - name: item_text
+        label: Item text
+        type: text
+        hidden: false
+        default: ''
+      - name: item_link
+        label: Item link
+        type: text
+        hidden: false
+        default: ''
+      hidden: false
+      default: ''
+    - name: item_4
+      label: Item 4
+      type: field_group
+      fields:
+      - name: item_text
+        label: Item text
+        type: text
+        hidden: false
+        default: ''
+      - name: item_link
+        label: Item link
+        type: text
+        hidden: false
+        default: ''
+      hidden: false
+      default: ''
+    - name: item_5
+      label: Item 5
+      type: field_group
+      fields:
+      - name: item_text
+        label: Item text
+        type: text
+        hidden: false
+        default: ''
+      - name: item_link
+        label: Item link
+        type: text
+        hidden: false
+        default: ''
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
