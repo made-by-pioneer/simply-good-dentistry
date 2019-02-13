@@ -8,7 +8,7 @@ fields:
   type: field_group_list
   fields:
   - name: treatment
-    label: Treatment
+    label: Treatment Specifics
     type: field_group
     fields:
     - name: treatment_name
@@ -16,20 +16,28 @@ fields:
       type: text
       hidden: false
       default: ''
+      description: Front facing name of the treatment
+      config:
+        required: true
     - name: treatment_description
       label: Treatment description
       type: textarea
       hidden: false
       default: ''
+      config:
+        wysiwyg: false
+        schema:
+          format: markdown
+        required: true
     hidden: false
     default: ''
   - type: text
     hidden: false
-    label: treatment_name
-    name: treatment_name
-  - type: textarea
-    name: treatment_description
-    label: Treatment Description
+    label: Treatment Label
+    name: treatment_label
+    description: Label of treatment for internal use
+    config:
+      required: true
   hidden: false
   default: ''
   description: Use "add treatment" then click into the FIRST box to edit the details
