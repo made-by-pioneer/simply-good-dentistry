@@ -28,7 +28,3 @@ fields:
   type: text
   hidden: true
   default: ''
-- type: field_group
-  name: where_to_edit_treatments
-  label: Where to edit treatments
-  description: Use the "Treatment List" sidebar item to add treatments to this page.
