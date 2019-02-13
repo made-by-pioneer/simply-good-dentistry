@@ -187,10 +187,10 @@
     <div class="container is-fluid header-container">
         <div class="columns is-mobile is-vcentered">
 <a id="logo" class="column is-half-mobile is-one-third-tablet has-text-left" href="/">
-    <img class="" src="{{ .Site.Params.logo }}" width="49.07%">
+    <img class="" src="{{ .Site.Params.logos.logo }}" width="49.07%">
 </a>
 <a id="logo-inner" class="column is-half-mobile is-one-third-tablet has-text-left" href="/">
-    <img class="" src="{{ .Site.Params.dark_logo }}" width="49.07%">
+    <img class="" src="{{ .Site.Params.logos.dark_logo }}" width="49.07%">
 </a>
 {{ partial "site-navigation.html" . }}
 
@@ -202,7 +202,7 @@
   <div class="container mobile-menu-container">
   <div class="columns is-mobile is-vcentered mobile-menu-wrapper">
   <a id="mobile-menu-logo" class="column is-half has-text-left" href="/">
-    <img class="" src="{{ .Site.Params.mobile_menu_logo }}" width="45.74%">
+    <img class="" src="{{ .Site.Params.logos.mobile_menu_logo }}" width="45.74%">
   </a>
   <a class="column is-6 has-text-right close-menu" v-on:click="menuToggle = !menuToggle"><ion-icon name="close"></ion-icon></a>
   </div>

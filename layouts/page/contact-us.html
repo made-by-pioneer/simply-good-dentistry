@@ -81,15 +81,15 @@
                 <div class="columns is-multiline business-info-subsection">
                     <div class="column has-text-left-desktop">
           <h5 class="is-family-heading is-size-default has-text-weight-bold contact-sgd-info-title">Location</h5>
-          <p class="is-family-heading is-size-default contact-sgd-body">512 Gentilly Road <br>Statesboro, GA 30458</p>
+          <p class="is-family-heading is-size-default contact-sgd-body">{{ .Site.Params.address.street }} <br>{{ .Site.Params.address.city }}, {{ .Site.Params.address.state }} {{ .Site.Params.address.zip }}</p>
           <a class="get-directions" target="_black" href="https://www.google.com/maps/place/512+Gentilly+Rd,+Statesboro,+GA+30458/data=!4m2!3m1!1s0x88fa474f0324c1f1:0x4dcfc4bc726aad16?ved=2ahUKEwj58tOp7J3fAhUETd8KHeDyCXYQ8gEwAHoECAAQAQ">
             <h6 class="is-family-heading is-italic is-size-default has-text-weight-bold">Get Directions</h6>
           </a>
         </div>
         <div class="column has-text-left-desktop contact-sgd-hours">
                 <h5 class="is-family-heading is-size-default has-text-weight-bold contact-sgd-info-title">Hours</h5>
-                <p class="is-family-heading is-size-default contact-sgd-body">{{- .Params.open_and_close.days.start_of_week -}} - {{- .Params.open_and_close.days.end_of_week -}} <br>{{- .Params.open_and_close.hours.start_of_day -}} - {{- .Params.open_and_close.hours.end_of_day -}}</p>
-                <h6 class="is-family-heading is-italic is-size-default has-text-weight-bold">*{{- .Params.open_and_close.details -}}</h6>
+                <p class="is-family-heading is-size-default contact-sgd-body">{{- .Site.Params.office_info.days_open.start_of_week -}} - {{- .Site.Params.office_info.days_open.end_of_week -}} <br>{{- .Site.Params.office_info.hours_open.start_of_day -}} - {{- .Site.Params.office_info.hours_open.end_of_day -}}</p>
+                <h6 class="is-family-heading is-italic is-size-default has-text-weight-bold">*{{- .Site.Params.office_info.details.details -}}</h6>
                 </div>
                 </div>
             </div>
