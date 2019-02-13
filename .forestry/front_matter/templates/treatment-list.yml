@@ -27,5 +27,7 @@ fields:
   default: ''
   description: Use "add treatment" then click into the FIRST box to edit the details
     of the treatment.
+  config:
+  labelField: treatment_name
 pages:
 - themes/site-theme/data/treatment_list/gum_disease_treatments.yml
