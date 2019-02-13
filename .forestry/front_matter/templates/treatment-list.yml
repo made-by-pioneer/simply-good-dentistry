@@ -1,0 +1,31 @@
+---
+label: Treatment List
+hide_body: false
+is_partial: false
+fields:
+- name: gum_disease_treatments
+  label: Gum disease treatments
+  type: field_group_list
+  fields:
+  - name: treatment
+    label: Treatment
+    type: field_group
+    fields:
+    - name: treatment_name
+      label: Treatment name
+      type: text
+      hidden: false
+      default: ''
+    - name: treatment_description
+      label: Treatment description
+      type: textarea
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
+  description: Use "add treatment" then click into the FIRST box to edit the details
+    of the treatment.
+pages:
+- themes/site-theme/data/treatment_list/gum_disease_treatments.yml
