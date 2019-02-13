@@ -33,48 +33,5 @@ fields:
   type: text
   hidden: false
   default: ''
-- name: Open_and_close
-  label: Open and close
-  type: field_group
-  fields:
-  - name: Days
-    label: Days
-    type: field_group
-    fields:
-    - name: Start_of_week
-      label: Start of week
-      type: text
-      hidden: false
-      default: ''
-    - name: End_of_week
-      label: End of week
-      type: text
-      hidden: false
-      default: ''
-    hidden: false
-    default: ''
-  - name: Hours
-    label: Hours
-    type: field_group
-    fields:
-    - name: Start_of_day
-      label: Start of day
-      type: text
-      hidden: false
-      default: ''
-    - name: End_of_day
-      label: End of day
-      type: text
-      hidden: false
-      default: ''
-    hidden: false
-    default: ''
-  - name: Details
-    label: Details
-    type: text
-    hidden: false
-    default: ''
-  hidden: false
-  default: ''
 pages:
 - content/pages/contact.md
