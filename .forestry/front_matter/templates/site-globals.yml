@@ -14,7 +14,7 @@ fields:
   hidden: false
   default: ''
 - name: params
-  label: Params
+  label: Details
   type: field_group
   fields:
   - name: categories
