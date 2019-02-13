@@ -118,17 +118,17 @@ item_text = "Patients"
 item_link = "/contact-us"
 item_text = "Contact Us"
 [params.footer.columns_two.list_item_four]
-item_link = ""
-item_text = ""
+item_link = "https://education.avadent.com/ada/index.php/portal/show/ebdd4124ea673a"
+item_text = "ADA Patient Education"
 [params.footer.columns_two.list_item_one]
 item_link = "/about-us"
 item_text = "About Us"
 [params.footer.columns_two.list_item_three]
-item_link = ""
-item_text = ""
+item_link = "/patients"
+item_text = "Patients"
 [params.footer.columns_two.list_item_two]
-item_link = ""
-item_text = ""
+item_link = "/contact-us"
+item_text = "Contact Us"
 [params.logos]
 dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
 footer_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
