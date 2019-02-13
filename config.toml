@@ -3,43 +3,43 @@ description = "Simply Good Dentistry is the dental practice of Les Kicklighter, 
 languageCode = "en-us"
 theme = "site-theme"
 title = "Simply Good Dentistry"
-[footer.column_four]
+[params.footer.column_four]
 button_text = "Schedule an Appointment"
 column_text = "Call us today to schedule an \nappointment with Dr. Les!"
 column_title = "Need an Appointment?"
-[footer.column_one]
+[params.footer.column_one]
 paragraph_one = "Simply Good Dentistry is the dental practice of Les Kicklighter, DMD."
 paragraph_two = "Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry."
-[footer.column_three]
+[params.footer.column_three]
 column_title = "Services"
-[footer.column_three.list_item_five]
+[params.footer.column_three.list_item_five]
 item_link = "/specialty-services/#TMJ%20Treatment%20/%20Mouthguards"
 item_text = "Mouthguards / TMJ Therapy"
-[footer.column_three.list_item_four]
+[params.footer.column_three.list_item_four]
 item_link = "/restorative-services/#Implant%20Restorations"
 item_text = "Implants and Restorations"
-[footer.column_three.list_item_six]
+[params.footer.column_three.list_item_six]
 item_link = "/specialty-services/#Tooth%20Bleaching"
 item_text = "Bleaching and Whitening"
-[footer.column_three.list_item_three]
+[params.footer.column_three.list_item_three]
 item_link = "/specialty-services/#Orthodontic%20Treatment"
 item_text = "Orthodontics"
-[footer.column_three.list_item_two]
+[params.footer.column_three.list_item_two]
 item_link = "/gum-disease-treatment/#Perio%20Protect%20Trays"
 item_text = "Perio Protect Therapy"
-[footer.column_three.list_tem_one]
+[params.footer.column_three.list_item_one]
 item_link = "/preventative-oral-health"
 item_text = "Preventative Care"
-[footer.columns_two.list_item_four]
+[params.footer.column_two.list_item_four]
 item_link = "https://education.avadent.com/ada/index.php/portal/show/ebdd4124ea673a"
 item_text = "ADA Patient Education"
-[footer.columns_two.list_item_one]
+[params.footer.column_two.list_item_one]
 item_link = "/about-us"
 item_text = "About Us"
-[footer.columns_two.list_item_three]
+[params.footer.column_two.list_item_three]
 item_link = "/patients"
 item_text = "Patients"
-[footer.columns_two.list_item_two]
+[params.footer.column_two.list_item_two]
 item_link = "/contact-us"
 item_text = "Contact Us"
 [[menu.desktop]]

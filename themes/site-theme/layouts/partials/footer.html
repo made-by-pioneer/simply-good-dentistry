@@ -112,34 +112,34 @@
         <figure class="box image">
           <img class="footer-logo" src="{{ .Site.Params.logos.mobile_menu_logo }}">
         </figure>
-        <p class="is-family-primary is-size-default footer-logo-body">Simply Good Dentistry is the dental practice of Les Kicklighter, DMD.</p><br>
-        <p class="is-family-primary is-size-default footer-logo-body">Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry.</p><br>
-        <p class="is-family-primary is-size-default footer-logo-body">© {{ now.Format "2006"}} Simply Good Dentistry. All Rights Reserved.</p>
+        <p class="is-family-primary is-size-default footer-logo-body">{{ .Site.Params.footer.column_one.paragraph_one }}</p><br>
+        <p class="is-family-primary is-size-default footer-logo-body">{{ .Site.Params.footer.column_one.paragraph_two }}</p><br>
+        <p class="is-family-primary is-size-default footer-logo-body">© {{ now.Format "2006"}} {{ .Site.Title }}. All Rights Reserved.</p>
       </div>
       <div class="column is-12-mobile is-12-tablet is-3-widescreen footer-links">
-        <a href="/about-us">
-        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">About Us</h5></a>
-        <a href="/contact-us">
-        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">Contact Us</h5></a>
-        <a href="/patients">
-        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">Patients</h5></a>
-        <a class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item" target="_blank" href="//education.avadent.com/ada/index.php/portal/show/ebdd4124ea673a" title="ADA dental patient education center">ADA Patient Education</a>
+        <a href="{{ .Site.Params.footer.column_two.list_item_one.item_link }}">
+        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">{{ .Site.Params.footer.column_two.list_item_one.item_text }}</h5></a>
+        <a href="{{ .Site.Params.footer.column_two.list_item_two.item_link }}">
+        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">{{ .Site.Params.footer.column_two.list_item_two.item_text }}</h5></a>
+        <a href="{{ .Site.Params.footer.column_two.list_item_three.item_link }}">
+        <h5 class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item">{{ .Site.Params.footer.column_two.list_item_three.item_text }}</h5></a>
+        <a class="box is-family-heading is-size-large has-text-weight-bold footer-menu-item" target="_blank" href="{{ .Site.Params.footer.column_two.list_item_four.item_link }}" title="ADA dental patient education center">{{ .Site.Params.footer.column_two.list_item_four.item_text }}</a>
       </div>
       <div class="column is-12-mobile is-12-tablet is-3-widescreen footer-services-column">
-        <h4 class="box is-family-heading is-size-default has-text-weight-bold footer-title footer-services-title">Services</h4>
+        <h4 class="box is-family-heading is-size-default has-text-weight-bold footer-title footer-services-title">{{ .Site.Params.footer.column_three.column_title }}</h4>
         <ul>
-          <a href="/preventative-oral-health" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">Preventative Care</span></a>
-          <a href="/gum-disease-treatment#perio-protect-section" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">Perio Protect Therapy</span></a>
-          <a href="/specialty-services#orthodontic-section" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">Orthodontics</span></a>
-          <a href="/restorative-services#implant-section" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">Implants and Restorations</span></a>
-          <a href="/specialty-services" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">Mouthguards / TMD Therapy</span></a>
-          <a href="/specialty-services#bleaching-section" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">Bleaching and Whitening</span></a>
+          <a href="{{ .Site.Params.footer.column_three.list_item_one.item_link }}" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">{{ .Site.Params.footer.column_three.list_item_one.item_text }}</span></a>
+          <a href="{{ .Site.Params.footer.column_three.list_item_two.item_link }}" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">{{ .Site.Params.footer.column_three.list_item_two.item_text }}</span></a>
+          <a href="{{ .Site.Params.footer.column_three.list_item_three.item_link }}" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">{{ .Site.Params.footer.column_three.list_item_three.item_text }}</span></a>
+          <a href="{{ .Site.Params.footer.column_three.list_item_four.item_link }}" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">{{ .Site.Params.footer.column_three.list_item_four.item_text }}</span></a>
+          <a href="{{ .Site.Params.footer.column_three.list_item_five.item_link }}" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">{{ .Site.Params.footer.column_three.list_item_five.item_text }}</span></a>
+          <a href="{{ .Site.Params.footer.column_three.list_item_six.item_link }}" class="is-family-heading is-size-default has-text-weight-bold footer-services"><span class="footer-services-underline">{{ .Site.Params.footer.column_three.list_item_six.item_text }}</span></a>
         </ul>
       </div>
       <div class="column is-12-mobile is-8-tablet is-3-widescreen footer-schedule-column">
-        <h4 class="box is-family-heading is-size-default has-text-weight-bold footer-title footer-schedule-title">Need an Appointment?</h4>
-        <p class="box is-family-primary is-size-default footer-schedule-body">Call us today to schedule an <br> appointment with Dr. Les!</p>
-        <a href="/contact-us#contact-form-wrapper" class="button is-family-heading is-primary is-rounded footer-schedule-button">Schedule an Appointment</a>
+        <h4 class="box is-family-heading is-size-default has-text-weight-bold footer-title footer-schedule-title">{{ .Site.Params.footer.column_four.column_title }}</h4>
+        <p class="box is-family-primary is-size-default footer-schedule-body">{{ .Site.Params.footer.column_four.column_text }}</p>
+        <a href="/contact-us#contact-form-wrapper" class="button is-family-heading is-primary is-rounded footer-schedule-button">{{ .Site.Params.footer.column_four.button_text }}</a>
           <div class="container column has-text-centered has-text-left-desktop social-container">
             <h6 class="is-family-heading is-size-large has-text-weight-bold footer-social-title">Follow us on:</h6>
             <div class="footer-icon-column">
