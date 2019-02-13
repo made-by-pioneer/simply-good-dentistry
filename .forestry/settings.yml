@@ -14,7 +14,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  exclude: Gum Disease Treatments
+  exclude: Gum Disease Treatment
 - type: directory
   path: content
   label: Home Page
