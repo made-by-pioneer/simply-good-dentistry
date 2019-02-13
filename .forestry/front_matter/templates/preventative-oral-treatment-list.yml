@@ -8,7 +8,7 @@ fields:
   type: field_group_list
   fields:
   - name: treatment
-    label: Treatment
+    label: Treatment Specifics
     type: field_group
     fields:
     - name: treatment_name
@@ -23,6 +23,11 @@ fields:
       default: ''
     hidden: false
     default: ''
+  - type: text
+    name: treatment_label
+    label: Treatment Label
+    config:
+      required: true
   hidden: false
   default: ''
   description: Use "add treatment" then click into the FIRST box to edit the details
