@@ -1,15 +1,123 @@
 ---
 label: Site Globals
-hide_body: 
-is_partial: 
+hide_body: true
+is_partial: false
 fields:
 - name: title
   label: Title
   type: text
   hidden: false
   default: ''
-- name: params
-  label: Params
-  type: text
-  hidden: false
-  default: ''
+  config:
+    required: true
+- type: text
+  name: baseURL
+  label: Site URL
+  config:
+    required: true
+- type: textarea
+  name: description
+  label: Site Meta Description
+  config:
+    required: true
+- type: field_group
+  label: Details
+  name: params
+  fields:
+  - type: field_group
+    label: Contact Numbers
+    name: contact_numbers
+    fields:
+    - type: text
+      name: phone
+      label: Phone
+      config:
+        required: true
+    - type: text
+      name: fax
+      label: Fax
+      config:
+        required: true
+  - type: field_group
+    name: logos
+    label: Logos
+    fields:
+    - type: file
+      name: dark_logo
+      label: Dark Logo
+    - type: file
+      name: logo
+      label: Logo
+    - type: file
+      name: mobile_menu_logo
+      label: Mobile Menu Logo
+  - type: field_group
+    name: email
+    label: Email
+    fields:
+    - type: text
+      label: Email
+      name: email
+      config:
+        required: true
+  - type: field_group
+    name: address
+    label: Physical Address
+    fields:
+    - type: text
+      name: street
+      label: Street
+      config:
+        required: true
+    - type: text
+      name: city
+      label: City
+      config:
+        required: true
+    - type: text
+      name: state
+      label: State (appr.)
+      config:
+        required: true
+    - type: text
+      name: zip
+      label: Zip Code
+      config:
+        required: true
+  - type: field_group
+    name: office_info
+    label: Office Info
+    fields:
+    - type: field_group
+      name: days_open
+      label: Days Open
+      fields:
+      - type: text
+        name: start_of_week
+        label: Start of Week
+        config:
+          required: true
+      - type: text
+        name: end_of_week
+        label: End of Week
+        config:
+          required: true
+    - type: field_group
+      name: hours_open
+      label: Hours Open
+      fields:
+      - type: text
+        name: start_of_day
+        label: Start of Day
+        config:
+          required: true
+      - type: text
+        name: end_of_day
+        label: End of Day
+        config:
+          required: true
+    - type: textarea
+      name: details
+      label: Details
+      config:
+        required: true
