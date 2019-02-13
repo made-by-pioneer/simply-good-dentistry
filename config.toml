@@ -103,8 +103,8 @@ item_text = "Orthodontics"
 item_link = "/gum-disease-treatment/#Perio%20Protect%20Trays"
 item_text = "Perio Protect Therapy"
 [params.footer.column_three.list_tem_one]
-item_link = ""
-item_text = ""
+item_link = "/preventative-oral-health"
+item_text = "Preventative Care"
 [params.footer.column_two.list_item_four]
 item_link = "https://education.avadent.com/ada/index.php/portal/show/ebdd4124ea673a"
 item_text = "ADA Patient Education"
