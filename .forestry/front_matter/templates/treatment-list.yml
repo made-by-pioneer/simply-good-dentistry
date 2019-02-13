@@ -6,6 +6,8 @@ fields:
 - name: gum_disease_treatments
   label: Gum disease treatments
   type: field_group_list
+  config:
+  labelField: treatment_name
   fields:
   - name: treatment
     label: Treatment
@@ -27,7 +29,5 @@ fields:
   default: ''
   description: Use "add treatment" then click into the FIRST box to edit the details
     of the treatment.
-  config:
-  labelField: treatment_name
 pages:
 - themes/site-theme/data/treatment_list/gum_disease_treatments.yml
