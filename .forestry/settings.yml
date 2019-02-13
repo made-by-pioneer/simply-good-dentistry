@@ -14,7 +14,7 @@ sections:
   label: Pages
   create: all
   match: "**/*"
-  exclude: gum-disease.md; preventative.md
+  exclude: gum-disease.md & preventative.md
 - type: directory
   path: content
   label: Home Page
