@@ -1,0 +1,27 @@
+---
+label: Preventative Oral Treatment List
+hide_body: 
+is_partial: 
+fields:
+- name: preventative_oral_health_treatments
+  label: Preventative oral health treatments
+  type: field_group_list
+  fields:
+  - name: treatment
+    label: Treatment
+    type: field_group
+    fields:
+    - name: treatment_name
+      label: Treatment name
+      type: text
+      hidden: false
+      default: ''
+    - name: treatment_description
+      label: Treatment description
+      type: textarea
+      hidden: false
+      default: ''
+    hidden: false
+    default: ''
+  hidden: false
+  default: ''
