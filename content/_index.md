@@ -13,6 +13,7 @@ Hero:
     Text: Schedule an Appointment
     Link: "/contact-us/#contact-form-wrapper"
   Mobile_button_text: Call for an Appointment
+  title: Simple things lead &lt;br&gt; to big smiles.
 Why_different:
   title: why we're different
   subtitle: Giving patients simply good dentistry
