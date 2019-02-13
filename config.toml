@@ -1,4 +1,5 @@
 baseURL = "https://simplygooddentistry.com/"
+description = "Simply Good Dentistry is the dental practice of Les Kicklighter, DMD. Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry."
 languageCode = "en-us"
 theme = "site-theme"
 title = "Simply Good Dentistry"
@@ -57,29 +58,32 @@ identifier = "specialty-services"
 name = "Specialty Services"
 url = "/specialty-services"
 weight = 4
-[params]
-    [params.Contact_Numbers]
-    Fax = "912.764.8850"
-    Phone = "912.489.4151"
-    [params.Logos]
-    dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
-    logo = "/pageimg/SGD.Logo.Light.svg"
-    mobile_menu_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
-    [params.email]
-    email = "leskicklighterdmd@live.com"
-    [params.address]
-    street = "512 Gentilly Road"
-    city = "Statesboro"
-    state = "GA"
-    zip = "30458"
-    [params.office_info]
-    [params.office_info.days_open]
-    start_of_week = "Monday"
-    end_of_week = "Thursday"
-    [params.office_info.hours_open]
-    start_of_day = "8:00 am"
-    end_of_day = "5:00 pm"
-    [params.office_info.details]
-    details = "Closed daily for lunch from 1:00pm - 2:00pm"
-categories = ["", ""]
-description = "Simply Good Dentistry is the dental practice of Les Kicklighter, DMD. Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry."
+[params.Contact_Numbers]
+Fax = "912.764.8850"
+Phone = "912.489.4151"
+[params.Logos]
+dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
+logo = "/pageimg/SGD.Logo.Light.svg"
+mobile_menu_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
+[params.address]
+city = "Statesboro"
+state = "GA"
+street = "512 Gentilly Road"
+zip = 30458
+[params.contact_numbers]
+fax = "912.764.8850"
+phone = "912.489.4151"
+[params.email]
+email = "leskicklighterdmd@live.com"
+[params.logos]
+dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
+logo = "/pageimg/SGD.Logo.Light.svg"
+mobile_menu_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
+[params.office_info]
+details = "Closed daily for lunch from 1:00pm - 2:00pm"
+[params.office_info.days_open]
+end_of_week = "Thursday"
+start_of_week = "Monday"
+[params.office_info.hours_open]
+end_of_day = "5:00 pm"
+start_of_day = "8:00 am"

@@ -135,3 +135,5 @@ fields:
     required: true
   hidden: true
   default: site-theme
+pages:
+- config.toml
