@@ -2,18 +2,21 @@
 label: Gum Disease Treatment List
 hide_body: false
 is_partial: false
-type: field_group_list
 fields:
-- name: treatment
+- name: gum_disease_treatments
+  label: Gum disease treatments
+  type: field_group_list
+  fields:
+  - name: treatment
     label: Treatment
     type: field_group
     fields:
-  - name: treatment_name
+    - name: treatment_name
       label: Treatment name
       type: text
       hidden: false
       default: ''
-  - name: treatment_description
+    - name: treatment_description
       label: Treatment description
       type: textarea
       hidden: false
