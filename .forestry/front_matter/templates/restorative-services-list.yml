@@ -1,14 +1,14 @@
 ---
 label: Restorative Services List
-hide_body: 
-is_partial: 
+hide_body: false
+is_partial: false
 fields:
 - name: restorative_services
   label: Restorative services
   type: field_group_list
   fields:
   - name: treatment
-    label: Treatment
+    label: Treatment Specifics
     type: field_group
     fields:
     - name: treatment_name
@@ -16,12 +16,26 @@ fields:
       type: text
       hidden: false
       default: ''
+      description: Front facing name of the treatment.
+      config:
+        required: true
     - name: treatment_description
       label: Treatment description
       type: textarea
       hidden: false
       default: ''
+      config:
+        required: true
     hidden: false
     default: ''
+  - type: text
+    name: treatment_label
+    label: Treatment Label
+    description: Label of treatment for internal use.
+    config:
+      required: true
+    default: New Treatment
   hidden: false
   default: ''
+  description: Use "add treatment" then click into the FIRST box to edit the details
+    of the treatment.
