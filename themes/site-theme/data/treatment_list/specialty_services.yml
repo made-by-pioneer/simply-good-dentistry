@@ -1,0 +1,14 @@
+---
+specialty_services:
+- treatment:
+    treatment_name: Sleep Apnea Appliances
+    treatment_description: Sleep apnea appliances are used as a medical treatment to treat sleep apnea. These appliances can be used as an alternative to other treatments for sleep apnea, such as surgery or using a CPAP. They can also be used in concert with CPAP therapy and surgery to control sleep apnea more completely. Sleep apnea appliances are made to fit inside the mouth and to position the jaw in a way that allows breathing to be more effective while sleeping. Sleep apnea appliances should only be made if prescribed by a medical doctor. Snoring appliances can be made to treat snoring if a medical doctor has determined a patient does not have sleep apnea.
+- treatment:
+    treatment_name: Orthodontic Treatment
+    treatment_description: Orthodontic treatment is used to improve the appearance and function of teeth that are crooked or do not properly bite together. Orthodontics can also be used to widen dental arches to aid in the treatment of sleep disorders. It can be performed with various methods, depending on your needs. Methods for straightening the teeth include removable appliances, traditional braces, and clear aligners. Examples of clear aligners are Invisalign and ClearCorrect.
+- treatment:
+    treatment_name: TMJ Treatment / Mouthguards
+    treatment_description: TMJ treatment is done when disorders of the temporomandibular joint (the TMJ) occur. This treatment can range from alterations of habits and exercise, to an oral TMJ splint, to surgery. Physical therapy can also be prescribed to aid in the treatment of TMJ disorders. Mouthguards can be made to protect the teeth from damage caused by clenching and grinding when a patient has been determined to not have sleep apnea. Mouthguards can also be made to protect teeth while playing sports.
+- treatment:
+    treatment_name: Tooth Bleaching
+    treatment_description: Tooth bleaching is done through our office with the use of take-home bleaching trays that have been custom fabricated to fit your teeth. In-office bleaching services are available, with take-home trays as a part of the treatment. Bleaching is also available through our office with Opalescence Go, which is a quality bleaching strip system.

@@ -1,0 +1,17 @@
+---
+preventative_oral_health_treatments:
+- treatment:
+    treatment_name: Dental cleaning (Dental Prophylaxis)
+    treatment_description: Dental cleaning (Dental Prophylaxis) - A dental cleaning or prophylaxis is done every 6 months to clean hard and soft plaque off the surfaces of the teeth that have accumulated. Plaque that is left on the teeth over time can cause gum disease and eventual tooth loss. Thorough dental exams are done during this visit to detect any dental issues that need to be treated.
+- treatment:
+    treatment_name: Oral Cancer Screenings
+    treatment_description: These screenings are done during each dental cleaning visit and during comprehensive exams of the mouth. Oral cancer screenings serve to detect abnormal changes to tissues in the areas in and around the mouth.
+- treatment:
+    treatment_name: Fluoride Treatment
+    treatment_description: Fluoride is one of our most effective ways to prevent tooth decay and is delivered to patients based upon their age, need, and method of compliance. Fluoride treatment can be delivered through toothpaste, fluoride varnish, prescription tablets, rinses, and even through some types of restorations.
+- treatment:
+    treatment_name: Digital X-rays
+    treatment_description: Digital X-rays are taken at our office to accomplish a drastic reduction in radiation to patients. Digital X-rays also allow patients to more easily visualize issues they have and to see good things about their mouths as well.
+- treatment:
+    treatment_name: Sealants
+    treatment_description: Sealants are protective plastic shields that are placed into deep grooves of back teeth. Deep grooves in teeth have a tendency to trap debris and lead to decay. Sealants are placed in liquid form onto the teeth and then are cured to become solid so that they can protect the back teeth from decay.

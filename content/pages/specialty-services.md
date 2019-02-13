@@ -6,3 +6,5 @@ title: 'Specialty Services'
 params:
 page-status: 'inner-page'
 ---
+
+{{< specialty-services-list data="specialty_services" >}}

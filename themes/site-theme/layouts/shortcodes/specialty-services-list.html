@@ -1,0 +1,15 @@
+{{ if .IsNamedParams }}
+{{ $data := index $.Site.Data.treatment_list.specialty_services $.Params.data }}
+{{ range $data }}
+<section id="{{ .treatment.treatment_name }}" class="section inner-services-section">
+  <div class="container is-fluid services-container">
+      <div class="columns is-multiline is-12-mobile services-columns">
+        <div class="column container is-8-tablet is-8-desktop is-7-widescreen m-auto custom-mobile-only-container">
+        <h2 class="is-family-heading is-size-default is-line-height-reduced has-text-weight-bold services-title">{{ .treatment.treatment_name }}</h2>
+        <p class="box is-family-heading is-size-default services-body">{{ .treatment.treatment_description }}</p>
+        </div>
+      </div>
+  </div>
+</section>
+{{ end }}
+{{- end -}}
