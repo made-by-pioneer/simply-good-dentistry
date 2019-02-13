@@ -76,3 +76,5 @@ fields:
     default: ''
   hidden: false
   default: ''
+pages:
+- content/pages/contact.md
