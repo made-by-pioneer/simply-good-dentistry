@@ -77,6 +77,7 @@ phone = "912.489.4151"
 email = "leskicklighterdmd@live.com"
 [params.logos]
 dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
+footer_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
 logo = "/pageimg/SGD.Logo.Light.svg"
 mobile_menu_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
 [params.office_info]
