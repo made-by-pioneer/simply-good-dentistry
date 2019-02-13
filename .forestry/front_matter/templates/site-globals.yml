@@ -51,9 +51,7 @@ fields:
     - type: file
       name: mobile_menu_logo
       label: Mobile Menu Logo
-    - type: file
-      name: footer_logo
-      label: Footer Logo
+      description: Also changes the Footer's logo
   - type: field_group
     name: email
     label: Email
