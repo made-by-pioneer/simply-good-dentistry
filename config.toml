@@ -71,5 +71,10 @@ title = "Simply Good Dentistry"
 
 [params]
 categories = ["",""]
+logo = "/pageimg/SGD.Logo.Light.svg"
+dark_logo = "/pageimg/SGD.Horizontal.Solid.Black.svg"
+mobile_menu_logo = "/pageimg/SGD.Horizontal.Color.Dark.svg"
+Site_Contact_Phone = "912.489.4151"
+Site_Contact_Fax = "912.764.8850"
 description = "Simply Good Dentistry is the dental practice of Les Kicklighter, DMD. Based in Statesboro, Georgia and located one block north of Howard Lumber Company in the Gentilly Office Complex, we are dedicated to bringing back the luster of one on one dentistry."
-email = "kicklighterdental@yahoo.com"
+email = "leskicklighterdmd@live.com"
