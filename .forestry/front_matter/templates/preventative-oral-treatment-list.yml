@@ -16,11 +16,15 @@ fields:
       type: text
       hidden: false
       default: ''
+      config:
+        required: true
     - name: treatment_description
       label: Treatment description
       type: textarea
       hidden: false
       default: ''
+      config:
+        required: true
     hidden: false
     default: ''
   - type: text
@@ -29,6 +33,7 @@ fields:
     config:
       required: true
     default: New Treatment
+    description: Label of treatment for internal use.
   hidden: false
   default: ''
   description: Use "add treatment" then click into the FIRST box to edit the details
