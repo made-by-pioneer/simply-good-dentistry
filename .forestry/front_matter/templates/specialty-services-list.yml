@@ -1,7 +1,6 @@
 ---
 label: Specialty Services List
 hide_body: false
-is_partial: false
 fields:
 - name: specialty_services
   label: Specialty services

@@ -1,7 +1,6 @@
 ---
 label: Gum Disease Treatment List
 hide_body: false
-is_partial: false
 fields:
 - name: gum_disease_treatments
   label: Gum disease treatments

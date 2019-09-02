@@ -1,7 +1,6 @@
 ---
 label: Restorative Services List
 hide_body: false
-is_partial: false
 fields:
 - name: restorative_services
   label: Restorative services

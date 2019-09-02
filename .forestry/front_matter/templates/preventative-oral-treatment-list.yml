@@ -1,7 +1,6 @@
 ---
 label: Preventative Oral Treatment List
 hide_body: false
-is_partial: false
 fields:
 - name: preventative_oral_health_treatments
   label: Preventative oral health treatments
