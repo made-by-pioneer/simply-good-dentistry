@@ -179,9 +179,34 @@
     }
 </style> -->
 
+<style>
+.covid-notice {
+    background-color: #007F95;
+    color: white;
+    padding: 30px 20px 20px 20px;
+    margin-bottom: -10px;
+    font-size: 12px;
+}
+.covid-number {
+    font-weight: bold;
+    text-decoration: underline;
+}
+@media only screen and (min-width: 769px) { 
+    .covid-notice {
+        font-size: 16px;
+    } 
+}
+</style>
+
 <script src="https://cdn.jsdelivr.net/npm/vue@2.5.16/dist/vue.min.js"></script>
 
 <div id="header-functions">
+
+<div class="section columns">
+    <div class="column covid-notice">
+        In response to a recommendation from the American and the Georgia Dental Association, our office has decided to close through next week (March 27).  During this time we will only be seeing emergency patients. If you have a dental emergency, please call our office at <span class="covid-number">912.489.4151</span>
+    </div>
+</div>
 
 <section id="header" :class="{nonstick: scrollPosition < 100, stick: scrollPosition > 500}" class="section">
     <div class="container is-fluid header-container">
