@@ -23,16 +23,16 @@ Patient_Forms:
   Patient_Forms_List:
     item_1:
       item_text: Patient Info Sheet
-      item_link: "/pageimg/les-kicklighter-patient-registration.doc"
+      item_link: "/uploads/les-kicklighter-patient-registration.doc"
     item_2:
       item_text: Medical History Sheet
-      item_link: "/forms/Les-Kicklighter-Medical-History.doc"
+      item_link: "/uploads/Les-Kicklighter-Medical-History.doc"
     item_3:
       item_text: Office Policies Sheet
-      item_link: "/forms/Les-Kicklighter-office-policies.doc"
+      item_link: "/uploads/Les-Kicklighter-office-policies.doc"
     item_4:
       item_text: HIPPA Sheet
-      item_link: "/forms/Les-Kicklighter-HIPPA-consent-form.docx"
+      item_link: "/uploads/Les-Kicklighter-HIPPA-consent-form.docx"
     item_5:
       item_text: ADA Patient Education
       item_link: "//education.avadent.com/ada/index.php/portal/show/ebdd4124ea673a"
