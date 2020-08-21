@@ -23,7 +23,7 @@ Patient_Forms:
   Patient_Forms_List:
     item_1:
       item_text: Patient Info Sheet
-      item_link: "/pageimg/Les-Kicklighter-Patient-Registration.doc"
+      item_link: "/pageimg/les-kicklighter-patient-registration.doc"
     item_2:
       item_text: Medical History Sheet
       item_link: "/forms/Les-Kicklighter-Medical-History.doc"
