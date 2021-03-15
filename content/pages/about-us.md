@@ -41,22 +41,25 @@ Membership_Logos:
 Staff_Details:
   Staff_Photo: "/pageimg/SimplyGoodDentistry.StaffPhoto.jpg"
   Staff_1:
-    Staff_Name: Donna Phillips
-    Staff_Title: Office Administrator
+    Staff_Name: Leurica Lenette
+    Staff_Title: Front Office / Insurance Coordinator
   Staff_2:
     Staff_Name: Debbie Vives
-    Staff_Title: Receptionist
+    Staff_Title: Front Office Coordinator
   Staff_3:
     Staff_Name: Tiffany Massey
-    Staff_Title: R.D.H.
+    Staff_Title: Dental Hygienist
   Staff_4:
-    Staff_Name: Joie Parrish
-    Staff_Title: R.D.H.
+    Staff_Name: Kathy Barnes
+    Staff_Title: Dental Hygienist
   Staff_5:
-    Staff_Name: Myah Freeman
-    Staff_Title: C.D.A.
+    Staff_Name: Joie Parrish
+    Staff_Title: Dental Hygienist
   Staff_6:
-    Staff_Name: Gina Gordy
-    Staff_Title: C.D.A.
+    Staff_Name: Stacey Joyner
+    Staff_Title: Dental Assistant
+  Staff_7:
+    Staff_Name: Bri Anderson
+    Staff_Title: Dental Assistant
 
 ---
