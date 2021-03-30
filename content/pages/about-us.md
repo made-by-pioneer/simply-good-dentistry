@@ -50,16 +50,13 @@ Staff_Details:
     Staff_Name: Tiffany Massey
     Staff_Title: Dental Hygienist
   Staff_4:
-    Staff_Name: Kathy Barnes
+    Staff_Name: Gina Gordy
     Staff_Title: Dental Hygienist
   Staff_5:
     Staff_Name: Joie Parrish
     Staff_Title: Dental Hygienist
   Staff_6:
     Staff_Name: Stacey Joyner
-    Staff_Title: Dental Assistant
-  Staff_7:
-    Staff_Name: Bri Anderson
     Staff_Title: Dental Assistant
 
 ---
