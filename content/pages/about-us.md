@@ -41,7 +41,7 @@ Membership_Logos:
 Staff_Details:
   Staff_Photo: "/pageimg/SimplyGoodDentistry.StaffPhoto.jpg"
   Staff_1:
-    Staff_Name: Leurica Lenette
+    Staff_Name: Leurica Dawkins
     Staff_Title: Front Office / Insurance Coordinator
   Staff_2:
     Staff_Name: Debbie Vives
@@ -51,7 +51,7 @@ Staff_Details:
     Staff_Title: Dental Hygienist
   Staff_4:
     Staff_Name: Gina Gordy
-    Staff_Title: Dental Hygienist
+    Staff_Title: Dental Assistant
   Staff_5:
     Staff_Name: Joie Parrish
     Staff_Title: Dental Hygienist
