@@ -44,7 +44,7 @@ Services:
       Item_text: Specialty Services
       Item_link: "/specialty-services"
 Contact_Us:
-  title: contact Us
+  title: contact us
   button:
     text: Contact Us
     link: "/contact-us"
