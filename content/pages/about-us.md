@@ -6,7 +6,7 @@ title: About Us
 params: 
 page-status: inner-page
 Page_Title: About Us
-Top_Blurb_Title: Simply Commited
+Top_Blurb_Title: Simply Committed
 Top_Blurb_Paragraph: Our mission at this office is to deliver the finest, most cost
   effective health care treatment available today for you and your family. We will
   only recommend and perform treatment that we would recommend and perform for our
