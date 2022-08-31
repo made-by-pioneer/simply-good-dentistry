@@ -7831,7 +7831,7 @@ blockquote.is-size-larger {
   .custom-container {
     max-width: 1440px;
     margin: auto;
-    padding: 0 150px 0 150px; }
+    padding: 0 100px 0 100px; }
   .home-hero-wave {
     height: 180px; }
   .home-page-gray-title {
@@ -7973,7 +7973,7 @@ blockquote.is-size-larger {
     padding-left: 0px;
     padding-right: 0px; }
   #hero-wrapper {
-    background-size: 1000px;
+    background-size: 830px;
     margin-bottom: -704.792px; }
   .hero-title {
     font-size: 64px !important; }
@@ -8005,3 +8005,8 @@ blockquote.is-size-larger {
   .patient-info-container {
     padding-left: 180px;
     padding-right: 180px; } }
+
+@media only screen and (min-width: 1601px) {
+  #hero-wrapper {
+    background-size: 1000px;}
+  }
