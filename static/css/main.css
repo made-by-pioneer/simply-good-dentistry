@@ -7693,7 +7693,7 @@ blockquote.is-size-larger {
     background-position-x: 50% !important;
     padding-bottom: 100px !important; }
   .custom-container {
-    padding: 0 100px 0 100px; }
+    padding: 0 150px 0 150px; }
   .menu-button ion-icon {
     color: #fff; }
   #navigation-wrapper {
@@ -7730,7 +7730,7 @@ blockquote.is-size-larger {
   #hero-wrapper {
     background-image: url(/pageimg/sgd_hero.png);
     background-repeat: no-repeat;
-    background-size: contain;
+    background-size: cover;
     background-position-x: right;
     margin-top: -15%;
     padding-top: 15%;
@@ -7741,8 +7741,10 @@ blockquote.is-size-larger {
   .hero-box {
     padding-bottom: 10%; }
   .hero-title {
+    color: #ffffff;
     padding: 1rem 0 10px 0; }
   .hero-section-body {
+    color: #ffffff;
     display: inline-flex; }
   .hero-section-button {
     display: inline-flex; }
@@ -7831,7 +7833,7 @@ blockquote.is-size-larger {
   .custom-container {
     max-width: 1440px;
     margin: auto;
-    padding: 0 100px 0 100px; }
+    padding: 0 150px 0 150px; }
   .home-hero-wave {
     height: 180px; }
   .home-page-gray-title {
@@ -7941,8 +7943,10 @@ blockquote.is-size-larger {
   .hero-box {
     background-color: transparent; }
   .hero-title {
-    background-color: transparent; }
+    background-color: transparent; 
+    color: #262626;}
   .hero-section-body {
+    color: #262626;
     padding-left: 50px; }
   .home-services-body {
     padding-left: 50px; }
@@ -7973,7 +7977,7 @@ blockquote.is-size-larger {
     padding-left: 0px;
     padding-right: 0px; }
   #hero-wrapper {
-    background-size: 830px;
+    background-size: 750px;
     margin-bottom: -704.792px; }
   .hero-title {
     font-size: 64px !important; }
@@ -8008,5 +8012,5 @@ blockquote.is-size-larger {
 
 @media only screen and (min-width: 1601px) {
   #hero-wrapper {
-    background-size: 1000px;}
+    background-size: 850px;}
   }
