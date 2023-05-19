@@ -1,7 +1,7 @@
 {{ define "main" }}
 
-<!-- <style>
-    .contact-form-container {
+<style>
+    /* .contact-form-container {
         padding: 0 20px 0 20px;
     }
     .input-column {
@@ -25,8 +25,11 @@
         padding-left: 180px;
         padding-right: 180px;
         }
+    } */
+    .tell-us-extra {
+        display: none;
     }
-</style> -->
+</style>
 
 <section id="contact-hero-wrapper" class="section columns inner-page-top-wrapper">
     <div class="column is-10-mobile is-offset-1-mobile is-5-widescreen inner-page-hero-box contact-hero-box">
@@ -65,6 +68,24 @@
                         </select>
                     </div>
                 </div>
+                <div class="column is-11-mobile is-11-tablet input-column">
+                    <label><h5 class="is-family-heading is-size-default has-text-weight-bold">How did you hear about us?</h5></label>
+                    <div class="select is-primary is-rounded">
+                        <select id="how-you-heard-about-us" name="How-did-you-hear-about-us">
+                        <option value="" disabled selected>Select your option</option>
+                        <option name="Referral">Referral</option>
+                        <option name="Social Media">Social Media</option>
+                        <option name="Google">Google</option>
+                        <option name="Online Directory (Chamber of Commerce, Google Business Profile, Yelp, etc)">Online Directory (Chamber of Commerce, Google Business Profile, Yelp, etc)</option>
+                        <option name="Print/Magazine Ad">Print/Magazine Ad</option>
+                        <option name="Other">Other</option>
+                        </select>
+                    </div>
+                </div>
+                <div id="tell-us-extra" class="column is-11-mobile is-11-tablet input-column tell-us-extra">
+                    <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Tell us how you heard about us</h5></label>
+                    <input class="input is-primary is-rounded" type="text" placeholder="Tell us more about how you heard about us" name="tell-us-how-you-heard-about-us">
+                </div>
                 <div class="column is-11 input-column">
                     <label><h5 class="is-family-heading is-size-default has-text-weight-bold">Your Message</h5></label>
                     <textarea class="input is-primary text-area" type="text" placeholder="Your Message Here.." name="message" required></textarea>
@@ -101,5 +122,20 @@
         </div>
     </div>
 </section>
+
+<script>
+
+const howYouHeardAboutUs = document.getElementById('how-you-heard-about-us');
+const tellUsExtra = document.getElementById('tell-us-extra');
+
+howYouHeardAboutUs.addEventListener('change', function() {
+    if (howYouHeardAboutUs.value === 'Other') {
+        tellUsExtra.style.display = 'block';
+    } else {
+        tellUsExtra.style.display = 'none';
+    }
+});
+
+</script>
 
 {{ end }}
